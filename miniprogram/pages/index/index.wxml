@@ -1,7 +1,7 @@
 <!--index.wxml-->
 <view class="container">
 
-  <view class="title">快速了解云开发</view>
+  <view class="title">Truman State University</view>
 
   <view class="top_tip">免鉴权接口调用 免部署后台 高并发</view>
 
