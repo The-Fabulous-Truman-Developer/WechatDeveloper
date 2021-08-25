@@ -1,0 +1,21 @@
+/* pages/index/index.wxss */
+.indexContainer{
+  display: flex;
+  justify-content: center;
+}
+.titelContainer{
+  display: flex;
+}
+
+.schoolSign{
+  width: 260rpx;
+  height: 130rpx;
+  margin: 0rpx 0;
+}
+
+.chineseSchoolName{
+  font-size: 170rpx 20rpx;
+  font-weight: bold;
+  margin-top: 40rpx;
+  color: purple;
+}

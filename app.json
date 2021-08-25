@@ -1,0 +1,11 @@
+{
+  "pages": [
+    "pages/index/index"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#7D3495",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "杜鲁门州立大学信息中心"
+  },
+  "sitemapLocation": "sitemap.json"
+}
