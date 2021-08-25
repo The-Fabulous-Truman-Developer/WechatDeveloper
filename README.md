@@ -11,3 +11,4 @@
 - [云开发文档](https://developers.weixin.qq.com/miniprogram/dev/wxcloud/basis/getting-started.html)
 
 # 测试一下咱们的git能不能用
+- 随便写点啥
