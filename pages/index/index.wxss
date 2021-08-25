@@ -1,6 +1,7 @@
 /* pages/index/index.wxss */
 .indexContainer{
   display: flex;
+  flex-direction: column;
   justify-content: center;
 }
 .titelContainer{
@@ -18,4 +19,9 @@
   font-weight: bold;
   margin-top: 40rpx;
   color: purple;
+}
+
+.mainIndexImage{
+  width: 750rpx;
+  height: 300rpx;
 }
