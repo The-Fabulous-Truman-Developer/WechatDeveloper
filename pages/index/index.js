@@ -1,12 +1,48 @@
 // pages/index/index.js
-Page({
-
+Page(
+  {
   /**
    * Page initial data
    */
-  data: {
-
+  data: 
+  {
+    imgUrls: [
+      'static/images/Gallery/mainIndexImage.png',
+      'static/images/Gallery/Academics.png',
+      'static/images/Gallery/Admission.png',
+      'static/images/Gallery/Impact.png',
+      'static/images/Gallery/StudentLife.png',
+      'static/images/Gallery/WhatWeHave.png'
+  ],
+  show: true,
+    list: 
+    [
+      {
+        "text": "申请",
+        "iconPath": "static/images/TrumanLogo.png",
+        "selectedIconPath": "static/images/TrumanLogo.png"
+      },
+      {
+        "text": "学校介绍",
+        "iconPath": "static/images/TrumanLogo.png",
+        "selectedIconPath": "static/images/TrumanLogo.png"
+      },
+      {
+        "text": "联系我们",
+        "iconPath": "static/images/TrumanLogo.png",
+        "selectedIconPath": "static/images/TrumanLogo.png"
+      },
+      {
+        "text": "交通与周边",
+        "iconPath":"static/images/TrumanLogo.png",
+        "selectedIconPath":"static/images/TrumanLogo.png"
+      },
+    ]
   },
+  tabChange(e) {
+  console.log('tab change', e)
+  },
+ 
 
   /**
    * Lifecycle function--Called when page load

@@ -7,5 +7,9 @@
     "navigationBarTextStyle": "white",
     "navigationBarTitleText": "杜鲁门州立大学信息中心"
   },
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap.json",
+  "useExtendedLib": {
+    "kbone": true,
+    "weui": true
+  }
 }
