@@ -8,11 +8,22 @@
      
   </view>
 
+<<<<<<< HEAD
 <swiper indicator-dots="{{indicatorDots}}"
         autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
     <swiper-item wx:for="{{imgUrls}}">
       <image src='{{item}}' width="500" height="500" mode='widthFix' class='img' />
+=======
+<swiper>
+    <swiper-item wx:for="{{imgUrls}}" wx:key="*this">
+      <image src='{{item}}' width="335" height="150" mode='widthFix' class='img' />
+>>>>>>> 6d1974ff6ab32526474d8920c484b3cae40f03ce
     </swiper-item>
 </swiper>
-
 </view>  
+
+<view class="page">
+    <view class="page__hd">
+    </view>
+    <mp-tabbar style="position:fixed;bottom:0;width:100%;left:0;right:0;" list="{{list}}" bindchange="tabChange"></mp-tabbar>
+</view>
