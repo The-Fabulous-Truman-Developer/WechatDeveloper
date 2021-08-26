@@ -10,8 +10,8 @@ Page(
     indicatorDots: true,
     vertical: false,
     autoplay: true,
-    interval: 2000,
-    duration: 500,
+    interval: 4000,
+    duration: 2048,
     //******************************* 
 
     //这个是滚动的图片地址
