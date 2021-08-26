@@ -23,8 +23,8 @@ Page(
       '/static/images/Gallery/StudentLife.png',
       '/static/images/Gallery/WhatWeHave.png',
   ],
-
-  show: true,
+    tabChange: true,
+    show: true,
     list: 
     [
       {
