@@ -11,7 +11,7 @@ Page(
     vertical: false,
     autoplay: true,
     interval: 4000,
-    duration: 2048,
+    duration: 1048,
     //******************************* 
 
     //这个是滚动的图片地址
