@@ -25,3 +25,7 @@
   width: 750rpx;
   height: 300rpx;
 }
+
+.img{
+  width: 100%;
+}

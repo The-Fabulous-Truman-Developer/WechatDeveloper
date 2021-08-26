@@ -7,12 +7,12 @@ Page(
   data: 
   {
     imgUrls: [
-      'static/images/Gallery/mainIndexImage.png',
-      'static/images/Gallery/Academics.png',
-      'static/images/Gallery/Admission.png',
-      'static/images/Gallery/Impact.png',
-      'static/images/Gallery/StudentLife.png',
-      'static/images/Gallery/WhatWeHave.png'
+      '/static/images/Gallery/Admission.png',
+      '/static/images/Gallery/Academics.png',
+      '/static/images/Gallery/Impact.png',
+      '/static/images/Gallery/mainIndexImage.png',
+      '/static/images/Gallery/StudentLife.png',
+      '/static/images/Gallery/WhatWeHave.png',
   ],
   show: true,
     list: 
@@ -99,4 +99,5 @@ Page(
   onShareAppMessage: function () {
 
   }
+
 })
