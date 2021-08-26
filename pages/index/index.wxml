@@ -1,10 +1,15 @@
 <view class="indexContainer">
   <view class="titelContainer">
      <image class="schoolSign" src="/static/images/TrumanSignTitle.png"></image>
-     <text class="chineseSchoolName">杜鲁门州立大学信息平台</text>
+     <view class="englishChineseContainer">
+        <text class="chineseSchoolName">杜鲁门州立大学信息平台</text>
+        <text class="englishSchoolName">Truman General Information Platform</text>
+     </view>
+     
   </view>
 
-<swiper>
+<swiper indicator-dots="{{indicatorDots}}"
+        autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
     <swiper-item wx:for="{{imgUrls}}">
       <image src='{{item}}' width="500" height="500" mode='widthFix' class='img' />
     </swiper-item>

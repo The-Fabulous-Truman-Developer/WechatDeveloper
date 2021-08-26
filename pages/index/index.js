@@ -6,14 +6,24 @@ Page(
    */
   data: 
   {
+    //indicator-dot的效果演示代码****
+    indicatorDots: true,
+    vertical: false,
+    autoplay: true,
+    interval: 2000,
+    duration: 500,
+    //******************************* 
+
+    //这个是滚动的图片地址
     imgUrls: [
+      '/static/images/Gallery/mainIndexImage.png',
       '/static/images/Gallery/Admission.png',
       '/static/images/Gallery/Academics.png',
       '/static/images/Gallery/Impact.png',
-      '/static/images/Gallery/mainIndexImage.png',
       '/static/images/Gallery/StudentLife.png',
       '/static/images/Gallery/WhatWeHave.png',
   ],
+
   show: true,
     list: 
     [
@@ -43,7 +53,6 @@ Page(
   console.log('tab change', e)
   },
  
-
   /**
    * Lifecycle function--Called when page load
    */
