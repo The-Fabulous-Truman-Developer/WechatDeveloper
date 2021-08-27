@@ -22,10 +22,8 @@ Page(
       '/static/images/Gallery/Impact.png',
       '/static/images/Gallery/StudentLife.png',
       '/static/images/Gallery/WhatWeHave.png',
-    ],
+    ]
   },
-
- 
   /**
    * Lifecycle function--Called when page load
    */
@@ -81,5 +79,4 @@ Page(
   onShareAppMessage: function () {
 
   }
-
 })

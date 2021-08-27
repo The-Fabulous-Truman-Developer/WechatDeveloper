@@ -2,7 +2,6 @@
     "usingComponents": {
       "mp-tabbar": "../weui-miniprogram/tabbar",
       "mp-gallery": "../weui-miniprogram/gallery"
-    },
-    "navigationBarTitleText": "UI组件库"
+    }
   }
   

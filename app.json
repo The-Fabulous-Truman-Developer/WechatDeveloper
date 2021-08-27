@@ -1,6 +1,9 @@
 {
   "pages": [
-    "pages/index/index"
+    "pages/index/index",
+    "pages/Application/Application",
+    "pages/Traffic/Traffic",
+    "pages/ContactUS/ContactUS"
   ],
   "window": {
     "navigationBarBackgroundColor": "#7D3495",
@@ -18,28 +21,28 @@
     "borderStyle": "white",
     "list": [
       {
-        "text": "申请",
-        "iconPath": "static/images/TabBarIcon/信封.png",
-        "selectedIconPath": "static/images/TabBarIcon/信封_填充.png",
-        "pagePath": "pages/index/index"
-      },
-      {
         "text": "学校介绍",
         "iconPath": "static/images/TabBarIcon/清单.png",
         "selectedIconPath": "static/images/TabBarIcon/清单_填充.png",
-        "pagePath": "pages/logs/logs"
+        "pagePath": "pages/index/index"
       },
       {
-        "text": "联系我们",
-        "iconPath": "static/images/TabBarIcon/帮助.png",
-        "selectedIconPath": "static/images/TabBarIcon/帮助_填充.png",
-        "pagePath": "pages/test/test"
+        "text": "申请",
+        "iconPath": "static/images/TabBarIcon/信封.png",
+        "selectedIconPath": "static/images/TabBarIcon/信封_填充.png",
+        "pagePath": "pages/Application/Application"
       },
       {
         "text": "交通与周边",
         "iconPath":"static/images/TabBarIcon/火车站.png",
         "selectedIconPath":"static/images/TabBarIcon/火车站_填充.png",
-        "pagePath": "pages/index"
+        "pagePath": "pages/Traffic/Traffic"
+      },
+      {
+        "text": "联系我们",
+        "iconPath": "static/images/TabBarIcon/帮助.png",
+        "selectedIconPath": "static/images/TabBarIcon/帮助_填充.png",
+        "pagePath": "pages/ContactUS/ContactUS"
       }
     ]
   }
