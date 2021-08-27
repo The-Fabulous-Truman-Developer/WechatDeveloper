@@ -11,5 +11,36 @@
   "useExtendedLib": {
     "kbone": true,
     "weui": true
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "white",
+    "list": [
+      {
+        "text": "申请",
+        "iconPath": "static/images/TabBarIcon/信封.png",
+        "selectedIconPath": "static/images/TabBarIcon/信封_填充.png",
+        "pagePath": "pages/index/index"
+      },
+      {
+        "text": "学校介绍",
+        "iconPath": "static/images/TabBarIcon/清单.png",
+        "selectedIconPath": "static/images/TabBarIcon/清单_填充.png",
+        "pagePath": "pages/logs/logs"
+      },
+      {
+        "text": "联系我们",
+        "iconPath": "static/images/TabBarIcon/帮助.png",
+        "selectedIconPath": "static/images/TabBarIcon/帮助_填充.png",
+        "pagePath": "pages/test/test"
+      },
+      {
+        "text": "交通与周边",
+        "iconPath":"static/images/TabBarIcon/火车站.png",
+        "selectedIconPath":"static/images/TabBarIcon/火车站_填充.png",
+        "pagePath": "pages/index"
+      }
+    ]
   }
 }
