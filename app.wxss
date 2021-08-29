@@ -1,2 +1,3 @@
 /*全局样式公共文件*/
-@import "./weui-miniprogram/weui-wxss/dist/style/weui.wxss"
+@import "./weui-miniprogram/weui-wxss/dist/style/weui.wxss";
+@import 'app-wxa-auto-dark.wxss'
