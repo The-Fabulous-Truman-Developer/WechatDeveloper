@@ -27,3 +27,14 @@
   margin: 10px;
   position: relative;
 }
+.commonQuestions{
+  width: 750rpx; 
+  background: #d1d1d1;
+  min-height: 100px; 
+  height: 337rpx; 
+  display: block; 
+  box-sizing: border-box; 
+  position: relative;
+  left: NaNrpx; 
+  top: NaNrpx
+}

@@ -11,6 +11,13 @@
   <view style="background-color: #F1F1F1; flex: 1;">在外租房</view>
 </view>
 
+<view class="commonQuestions">
+  常见问题解答
+  </view>
+
+
+
+
 
 
 
