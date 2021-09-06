@@ -1,1 +1,29 @@
 /* pages/Application.wxss */
+.infoApplication{
+  display:flex; 
+  flex-direction:row; 
+  min-height: 150px; 
+  padding: 10px; 
+  margin: 10px;
+}
+.applicationRequirements{
+  width: 292rpx; 
+  background: #d1d1d1; 
+  min-height: 100px; 
+  height: 276rpx; 
+  display: block; 
+  box-sizing: border-box; 
+  position: relative; 
+  left: 457rpx; 
+  top: -674rpx; 
+  width: 292rpx; 
+  height: 350rpx
+}
+.adviseDormRental{
+  display:flex; 
+  flex-direction:row; 
+  min-height: 150px; 
+  padding: 10px; 
+  margin: 10px;
+  position: relative;
+}

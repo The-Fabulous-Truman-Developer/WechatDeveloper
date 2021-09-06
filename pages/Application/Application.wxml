@@ -1,3 +1,22 @@
 <!--pages/Application.wxml-->
-<text>pages/Application.wxml</text>
-<text>Here is a typical example of tyhe application</text>
+<view class="infoApplication">
+  <view style="background-color: #F1F1F1; flex: 1;">申请须知</view>
+  <view style="background-color: #E6E6E6; flex: 1;">TO-DO List</view>
+  <view style="background-color: #F1F1F1; flex: 1;">签证与护照</view>
+</view>
+
+<view class="adviseDormRental">
+  <view style="background-color: #F1F1F1; flex: 1;">申请建议</view>
+  <view style="background-color: #E6E6E6; flex: 1;">宿舍概览</view>
+  <view style="background-color: #F1F1F1; flex: 1;">在外租房</view>
+</view>
+
+
+
+
+
+
+
+          
+
+

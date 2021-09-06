@@ -15,12 +15,45 @@
     </swiper-item>
 </swiper>
 </view>  
+  <view class="infoTrumanContainer">
+    <view style="background-color: #F1F1F1; flex: 1;">关于Truman</view>
+    <view style="background-color: #E6E6E6; flex: 1;">Kirksville周边</view>
+    <view style="background-color: #F1F1F1; flex: 1;">交通与班车</view>
+  </view>
+  
+  <view class="infoScholarshipBulletinSSCAContainer">
+    <view style="background-color: #F1F1F1; flex: 1;">奖学金计划</view>
+    <view style="background-color: #E6E6E6; flex: 1;">CIS布告栏</view>
+    <view style="background-color: #F1F1F1; flex: 1;">了解SSCA</view>
+  </view>
+  
+  <view class="professorAndCommunities">
+    <view style="background-color: #F1F1F1; flex: 1;">优秀教授风采展示</view>
+    <view style="background-color: #E6E6E6; flex: 1;">了解我们的社团</view>
+  </view>
 
-<view class="box">
-  <view class = "left">
-    <view>Hello there, this is the left side of the mini program.</view> 
+  <view class="alumiPhotosKTRN">
+    <view style="background-color: #F1F1F1; flex: 1;">校友</view>
+    <view style="background-color: #E6E6E6; flex: 1;">影集</view>
+    <view style="background-color: #F1F1F1; flex: 1;">KTRM</view>
   </view>
-  <view class = "right">
-    <view> Hello, it's on the right side.</view>
-  </view>
-</view>
+
+  
+            
+
+
+              
+
+
+            
+
+
+
+
+
+              
+            
+
+            
+
+

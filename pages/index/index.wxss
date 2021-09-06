@@ -7,26 +7,6 @@
 .titelContainer{
   display: flex;
 }
-.box {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  box-sizing: border-box;
-}
-
-.left {
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  margin: 6px;
-}
-
-.right {
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  margin: 6px;
-}
 .englishChineseContainer{
   display: flex;
   flex-direction: column;
@@ -62,7 +42,55 @@
   width: 750rpx;
   height: 300rpx;
 }
+.infoTrumanContainer{
+  display:flex; 
+  flex-direction:row; 
+  min-height: 150px; 
+  padding: 10px; 
+  margin: 10px; 
+  justify-content: center;
+}
 
+.infoScholarshipBulletinSSCAContainer{
+  display:flex; 
+  flex-direction:column; 
+  min-height: 150px; 
+  padding: 10px; 
+  margin-bottom: 10px; 
+  justify-content: center;
+  width: 714rpx; 
+  height: 308rpx; 
+  display: flex; 
+  box-sizing: border-box; 
+  left: 10rpx; 
+  top: 0rpx;
+  position: relative; 
+  left: 19rpx; 
+  top: -19rpx
+}
+.professorAndCommunities{
+  display:flex; 
+  flex-direction:row; 
+  min-height: 150px; 
+  padding: 10px; 
+  margin: 10px; 
+  justify-content: center;
+  position: relative; 
+  left: 0rpx; 
+  top: -37rpx
+}
+
+.alumiPhotosKTRN{
+  display:flex; 
+  flex-direction:row; 
+  min-height: 150px; 
+  padding: 10px; 
+  margin: 10px; 
+  justify-content: center;
+  position: relative;
+  left: 0rpx; 
+  top: -55rpx
+}
 .img{
   width: 100%;
 }
