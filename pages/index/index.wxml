@@ -15,3 +15,12 @@
     </swiper-item>
 </swiper>
 </view>  
+
+<view class="box">
+  <view class = "left">
+    <view>Hello there, this is the left side of the mini program.</view> 
+  </view>
+  <view class = "right">
+    <view> Hello, it's on the right side.</view>
+  </view>
+</view>
