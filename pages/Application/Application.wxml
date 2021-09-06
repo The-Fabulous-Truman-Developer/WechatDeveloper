@@ -11,9 +11,11 @@
   <view style="background-color: #F1F1F1; flex: 1;">在外租房</view>
 </view>
 
-<view class="commonQuestions" style="position: relative; left: 56rpx; top: 17rpx; width: 640rpx; height: 231rpx; display: block; box-sizing: border-box">
+<view class="commonQuestions">
   常见问题解答
   </view>
+
+
 
 
 

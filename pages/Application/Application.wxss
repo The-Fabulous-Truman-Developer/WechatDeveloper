@@ -34,7 +34,9 @@
   height: 337rpx; 
   display: block; 
   box-sizing: border-box; 
-  position: relative;
-  left: NaNrpx; 
-  top: NaNrpx
+  position: relative; 
+  left: 36rpx; 
+  top: 17rpx; 
+  width: 680rpx; 
+  height: 231rpx
 }
