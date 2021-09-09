@@ -14,9 +14,17 @@
       <image src='{{item}}' width="500" height="500" mode='widthFix' class='img' />
     </swiper-item>
 </swiper>
+
+<!--- "style="background-color: #83288f; flex: 1; ---> 
+
 </view>  
   <view class="infoTrumanContainer">
-    <view style="background-color: #F1F1F1; flex: 1;">关于Truman</view>
+    <view class="trumanAbout" bindtap="trumanAboutPageChange">
+      <text class="trumanAboutTitle"> 关于杜鲁门大学 </text>
+     <image class="trumanAboutIcon" src="/static/images/infoTrumanIcons/trumanAboutIcon.png"></image>
+    </view>
+    
+    <!--- <button size="{{defaultSize}}" bindtap="default" hover-class="other-button-hover"> 关于Truman </button> --->
     <view style="background-color: #E6E6E6; flex: 1;">Kirksville周边</view>
     <view style="background-color: #F1F1F1; flex: 1;">交通与班车</view>
   </view>

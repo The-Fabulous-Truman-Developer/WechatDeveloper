@@ -1,31 +1,13 @@
-// pages/index/index.js
-Page(
-  {
+// pages/index/trumanAbout/trumanAbout.js
+Page({
 
-    
   /**
    * Page initial data
    */
-  data: 
-  {
-    //indicator-dot的效果演示代码****
-    indicatorDots: true,
-    vertical: false,
-    autoplay: true,
-    interval: 4000,
-    duration: 1048,
-    //******************************* 
+  data: {
 
-    //这个是滚动的图片地址
-    imgUrls: [
-      '/static/images/Gallery/mainIndexImage.png',
-      '/static/images/Gallery/Admission.png',
-      '/static/images/Gallery/Academics.png',
-      '/static/images/Gallery/Impact.png',
-      '/static/images/Gallery/StudentLife.png',
-      '/static/images/Gallery/WhatWeHave.png',
-    ]
   },
+
   /**
    * Lifecycle function--Called when page load
    */
@@ -80,11 +62,5 @@ Page(
    */
   onShareAppMessage: function () {
 
-  },
-
-  trumanAboutPageChange:function() {
-    wx.navigateTo({
-      url: '../index/trumanAbout/trumanAbout'
-    });
   }
 })

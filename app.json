@@ -3,7 +3,8 @@
     "pages/index/index",
     "pages/Application/Application",
     "pages/Traffic/Traffic",
-    "pages/ContactUS/ContactUS"
+    "pages/ContactUS/ContactUS",
+    "pages/index/trumanAbout/trumanAbout"
   ],
   "window": {
     "navigationBarBackgroundColor": "#7D3495",
@@ -34,8 +35,8 @@
       },
       {
         "text": "交通与周边",
-        "iconPath":"static/images/TabBarIcon/火车站.png",
-        "selectedIconPath":"static/images/TabBarIcon/火车站_填充.png",
+        "iconPath": "static/images/TabBarIcon/火车站.png",
+        "selectedIconPath": "static/images/TabBarIcon/火车站_填充.png",
         "pagePath": "pages/Traffic/Traffic"
       },
       {

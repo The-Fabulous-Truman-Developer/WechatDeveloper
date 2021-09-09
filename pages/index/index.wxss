@@ -45,11 +45,34 @@
 .infoTrumanContainer{
   display:flex; 
   flex-direction:row; 
-  min-height: 150px; 
-  padding: 10px; 
-  margin: 10px; 
+  min-height: 250rpx; 
+  padding: 10rpx; 
+  margin: 10rpx; 
+  justify-content: center;
+  align-items: center; 
+}
+
+.trumanAbout{
+  display: flex; 
+  align-items: center;    
+  vertical-align: center;
+  justify-content: center;
+  flex-direction: column; 
+}
+
+.trumanAboutTitle{
+  font-weight: bold;
+  margin-bottom: 30rpx;
+  font-family:'Times New Roman', Times, serif;
+  color: rgb(128, 0, 128);
   justify-content: center;
 }
+.trumanAboutIcon{
+  width: 160rpx;
+  height: 80rpx;
+  margin: 0rpx 0;
+}
+
 
 .infoScholarshipBulletinSSCAContainer{
   display:flex; 
