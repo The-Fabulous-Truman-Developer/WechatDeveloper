@@ -53,7 +53,7 @@
 }
 
 .trumanAbout{
-  margin-right: 12rpx;
+  margin-right: 6rpx;
   display: flex;
   align-items: center;    
   vertical-align: center;
@@ -103,7 +103,7 @@
 
 
 .kirkTransport{
-  margin-left: 12rpx;
+  margin-left: 6rpx;
   display: flex;
   align-items: center;    
   vertical-align: center;
@@ -125,7 +125,7 @@
   height: 80rpx;
   margin-left: -10rpx;
 }
-
+as
 
 
 .infoScholarshipBulletinSSCAContainer{
