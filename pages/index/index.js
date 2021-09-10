@@ -84,7 +84,18 @@ Page(
 
   trumanAboutPageChange:function() {
     wx.navigateTo({
-      url: '../index/trumanAbout/trumanAbout'
+      url: '../index/infoTrumanContainer/trumanAbout/trumanAbout'
+    });
+  },
+
+  kirkSurrPageChange:function() {
+    wx.navigateTo({
+      url: '../index/infoTrumanContainer/kirksvilleSurrounding/kirksvilleSurrounding'
+    });
+  },
+  kirkTransPageChange:function() {
+    wx.navigateTo({
+      url: '../index/infoTrumanContainer/kirkTransport/kirkTransport'
     });
   }
 })

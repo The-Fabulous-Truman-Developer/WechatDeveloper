@@ -4,7 +4,9 @@
     "pages/Application/Application",
     "pages/Traffic/Traffic",
     "pages/ContactUS/ContactUS",
-    "pages/index/trumanAbout/trumanAbout"
+    "pages/index/infoTrumanContainer/trumanAbout/trumanAbout",
+    "pages/index/infoTrumanContainer/kirksvilleSurrounding/kirksvilleSurrounding",
+    "pages/index/infoTrumanContainer/kirkTransport/kirkTransport"
   ],
   "window": {
     "navigationBarBackgroundColor": "#7D3495",

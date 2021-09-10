@@ -19,14 +19,22 @@
 
 </view>  
   <view class="infoTrumanContainer">
+
     <view class="trumanAbout" bindtap="trumanAboutPageChange">
       <text class="trumanAboutTitle"> 关于杜鲁门大学 </text>
      <image class="trumanAboutIcon" src="/static/images/infoTrumanIcons/trumanAboutIcon.png"></image>
     </view>
+
     
-    <!--- <button size="{{defaultSize}}" bindtap="default" hover-class="other-button-hover"> 关于Truman </button> --->
-    <view style="background-color: #E6E6E6; flex: 1;">Kirksville周边</view>
-    <view style="background-color: #F1F1F1; flex: 1;">交通与班车</view>
+    <view class="kirksvilleSurrounding" bindtap="kirkSurrPageChange">
+      <text class="kirksville">柯克斯维尔周边</text>
+      <image class="kirksvilleIcon" src="/static/images/infoTrumanIcons/kirksville.png"></image> 
+    </view>
+
+    <view class="kirkTransport" bindtap="kirkTransPageChange">
+      <text class="transports">便捷交通与班车</text>
+      <image class="kirkTransportIcon" src="/static/images/infoTrumanIcons/kirkTransit.png"></image>       
+    </view>
   </view>
   
   <view class="infoScholarshipBulletinSSCAContainer">

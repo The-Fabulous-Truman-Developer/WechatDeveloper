@@ -53,7 +53,8 @@
 }
 
 .trumanAbout{
-  display: flex; 
+  margin-right: 12rpx;
+  display: flex;
   align-items: center;    
   vertical-align: center;
   justify-content: center;
@@ -61,17 +62,70 @@
 }
 
 .trumanAboutTitle{
+  font-size: 30rpx;
   font-weight: bold;
-  margin-bottom: 30rpx;
+  margin-bottom: 31rpx;
   font-family:'Times New Roman', Times, serif;
   color: rgb(128, 0, 128);
   justify-content: center;
 }
 .trumanAboutIcon{
-  width: 160rpx;
+  width: 170rpx;
+  height: 81rpx;
+}
+
+.kirksvilleSurrounding{
+  min-width: 240rpx;
+  border-right: 3rpx solid #e4ded6; 
+  border-left: 3rpx solid  #e4ded6; 
+  margin-left: 5rpx;
+  display: flex; 
+  align-items: center;    
+  vertical-align: center;
+  justify-content: center;
+  flex-direction: column; 
+}
+
+.kirksville{
+  font-size: 30rpx;
+  font-weight: bold;
+  margin-bottom: 35rpx;
+  font-family:'Times New Roman', Times, serif;
+  color: rgb(128, 0, 128);
+  justify-content: center;
+}
+
+.kirksvilleIcon{
+  width: 180rpx;
   height: 80rpx;
   margin: 0rpx 0;
 }
+
+
+.kirkTransport{
+  margin-left: 12rpx;
+  display: flex;
+  align-items: center;    
+  vertical-align: center;
+  justify-content: center;
+  flex-direction: column; 
+}
+
+.transports{
+  font-size: 30rpx;
+  font-weight: bold;
+  margin-bottom: 35rpx;
+  font-family:'Times New Roman', Times, serif;
+  color: rgb(128, 0, 128);
+  justify-content: center;
+}
+
+.kirkTransportIcon{
+  width: 170rpx;
+  height: 80rpx;
+  margin-left: -10rpx;
+}
+
 
 
 .infoScholarshipBulletinSSCAContainer{
