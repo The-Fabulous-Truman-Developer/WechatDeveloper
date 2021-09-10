@@ -22,7 +22,7 @@
 
     <view class="trumanAbout" bindtap="trumanAboutPageChange">
       <text class="trumanAboutTitle"> 关于杜鲁门大学 </text>
-     <image class="trumanAboutIcon" src="/static/images/infoTrumanIcons/trumanAboutIcon.png"></image>
+     <image class="trumanAboutIcon" src="/static/images/infoTrumanIcons/trumanAboutIcon.png" style="width: 118rpx; height: 90rpx; display: block; box-sizing: border-box"></image>
     </view>
 
     
