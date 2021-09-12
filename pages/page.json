@@ -1,7 +1,8 @@
 {
     "usingComponents": {
       "mp-tabbar": "../weui-miniprogram/tabbar",
-      "mp-gallery": "../weui-miniprogram/gallery"
+      "mp-gallery": "../weui-miniprogram/gallery",
+      "mp-everything": "../weui-miniprogram/weui-wxss"
     }
   }
   
