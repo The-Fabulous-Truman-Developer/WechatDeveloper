@@ -1,6 +1,6 @@
 //注册小程序的应用
 App({
-
+  towxml:require('/towxml/index'),
   /**
    * 当小程序初始化完成时，会触发 onLaunch（全局只触发一次）
    */

@@ -1,1 +1,10 @@
 /* pages/index/infoTrumanContainer/kirkTransport/kirkTransport.wxss */
+.TrafficToKirksville{
+    position: relative; 
+    left: 320rpx; 
+    top: 16rpx;
+    user-select: false;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 24;
+    font-weight: bold;
+}

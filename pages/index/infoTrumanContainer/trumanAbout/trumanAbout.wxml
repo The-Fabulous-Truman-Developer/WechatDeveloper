@@ -1,5 +1,5 @@
 <!--pages/index/trumanAbout/trumanAbout.wxml-->
-<text>
+<text style="margin-left: 20rpx; margin-right: 20rpx">
     杜鲁门州立大学位于美国密苏里州柯克斯维尔，其名称来源于纪念密苏里州出身的美国第34任总统哈里·S·杜鲁门。
 
     根据2021年U.S.News的排名，杜鲁门州立大学在美国中西部区域性大学中列第7名1，且在美国中西部地区公立大学中位列第1。
