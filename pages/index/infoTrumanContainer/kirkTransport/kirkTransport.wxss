@@ -8,3 +8,17 @@
     font-size: 24;
     font-weight: bold;
 }
+.Subtopic{
+    position: relative; 
+    left: 10rpx; 
+    top: 0rpx;
+    font-family:'Times New Roman', Times, serif;
+}
+.Content{
+    text-indent:2em;
+    position: relative; 
+    left: 10rpx; 
+    right: 10rpx;
+    top: 0rpx;
+    font-family:'Times New Roman', Times, serif;
+}
