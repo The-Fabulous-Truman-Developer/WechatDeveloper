@@ -1,1 +1,16 @@
-/* pages/index/infoTrumanContainer/kirksvilleSurrounding/kirksvilleSurrounding.wxss */
+.SurroundToKirksville{
+  position: relative; 
+  left: 244rpx; 
+  top: 15rpx;
+  user-select: false;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 24;
+  font-weight: bold;
+}
+.Content{
+  text-indent:2em;
+  position: relative; 
+  margin: 20rpx 10rpx 25rpx 10rpx;
+  top: 0rpx;
+  font-family:'Times New Roman', Times, serif;
+}

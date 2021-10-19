@@ -22,7 +22,7 @@
 
     <view class="trumanAbout" bindtap="trumanAboutPageChange">
       <text class="trumanAboutTitle"> 关于杜鲁门大学 </text>
-     <image class="trumanAboutIcon" src="/static/images/infoTrumanIcons/trumanAboutIcon.png"></image>
+     <image class="trumanAboutIcon" src="/static/images/infoTrumanIcons/trumanAboutIcon.png" style="width: 170rpx; height: 88rpx; display: block; box-sizing: border-box"></image>
     </view>
 
     
@@ -38,6 +38,7 @@
   </view>
   
   <view class="infoScholarshipBulletinSSCAContainer">
+  
     <view style="background-color: #F1F1F1; flex: 1;">奖学金计划</view>
     <view style="background-color: #E6E6E6; flex: 1;">CIS布告栏</view>
     <view style="background-color: #F1F1F1; flex: 1;">了解SSCA</view>
