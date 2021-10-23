@@ -8,12 +8,6 @@
     "pages/index/infoTrumanContainer/kirksvilleSurrounding/kirksvilleSurrounding",
     "pages/index/infoTrumanContainer/kirkTransport/kirkTransport"
   ],
-  "subpackages": [
-    "root": "index",
-    "pages": [
-      "pages/index/index",
-    ]
-  ],
   "window": {
     "navigationBarBackgroundColor": "#7D3495",
     "navigationBarTextStyle": "white",
