@@ -125,6 +125,15 @@
   height: 80rpx;
   margin-left: -10rpx;
 }
+.infoScholarshipBulletinSSCAContainer{
+  display:flex; 
+  flex-direction:row; 
+  min-height: 250rpx; 
+  padding: 10rpx; 
+  margin: 10rpx; 
+  justify-content: center;
+  align-items: center; 
+}
 .ScholarshipProgram{
   margin-left: 6rpx;
   display: flex;
