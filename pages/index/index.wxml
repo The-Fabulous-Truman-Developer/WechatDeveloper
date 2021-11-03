@@ -38,11 +38,6 @@
   </view>
   
   <view class="infoScholarshipBulletinSSCAContainer">
-<<<<<<< Updated upstream
-    <view style="background-color: #F1F1F1; flex: 1;">奖学金计划</view>
-    <view style="background-color: #E6E6E6; flex: 1;">CIS布告栏</view>
-    <view style="background-color: #F1F1F1; flex: 1;">了解SSAS</view>
-=======
     <view class="Scholarship" bintap="ScholarshipProgramPageChange">
       <text class="scholarship">奖学金计划</text> 
     </view>
@@ -54,7 +49,6 @@
     <view class="SSASInfo" bintap="SSCAPageChange">
       <view class="SSAS">了解SSAS</view>
     </view>
->>>>>>> Stashed changes
   </view>
   
   <view class="professorAndCommunities">
