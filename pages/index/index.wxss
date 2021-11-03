@@ -101,7 +101,6 @@
   margin: 0rpx 0;
 }
 
-
 .kirkTransport{
   margin-left: 6rpx;
   display: flex;
@@ -125,17 +124,11 @@
   height: 80rpx;
   margin-left: -10rpx;
 }
-.infoScholarshipBulletinSSCAContainer{
+.infoScholarshipBulletinSSASContainer{
   display:flex; 
-  flex-direction:row; 
-  min-height: 250rpx; 
-  padding: 10rpx; 
-  margin: 10rpx; 
-  justify-content: center;
-  align-items: center; 
+  flex-direction:column;  
 }
-.ScholarshipProgram{
-  margin-left: 6rpx;
+.Scholarship{
   display: flex;
   align-items: center;    
   vertical-align: center;
@@ -145,13 +138,12 @@
 .scholarship{
   font-size: 30rpx;
   font-weight: bold;
-  margin-bottom: 35rpx;
   font-family:'Times New Roman', Times, serif;
   color: rgb(128, 0, 128);
   justify-content: center;
 }
+
 .CISBulletinBoard{
-  margin-left: 6rpx;
   display: flex;
   align-items: center;    
   vertical-align: center;
@@ -161,14 +153,12 @@
 .bulletinBoard{
   font-size: 30rpx;
   font-weight: bold;
-  margin-bottom: 35rpx;
   font-family:'Times New Roman', Times, serif;
   color: rgb(128, 0, 128);
   justify-content: center;
 }
 
 .SSASInfo{
-  margin-left: 6rpx;
   display: flex;
   align-items: center;    
   vertical-align: center;
@@ -178,7 +168,6 @@
 .SSAS{
   font-size: 30rpx;
   font-weight: bold;
-  margin-bottom: 35rpx;
   font-family:'Times New Roman', Times, serif;
   color: rgb(128, 0, 128);
   justify-content: center;

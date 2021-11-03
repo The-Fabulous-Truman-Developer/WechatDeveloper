@@ -19,13 +19,11 @@
 
 </view>  
   <view class="infoTrumanContainer">
-
     <view class="trumanAbout" bindtap="trumanAboutPageChange">
       <text class="trumanAboutTitle"> 关于杜鲁门大学 </text>
      <image class="trumanAboutIcon" src="/static/images/infoTrumanIcons/trumanAboutIcon.png" style="width: 170rpx; height: 88rpx; display: block; box-sizing: border-box"></image>
     </view>
 
-    
     <view class="kirksvilleSurrounding" bindtap="kirkSurrPageChange">
       <text class="kirksville">柯克斯维尔周边</text>
       <image class="kirksvilleIcon" src="/static/images/infoTrumanIcons/kirksville.png"></image> 
@@ -37,16 +35,16 @@
     </view>
   </view>
   
-  <view class="infoScholarshipBulletinSSCAContainer">
-    <view class="Scholarship" bintap="ScholarshipProgramPageChange">
+  <view class="infoScholarshipBulletinSSASContainer">
+    <view class="Scholarship" bindtap="ScholarshipProgramPageChange">
       <text class="scholarship">奖学金计划</text> 
     </view>
 
-    <view class="CISBulletinBoard" bintap="CISBulletinBoardPageChange">
+    <view class="CISBulletinBoard" bindtap="CISBulletinBoardPageChange">
       <view class="bulletinBoard">CIS布告栏</view>
     </view>
     
-    <view class="SSASInfo" bintap="SSCAPageChange">
+    <view class="SSASInfo" bindtap="SSASPageChange">
       <view class="SSAS">了解SSAS</view>
     </view>
   </view>
