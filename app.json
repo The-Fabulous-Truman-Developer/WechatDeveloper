@@ -6,7 +6,10 @@
     "pages/ContactUS/ContactUS",
     "pages/index/infoTrumanContainer/trumanAbout/trumanAbout",
     "pages/index/infoTrumanContainer/kirksvilleSurrounding/kirksvilleSurrounding",
-    "pages/index/infoTrumanContainer/kirkTransport/kirkTransport"
+    "pages/index/infoTrumanContainer/kirkTransport/kirkTransport",
+    "pages/index/InternationalContainer/CISBulletinBoard/CISBulletinBoard",
+    "pages/index/InternationalContainer/ScholarshipProgram/ScholarshipProgram",
+    "pages/index/InternationalContainer/SSCA/SSCA"
   ],
   "window": {
     "navigationBarBackgroundColor": "#7D3495",
