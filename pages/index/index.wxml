@@ -46,7 +46,9 @@
       <view class="bulletinBoard">CIS布告栏</view>
     </view>
     
-    <view style="background-color: #F1F1F1; flex: 1;">了解SSCA</view>
+    <view class="SSCA" bintap="SSCAPageChange">
+      <view class="SSCA">了解SSCA</view>
+    </view>
   </view>
   
   <view class="professorAndCommunities">
