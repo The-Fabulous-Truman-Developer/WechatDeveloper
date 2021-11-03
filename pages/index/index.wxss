@@ -125,7 +125,14 @@
   height: 80rpx;
   margin-left: -10rpx;
 }
-
+.ScholarshipProgram{
+  margin-left: 6rpx;
+  display: flex;
+  align-items: center;    
+  vertical-align: center;
+  justify-content: center;
+  flex-direction: column; 
+}
 .scholarship{
   font-size: 30rpx;
   font-weight: bold;
@@ -134,7 +141,14 @@
   color: rgb(128, 0, 128);
   justify-content: center;
 }
-
+.CISBulletinBoard{
+  margin-left: 6rpx;
+  display: flex;
+  align-items: center;    
+  vertical-align: center;
+  justify-content: center;
+  flex-direction: column; 
+}
 .bulletinBoard{
   font-size: 30rpx;
   font-weight: bold;
@@ -144,7 +158,15 @@
   justify-content: center;
 }
 
-.SSCA{
+.SSASInfo{
+  margin-left: 6rpx;
+  display: flex;
+  align-items: center;    
+  vertical-align: center;
+  justify-content: center;
+  flex-direction: column; 
+}
+.SSAS{
   font-size: 30rpx;
   font-weight: bold;
   margin-bottom: 35rpx;
