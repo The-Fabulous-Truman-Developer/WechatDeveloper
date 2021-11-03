@@ -38,15 +38,15 @@
   </view>
   
   <view class="infoScholarshipBulletinSSCAContainer">
-    <view class="Scholarship" bintap="ScholarshipProgramPageChange">
+    <view class="Scholarship" bindtap="ScholarshipProgramPageChange">
       <text class="scholarship">奖学金计划</text> 
     </view>
 
-    <view class="CISBulletinBoard" bintap="CISBulletinBoardPageChange">
+    <view class="CISBulletinBoard" bindtap="CISBulletinBoardPageChange">
       <view class="bulletinBoard">CIS布告栏</view>
     </view>
     
-    <view class="SSASInfo" bintap="SSCAPageChange">
+    <view class="SSASInfo" bindtap="SSASPageChange">
       <view class="SSAS">了解SSAS</view>
     </view>
   </view>

@@ -145,7 +145,6 @@
 .scholarship{
   font-size: 30rpx;
   font-weight: bold;
-  margin-bottom: 35rpx;
   font-family:'Times New Roman', Times, serif;
   color: rgb(128, 0, 128);
   justify-content: center;
@@ -161,7 +160,6 @@
 .bulletinBoard{
   font-size: 30rpx;
   font-weight: bold;
-  margin-bottom: 35rpx;
   font-family:'Times New Roman', Times, serif;
   color: rgb(128, 0, 128);
   justify-content: center;
