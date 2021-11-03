@@ -38,7 +38,7 @@
   </view>
   
   <view class="infoScholarshipBulletinSSCAContainer">
-  
+    
     <view style="background-color: #F1F1F1; flex: 1;">奖学金计划</view>
     <view style="background-color: #E6E6E6; flex: 1;">CIS布告栏</view>
     <view style="background-color: #F1F1F1; flex: 1;">了解SSAS</view>
@@ -52,7 +52,6 @@
   <view class="alumiPhotosKTRN">
     <view style="background-color: #F1F1F1; flex: 1;">校友</view>
     <view style="background-color: #E6E6E6; flex: 1;">影集</view>
-    <view style="background-color: #F1F1F1; flex: 1;">KTRM</view>
   </view>
 
   

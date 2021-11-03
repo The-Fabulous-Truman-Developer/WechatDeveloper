@@ -6,18 +6,17 @@
     "pages/ContactUS/ContactUS",
     "pages/index/infoTrumanContainer/trumanAbout/trumanAbout",
     "pages/index/infoTrumanContainer/kirksvilleSurrounding/kirksvilleSurrounding",
-    "pages/index/infoTrumanContainer/kirkTransport/kirkTransport"
+    "pages/index/infoTrumanContainer/kirkTransport/kirkTransport",
+    "pages/index/InternationalContainer/SSAS/SSAS"
   ],
-  
   "subpackages": [
     {
       "root": "index",
       "pages": [
-      "pages/index"
+        "pages/index"
       ]
     }
   ],
-
   "window": {
     "navigationBarBackgroundColor": "#7D3495",
     "navigationBarTextStyle": "white",

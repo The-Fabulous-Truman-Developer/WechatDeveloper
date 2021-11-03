@@ -108,9 +108,9 @@ Page(
     })
   },
 
-  SSCAPageChange: function(){
+  SSASPageChange: function(){
     wx.navigateTo({
-      url: '../index/InternationalContainer/SSCA/SSCA',
+      url: '../index/InternationalContainer/SSAS/SSAS',
     })
   }
 })
