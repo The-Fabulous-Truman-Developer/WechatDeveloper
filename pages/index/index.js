@@ -1,8 +1,6 @@
 // pages/index/index.js
 Page(
   {
-
-    
   /**
    * Page initial data
    */
@@ -97,5 +95,22 @@ Page(
     wx.navigateTo({
       url: '../index/infoTrumanContainer/kirkTransport/kirkTransport'
     });
+  },
+
+  CISBulletinBoardPageChange: function(){
+    wx.navigateTo({
+      url: '../index/InternationalContainer/CISBulletinBoard/CISBulletinBoard'
+    })
+  },
+  ScholarshipProgramPageChange: function(){
+    wx.navigateTo({
+      url: '../index/InternationalContainer/ScholarshipProgram/ScholarshipProgram',
+    })
+  },
+
+  SSCAPageChange: function(){
+    wx.navigateTo({
+      url: '../index/InternationalContainer/SSCA/SSCA',
+    })
   }
 })

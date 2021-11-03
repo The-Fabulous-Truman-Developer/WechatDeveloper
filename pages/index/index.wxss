@@ -171,4 +171,3 @@ as
 .img{
   width: 100%;
 }
-@import 'index-wxa-auto-dark.wxss'
