@@ -1,0 +1,9 @@
+.ScholarshipIntro{
+    position: relative; 
+    left: 4rpx; 
+    top: 58rpx;
+    user-select: false;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 24;
+    font-weight: bold;
+}
