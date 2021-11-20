@@ -9,19 +9,17 @@
   </view>
 
 <swiper indicator-dots="{{indicatorDots}}"
-        autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+        indicator-active-color="rgb(128, 0, 128)"
+        autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular='true'>
     <swiper-item wx:for="{{imgUrls}}">
       <image src='{{item}}' width="500" height="500" mode='widthFix' class='img' />
     </swiper-item>
 </swiper>
 
-<!--- "style="background-color: #83288f; flex: 1; ---> 
-
-</view>  
   <view class="infoTrumanContainer">
     <view class="trumanAbout" bindtap="trumanAboutPageChange">
       <text class="trumanAboutTitle"> 关于杜鲁门大学 </text>
-     <image class="trumanAboutIcon" src="/static/images/infoTrumanIcons/trumanAboutIcon.png" style="width: 170rpx; height: 88rpx; display: block; box-sizing: border-box"></image>
+      <image class="trumanAboutIcon" src="/static/images/infoTrumanIcons/trumanAboutIcon.jpg"></image>
     </view>
 
     <view class="kirksvilleSurrounding" bindtap="kirkSurrPageChange">
@@ -36,28 +34,29 @@
   </view>
   
   <view class="infoScholarshipBulletinSSASContainer">
-    <view class="Scholarship" bindtap="ScholarshipProgramPageChange">
-      <text class="scholarship">奖学金计划</text> 
+    <view class="Scholarship" catchtap="ScholarshipProgramPageChange" >
+      <image class='scholarShipBg'  src='/static/images/scholarshipProgram.png'></image>
     </view>
 
-    <view class="CISBulletinBoard" bindtap="CISBulletinBoardPageChange">
+    <view class="CISBulletinBoard" catchtap="CISBulletinBoardPageChange">
+      <!-- <image class='scholarShipBg' src='/static/images/SchlarshipBg.png'></image>  -->
       <view class="bulletinBoard">CIS布告栏</view>
     </view>
     
-    <view class="SSASInfo" bindtap="SSASPageChange">
+    <view class="SSASInfo" catchtap="SSASPageChange">
+      <!-- <image class='scholarShipBg'  src='/static/images/SchlarshipBg.png'></image>  -->
       <view class="SSAS">了解SSAS</view>
     </view>
   </view>
   
-  <view class="professorAndCommunities">
-    <view style="background-color: #F1F1F1; flex: 1;">优秀教授风采展示</view>
-    <view style="background-color: #E6E6E6; flex: 1;">了解我们的社团</view>
-  </view>
-
   <view class="alumiPhotosKTRN">
     <view style="background-color: #F1F1F1; flex: 1;">校友</view>
     <view style="background-color: #E6E6E6; flex: 1;">影集</view>
   </view>
+
+<!--- "style="background-color: #83288f; flex: 1; ---> 
+</view>  
+
 
   
             

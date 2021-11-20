@@ -70,8 +70,8 @@
   justify-content: center;
 }
 .trumanAboutIcon{
-  width: 170rpx;
-  height: 81rpx;
+  width: 165rpx;
+  height: 90rpx;
 }
 
 .kirksvilleSurrounding{
@@ -97,7 +97,7 @@
 
 .kirksvilleIcon{
   width: 180rpx;
-  height: 80rpx;
+  height: 90rpx;
   margin: 0rpx 0;
 }
 
@@ -121,12 +121,13 @@
 
 .kirkTransportIcon{
   width: 170rpx;
-  height: 80rpx;
+  height: 90rpx;
   margin-left: -10rpx;
 }
 .infoScholarshipBulletinSSASContainer{
   display:flex; 
   flex-direction:column;  
+  margin-bottom: 20rpx;
 }
 .Scholarship{
   display: flex;
@@ -135,6 +136,14 @@
   justify-content: center;
   flex-direction: column; 
 }
+
+.scholarShipBg{
+  
+  width: 95%;
+  height: 242rpx;
+ border-radius: 20rpx;
+}
+
 .scholarship{
   font-size: 30rpx;
   font-weight: bold;
@@ -190,17 +199,6 @@
   position: relative; 
   left: 19rpx; 
   top: -19rpx
-}
-.professorAndCommunities{
-  display:flex; 
-  flex-direction:row; 
-  min-height: 150px; 
-  padding: 10px; 
-  margin: 10px; 
-  justify-content: center;
-  position: relative; 
-  left: 0rpx; 
-  top: -37rpx
 }
 
 .alumiPhotosKTRN{
