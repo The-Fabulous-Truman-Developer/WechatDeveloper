@@ -1,18 +1,4 @@
-<!--pages/Application.wxml-->
-<view class="infoApplication">
-  <view class="applicationNeedToKnow">申请须知</view>
-  <view class="TODOList">TO-DO List</view>
-  <view class="passportVisa">签证与护照</view>
-</view>
-
-<view class="adviseDormRental">
-  <view style="background-color: #E6E6E6; flex: 1;">宿舍概览</view>
-  <view style="background-color: #F1F1F1; flex: 1;">在外租房</view>
-</view>
-
-<view class="commonQuestions">
-  常见问题解答
-  </view>
+<text>hERE IS EVERYTHING YOU NEED TO KNOW</text>
 
 
 
