@@ -201,7 +201,7 @@
   top: -19rpx
 }
 
-.alumiPhotosKTRN{
+.alumiGalleryContainer{
   display:flex; 
   flex-direction:row; 
   min-height: 150px; 
@@ -211,6 +211,34 @@
   position: relative;
   left: 0rpx; 
   top: -55rpx
+}
+
+.alumi{
+  display:flex; 
+  flex-direction:column; 
+  min-height: 150px; 
+  padding: 10px; 
+  margin-bottom: 10px; 
+  justify-content: center;
+  width: 330rpx; 
+  height: 278rpx; 
+  box-sizing: border-box; 
+  left: 0rpx; 
+  top: 0rpx;
+  position: relative; 
+}
+
+.gallery{
+  flex-direction:column; 
+  min-height: 150px; 
+  padding: 10px; 
+  margin-bottom: 10px; 
+  justify-content: center;
+  width: 330rpx; 
+  height: 278rpx; 
+  display: flex; 
+  box-sizing: border-box;
+  position: relative; 
 }
 .img{
   width: 100%;

@@ -39,22 +39,18 @@
     </view>
 
     <view class="CISBulletinBoard" catchtap="CISBulletinBoardPageChange">
-      <!-- <image class='scholarShipBg' src='/static/images/SchlarshipBg.png'></image>  -->
       <view class="bulletinBoard">CIS布告栏</view>
     </view>
     
     <view class="SSASInfo" catchtap="SSASPageChange">
-      <!-- <image class='scholarShipBg'  src='/static/images/SchlarshipBg.png'></image>  -->
       <view class="SSAS">了解SSAS</view>
     </view>
   </view>
   
-  <view class="alumiPhotosKTRN">
-    <view style="background-color: #F1F1F1; flex: 1;">校友</view>
-    <view style="background-color: #E6E6E6; flex: 1;">影集</view>
+  <view class="alumiGalleryContainer">
+    <view class="alumi" catchtap="AlumiPageChange">校友</view>
+    <view class="gallery">影集</view>
   </view>
-
-<!--- "style="background-color: #83288f; flex: 1; ---> 
 </view>  
 
 

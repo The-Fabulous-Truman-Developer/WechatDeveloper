@@ -6,19 +6,6 @@
   padding: 10px; 
   margin: 10px;
 }
-.applicationRequirements{
-  width: 292rpx; 
-  background: #d1d1d1; 
-  min-height: 100px; 
-  height: 276rpx; 
-  display: block; 
-  box-sizing: border-box; 
-  position: relative; 
-  left: 457rpx; 
-  top: -674rpx; 
-  width: 292rpx; 
-  height: 350rpx
-}
 .adviseDormRental{
   display:flex; 
   flex-direction:row; 
@@ -39,4 +26,17 @@
   top: 17rpx; 
   width: 680rpx; 
   height: 231rpx
+}
+.applicationNeedToKnow{
+  background-color: #F1F1F1; 
+  flex: 1;
+}
+
+.TODOList{
+  background-color: #E6E6E6; 
+  flex: 1;
+}
+.passportVisa{
+  background-color: #F1F1F1; 
+  flex: 1;
 }
