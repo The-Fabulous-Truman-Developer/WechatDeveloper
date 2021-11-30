@@ -167,22 +167,6 @@
   justify-content: center;
 }
 
-.SSASInfo{
-  display: flex;
-  align-items: center;    
-  vertical-align: center;
-  justify-content: center;
-  flex-direction: column; 
-}
-.SSAS{
-  font-size: 30rpx;
-  font-weight: bold;
-  font-family:'Times New Roman', Times, serif;
-  color: rgb(128, 0, 128);
-  justify-content: center;
-}
-
-
 .infoScholarshipBulletinSSCAContainer{
   display:flex; 
   flex-direction:column; 
@@ -220,12 +204,14 @@
   padding: 10px; 
   margin-bottom: 10px; 
   justify-content: center;
-  width: 330rpx; 
-  height: 278rpx; 
+  width: 339rpx; 
+  height: 265rpx; 
   box-sizing: border-box; 
-  left: 0rpx; 
-  top: 0rpx;
+  left: -171rpx; 
+  top: 10rpx;
   position: relative; 
+  background-color: #F1F1F1; 
+  color: rgb(128, 0, 128);
 }
 
 .gallery{
@@ -234,11 +220,22 @@
   padding: 10px; 
   margin-bottom: 10px; 
   justify-content: center;
-  width: 330rpx; 
-  height: 278rpx; 
+  width: 345rpx; 
+  height: 272rpx; 
+  left: 375rpx; 
+  top: -372rpx;
   display: flex; 
   box-sizing: border-box;
   position: relative; 
+  background-color: #f0f0f0; 
+}
+
+.SchoolGalleryText{
+  font-size: 30rpx;
+  font-weight: bold;
+  font-family:'Times New Roman', Times, serif;
+  color: rgb(128, 0, 128);
+  justify-content: center;
 }
 .img{
   width: 100%;

@@ -108,12 +108,6 @@ Page(
     })
   },
 
-  SSASPageChange: function(){
-    wx.navigateTo({
-      url: '../index/InternationalContainer/SSAS/SSAS',
-    })
-  },
-
   AlumiPageChange: function(){
     wx.navigateTo({
       url: '../index/AlumiContainer/Alumi',

@@ -61,7 +61,17 @@ Page({
      * 用户点击右上角分享
      */
     onShareAppMessage: function () {
-    }
+    },
 
+    todoListPageChange:function(){
+        wx.navigateTo({
+          url: '../Application/TO-DOListContainer/TO-DOList',
+        })
+    },
+    passportVisaPageChange:function(){
+      wx.navigateTo({
+        url: '../Application/PassportAndVisaContainer/Visa',
+      })
+    }
     
 })

@@ -1,8 +1,7 @@
 <!--pages/Application.wxml-->
 <view class="infoApplication">
-  <view class="applicationNeedToKnow">申请须知</view>
-  <view class="TODOList">TO-DO List</view>
-  <view class="passportVisa">签证与护照</view>
+  <view class="TODOList" catchtap="todoListPageChange">TO-DO List</view>
+  <view class="passportVisa" catchtap="passportVisaPageChange">签证与护照</view>
 </view>
 
 <view class="adviseDormRental">

@@ -41,15 +41,13 @@
     <view class="CISBulletinBoard" catchtap="CISBulletinBoardPageChange">
       <view class="bulletinBoard">CIS布告栏</view>
     </view>
-    
-    <view class="SSASInfo" catchtap="SSASPageChange">
-      <view class="SSAS">了解SSAS</view>
-    </view>
   </view>
   
   <view class="alumiGalleryContainer">
-    <view class="alumi" catchtap="AlumiPageChange">校友</view>
-    <view class="gallery">影集</view>
+    <view class="alumi" catchtap="AlumiPageChange">我们的校友</view>
+  </view>
+  <view class="gallery">
+    <view class="SchoolGalleryText" catchtap="GalleryPageChange">影集</view>
   </view>
 </view>  
 
