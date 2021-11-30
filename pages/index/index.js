@@ -16,12 +16,12 @@ Page(
 
     //这个是滚动的图片地址
     imgUrls: [
-      '/static/images/Gallery/mainIndexImage.png',
-      '/static/images/Gallery/Admission.png',
-      '/static/images/Gallery/Academics.png',
-      '/static/images/Gallery/Impact.png',
-      '/static/images/Gallery/StudentLife.png',
-      '/static/images/Gallery/WhatWeHave.png',
+      'https://636c-cloud1-0gbp4wfdcd43709a-1307090649.tcb.qcloud.la/static/images/Gallery/mainIndexImage.png',
+      'https://636c-cloud1-0gbp4wfdcd43709a-1307090649.tcb.qcloud.la/static/images/Gallery/Admission.png',
+      'https://636c-cloud1-0gbp4wfdcd43709a-1307090649.tcb.qcloud.la/static/images/Gallery/Academics.png',
+      'https://636c-cloud1-0gbp4wfdcd43709a-1307090649.tcb.qcloud.la/static/images/Gallery/Impact.png',
+      'https://636c-cloud1-0gbp4wfdcd43709a-1307090649.tcb.qcloud.la/static/images/Gallery/StudentLife.png',
+      'https://636c-cloud1-0gbp4wfdcd43709a-1307090649.tcb.qcloud.la/static/images/Gallery/WhatWeHave.png',
     ]
   },
   /**
