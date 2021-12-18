@@ -5,10 +5,9 @@
 </view>
 
 <view class="foodFunRoute">
-    <view catchtap="EatPageChange">吃在Kirksville</view>
-    <view style="background-color: #F0F0F0; flex: 1;">Kirksville交通路线</view>
+    <view style="background-color: #F1F1F1; flex: 1;" catchtap="EatPageChange">吃在Kirksville</view>
+    <view style="background-color: #F1F1F1; flex: 1;" catchtap="trafficInKirksville"> kirksville 的交通</view>
 </view>
-<iew class="flightRoute">航班计划</view>
 
 
 

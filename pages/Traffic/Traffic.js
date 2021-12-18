@@ -68,5 +68,10 @@ Page({
         wx.navigateTo({
             url: '../Traffic/Eat/eat'
         })
+    },
+    trafficInKirksville: function(){
+        wx.navigateTo({
+          url: '../Traffic/Route/route',
+        })
     }
 })
