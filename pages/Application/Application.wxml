@@ -5,7 +5,7 @@
 </view>
 
 <view class="adviseDormRental">
-  <view style="background-color: #E6E6E6; flex: 1;">宿舍概览</view>
+  <view class="TODOList" catchtap="DormRoomPageChange">宿舍概览</view>
   <view style="background-color: #F1F1F1; flex: 1;">在外租房</view>
 </view>
 

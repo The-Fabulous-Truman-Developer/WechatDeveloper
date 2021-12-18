@@ -72,6 +72,11 @@ Page({
       wx.navigateTo({
         url: '../Application/PassportAndVisaContainer/Visa',
       })
-    }
-    
+    },
+
+    DormRoomPageChange: function(){
+      wx.navigateTo({
+        url: '../Application/DormRoomContainer/Dorm',
+      })
+    },
 })
