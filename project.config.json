@@ -30,21 +30,13 @@
       "disablePlugins": [],
       "outputPath": ""
     },
-<<<<<<< Updated upstream
     "enableEngineNative": false,
     "useIsolateContext": true,
-=======
-    "useIsolateContext": false,
->>>>>>> Stashed changes
     "userConfirmedBundleSwitch": false,
     "packNpmManually": false,
     "packNpmRelationList": [],
     "minifyWXSS": true,
     "disableUseStrict": false,
-<<<<<<< Updated upstream
-=======
-    "minifyWXML": true,
->>>>>>> Stashed changes
     "showES6CompileOption": false,
     "useCompilerPlugins": false
   },
