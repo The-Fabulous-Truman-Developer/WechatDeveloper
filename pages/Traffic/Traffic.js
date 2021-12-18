@@ -62,5 +62,11 @@ Page({
      */
     onShareAppMessage: function () {
 
+    },
+
+    EatPageChange:function(){
+        wx.navigateTo({
+            url: '../Traffic/Eat/eat'
+        })
     }
 })
