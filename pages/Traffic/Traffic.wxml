@@ -1,7 +1,7 @@
 <!--pages/Traffic.wxml-->
 <view class="mapHappening">
     <view style="background-color: #F1F1F1; flex: 1;">Kirksville地图</view>
-    <view style="background-color: #E6E6E6; flex: 1;">What's Happen now</view>
+    
 </view>
 
 <view class="foodFunRoute">
