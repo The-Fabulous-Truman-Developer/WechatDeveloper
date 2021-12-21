@@ -6,8 +6,7 @@
     "pages/ContactUS/ContactUS",
     "pages/index/infoTrumanContainer/trumanAbout/trumanAbout",
     "pages/index/infoTrumanContainer/kirksvilleSurrounding/kirksvilleSurrounding",
-    "pages/index/infoTrumanContainer/kirkTransport/kirkTransport",
-    "pages/index/InternationalContainer/SSAS/SSAS"
+    "pages/index/infoTrumanContainer/kirkTransport/kirkTransport"
   ],
   "subpackages": [
     {

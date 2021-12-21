@@ -5,6 +5,9 @@ Page({
      * Page initial data
      */
     data: {
+      imgUrls: [
+        
+      ]
   
     },
   
