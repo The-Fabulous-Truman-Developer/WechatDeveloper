@@ -214,7 +214,6 @@
   width: 50%; 
   height: 339rpx; 
   box-sizing: border-box; 
-
   top: 10rpx;
   position: relative; 
   background-color: #ffffff; 

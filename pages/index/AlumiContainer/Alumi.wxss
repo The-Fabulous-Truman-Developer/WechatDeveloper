@@ -18,3 +18,15 @@
     font-size: 24;
     font-weight: bold;
 }
+
+.aluminiPhoto{
+    display:flex; 
+    flex-direction:column; 
+    justify-content: center;
+    width: 650rpx; 
+    height: 400rpx; 
+    box-sizing: border-box; 
+    position: relative; 
+    color: rgb(128, 0, 128);
+    border-radius: 20rpx;
+}
