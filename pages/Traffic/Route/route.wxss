@@ -1,0 +1,18 @@
+.topic{
+  position: relative; 
+  left: 293rpx; 
+  top: 37rpx;
+  user-select: false;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 30;
+  font-weight: bold;
+}
+.content{
+  position: relative; 
+  left: -133rpx; 
+  top: 100rpx;
+  user-select: false;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 30;
+  font-weight: bold;
+}

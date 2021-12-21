@@ -1,0 +1,60 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/Application/Application",
+    "pages/Traffic/Traffic",
+    "pages/ContactUS/ContactUS",
+    "pages/index/infoTrumanContainer/trumanAbout/trumanAbout",
+    "pages/index/infoTrumanContainer/kirksvilleSurrounding/kirksvilleSurrounding",
+    "pages/index/infoTrumanContainer/kirkTransport/kirkTransport"
+  ],
+  "subpackages": [
+    {
+      "root": "index",
+      "pages": [
+        "pages/index"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#7D3495",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "杜鲁门州立大学信息中心"
+  },
+  "sitemapLocation": "sitemap.json",
+  "useExtendedLib": {
+    "kbone": true,
+    "weui": true
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "white",
+    "list": [
+      {
+        "text": "学校介绍",
+        "iconPath": "static/images/TabBarIcon/清单.png",
+        "selectedIconPath": "static/images/TabBarIcon/清单_填充.png",
+        "pagePath": "pages/index/index"
+      },
+      {
+        "text": "申请",
+        "iconPath": "static/images/TabBarIcon/信封.png",
+        "selectedIconPath": "static/images/TabBarIcon/信封_填充.png",
+        "pagePath": "pages/Application/Application"
+      },
+      {
+        "text": "交通与周边",
+        "iconPath": "static/images/TabBarIcon/火车站.png",
+        "selectedIconPath": "static/images/TabBarIcon/火车站_填充.png",
+        "pagePath": "pages/Traffic/Traffic"
+      },
+      {
+        "text": "联系我们",
+        "iconPath": "static/images/TabBarIcon/帮助.png",
+        "selectedIconPath": "static/images/TabBarIcon/帮助_填充.png",
+        "pagePath": "pages/ContactUS/ContactUS"
+      }
+    ]
+  }
+}

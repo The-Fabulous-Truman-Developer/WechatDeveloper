@@ -1,1 +1,0 @@
-"/Applications/wechatwebdevtools.app/Contents/MacOS/cli" cloud functions deploy --e cloud1-0gbp4wfdcd43709a --n quickstartFunctions --r --project "/Users/arkia/ComputerScienceRelated/WechatDeveloper" --report_start --report

@@ -1,0 +1,11 @@
+<!--pages/index/infoTrumanContainer/kirksvilleSurrounding/kirksvilleSurrounding.wxml-->
+<text class="SurroundToKirksville">欢迎来到 Kirksville!</text>
+
+<text class="Content">
+
+这里是您理想的学术之地。到达这里以后你会发现整个小镇就是围绕着我们的校园而建。所以日常生活的便利店，餐馆，药房都是步行距离就可以到达。Truman iHouse也提供每周一次的去沃尔玛购物的班车，想要购买什么也都是应有尽有。
+
+在校园内也有学校自己运营的便利店，分别在 West Campus 宿舍1楼和Dobson宿舍的1楼。当然，对于学生党来说，星巴克这类的咖啡肯定是不能少的。所以学校在图书馆内也有星巴克咖啡的分店，并且运营时间是早上7点到晚上8点，覆盖了大部分学生的需求。
+
+想家了？没问题！我们有Student Union Building, 简称SUB，在这栋楼里面有美食街，特别推荐Mein Bowl这家餐厅，让你远在美国也能感受到家乡的味道。
+</text>

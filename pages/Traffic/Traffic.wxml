@@ -1,0 +1,37 @@
+<!--pages/Traffic.wxml-->
+<view class="mapHappening">
+    <view style="background-color: #F1F1F1; flex: 1;">Kirksville地图</view>
+    
+</view>
+
+<view class="foodFunRoute">
+    <view style="background-color: #F1F1F1; flex: 1;" catchtap="EatPageChange">吃在Kirksville</view>
+    <view style="background-color: #F1F1F1; flex: 1;" catchtap="trafficInKirksville"> kirksville 的交通</view>
+</view>
+
+
+
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
