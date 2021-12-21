@@ -6,6 +6,7 @@ Page({
      */
     data: {
       imgUrls: [
+        'https://636c-cloud1-0gbp4wfdcd43709a-1307090649.tcb.qcloud.la/static/Gallery/AdmissionsPhotoShoot27April2021-282.jpg?sign=c1600bf4b3e675d426881180007333e5&t=1640055169',
         
       ]
   
