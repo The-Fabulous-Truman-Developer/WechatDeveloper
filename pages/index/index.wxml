@@ -35,19 +35,26 @@
   
   <view class="infoScholarshipBulletinSSASContainer">
     <view class="Scholarship" catchtap="ScholarshipProgramPageChange" >
-      <image class='scholarShipBg'  src='https://636c-cloud1-0gbp4wfdcd43709a-1307090649.tcb.qcloud.la/static/images/scholarshipProgram.png'></image>
+      <view class="bulletinBoard"> 杜鲁门奖学金计划</view>
+      <image class='bannerStyle1'  src='https://636c-cloud1-0gbp4wfdcd43709a-1307090649.tcb.qcloud.la/static/images/scholarshipProgram.png'></image>
     </view>
 
     <view class="CISBulletinBoard" catchtap="CISBulletinBoardPageChange">
-      <view class="bulletinBoard">CIS布告栏</view>
+      <view class="bulletinBoard"> 国际生办公室公告栏</view>
+      <image class='bannerStyle1'  src='cloud://cloud1-0gbp4wfdcd43709a.636c-cloud1-0gbp4wfdcd43709a-1307090649/static/images/CISbullet.png'></image>
     </view>
   </view>
   
   <view class="alumiGalleryContainer">
-    <view class="alumi" catchtap="AlumiPageChange">我们的校友</view>
-  </view>
-  <view class="gallery">
-    <view class="SchoolGalleryText" catchtap="GalleryPageChange">影集</view>
+    <view class="alumi" catchtap="AlumiPageChange">
+      <view class="alumiAndGradFont">毕业生与校友</view>
+      <image class='graduatesAlumni'  src='cloud://cloud1-0gbp4wfdcd43709a.636c-cloud1-0gbp4wfdcd43709a-1307090649/static/images/graduatesAlumini.png'></image>
+    </view>
+    <view class="gallery">
+      <view class="SchoolGalleryText" catchtap="GalleryPageChange">Truman影集</view>
+      <image class='graduatesAlumni' src='cloud://cloud1-0gbp4wfdcd43709a.636c-cloud1-0gbp4wfdcd43709a-1307090649/static/images/TrumanGalleryBG.png'></image>
+    </view>
+
   </view>
 </view>  
 

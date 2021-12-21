@@ -45,8 +45,7 @@
 .infoTrumanContainer{
   display:flex; 
   flex-direction:row; 
-  min-height: 250rpx; 
-  padding: 10rpx; 
+  min-height: 230rpx; 
   margin: 10rpx; 
   justify-content: center;
   align-items: center; 
@@ -125,6 +124,9 @@
   margin-left: -10rpx;
 }
 .infoScholarshipBulletinSSASContainer{
+  margin-top: 10rpx;
+  border-top: 3rpx double #e4ded6; 
+  border-top-width: 10rpx;
   display:flex; 
   flex-direction:column;  
   margin-bottom: 20rpx;
@@ -137,8 +139,8 @@
   flex-direction: column; 
 }
 
-.scholarShipBg{
-  
+
+.bannerStyle1{
   width: 95%;
   height: 242rpx;
  border-radius: 20rpx;
@@ -153,11 +155,15 @@
 }
 
 .CISBulletinBoard{
+  border-top: 3rpx double #e4ded6; 
+  border-top-width: 10rpx;
+  margin-top: 10rpx;
   display: flex;
   align-items: center;    
   vertical-align: center;
   justify-content: center;
   flex-direction: column; 
+  margin-bottom: 20rpx;
 }
 .bulletinBoard{
   font-size: 30rpx;
@@ -186,48 +192,69 @@
 }
 
 .alumiGalleryContainer{
+  border-top: 3rpx solid #e4ded6; 
   display:flex; 
   flex-direction:row; 
   min-height: 150px; 
-  padding: 10px; 
   margin: 10px; 
   justify-content: center;
   position: relative;
+  top: 40rpx;
   left: 0rpx; 
-  top: -55rpx
+  top: -55rpx;
+  background-color: #ffffff;
 }
 
 .alumi{
   display:flex; 
   flex-direction:column; 
   min-height: 150px; 
-  padding: 10px; 
   margin-bottom: 10px; 
   justify-content: center;
-  width: 339rpx; 
-  height: 265rpx; 
+  width: 50%; 
+  height: 339rpx; 
   box-sizing: border-box; 
-  left: -171rpx; 
+
   top: 10rpx;
   position: relative; 
-  background-color: #F1F1F1; 
+  background-color: #ffffff; 
   color: rgb(128, 0, 128);
+  align-items: center;
+}
+.graduatesAlumni{
+  display:flex; 
+  flex-direction:column; 
+  justify-content: center;
+  width: 300rpx; 
+  height: 339rpx; 
+  box-sizing: border-box; 
+  position: relative; 
+  color: rgb(128, 0, 128);
+  border-radius: 20rpx;
+}
+.alumiAndGradFont{
+  font-size: 30rpx;
+  font-weight: bold;
+  font-family:'Times New Roman', Times, serif;
+  color: rgb(128, 0, 128);
+  justify-content: right;
+  align-items: center;
 }
 
 .gallery{
+  display:flex; 
   flex-direction:column; 
   min-height: 150px; 
-  padding: 10px; 
   margin-bottom: 10px; 
   justify-content: center;
-  width: 345rpx; 
-  height: 272rpx; 
-  left: 375rpx; 
-  top: -372rpx;
-  display: flex; 
-  box-sizing: border-box;
+  width: 50%; 
+  height: 339rpx; 
+  box-sizing: border-box; 
+  top: 10rpx;
   position: relative; 
-  background-color: #f0f0f0; 
+  background-color: #ffffff; 
+  color: rgb(128, 0, 128);
+  align-items: center;
 }
 
 .SchoolGalleryText{
@@ -236,6 +263,7 @@
   font-family:'Times New Roman', Times, serif;
   color: rgb(128, 0, 128);
   justify-content: center;
+  align-items: center;
 }
 .img{
   width: 100%;
