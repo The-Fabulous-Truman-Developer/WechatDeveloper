@@ -49,11 +49,10 @@
       <view class="alumiAndGradFont">毕业生与校友</view>
       <image class='graduatesAlumni'  src='cloud://cloud1-0gbp4wfdcd43709a.636c-cloud1-0gbp4wfdcd43709a-1307090649/static/images/graduatesAlumini.png'></image>
     </view>
-    <view class="gallery">
-      <view class="SchoolGalleryText" catchtap="GalleryPageChange">Truman影集</view>
+    <view class="gallery" catchtap="GalleryPageChange">
+      <view class="SchoolGalleryText">Truman影集</view>
       <image class='graduatesAlumni' src='cloud://cloud1-0gbp4wfdcd43709a.636c-cloud1-0gbp4wfdcd43709a-1307090649/static/images/TrumanGalleryBG.png'></image>
     </view>
-
   </view>
 </view>  
 
