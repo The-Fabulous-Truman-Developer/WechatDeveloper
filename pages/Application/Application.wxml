@@ -1,9 +1,24 @@
 <!--pages/Application.wxml-->
-<view class="infoApplication">
-  <view class="TODOList" catchtap="todoListPageChange">TO-DO List</view>
-  <view class="passportVisa" catchtap="passportVisaPageChange">签证与护照</view>
+<view>
+    <view class="smallTag">申请须知</view>
 </view>
 
+<view class="infoApplication">
+  <view class="TODOList" catchtap="todoListPageChange">
+      <image class='innerBlock'  src='cloud://cloud1-0gbp4wfdcd43709a.636c-cloud1-0gbp4wfdcd43709a-1307090649/static/images/todo_list_2.png'>
+    </image>
+  </view>
+
+  <view class="passportVisa" catchtap="passportVisaPageChange">
+    <image class='innerBlock'  src='cloud://cloud1-0gbp4wfdcd43709a.636c-cloud1-0gbp4wfdcd43709a-1307090649/static/images/passportAndVisa.png'>
+    </image>
+  </view>
+</view>
+
+
+<view>
+    <view class="smallTag">校内参观</view>
+</view>
 <view class="adviseDormRental">
   <view class="TODOList" catchtap="DormRoomPageChange">宿舍概览</view>
 </view>
