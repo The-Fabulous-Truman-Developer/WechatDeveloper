@@ -7,16 +7,34 @@ Page({
     data: {
       imgUrls: [
         'https://636c-cloud1-0gbp4wfdcd43709a-1307090649.tcb.qcloud.la/static/Gallery/AdmissionsPhotoShoot27April2021-282.jpg?sign=c1600bf4b3e675d426881180007333e5&t=1640055169',
-      ]
+      ],
+      show: false,
+      current:0
     },
   
-    /**
-     * Lifecycle function--Called when page load
-     */
-    onLoad: function (options) {
-  
+    change(e) {
+      console.log('current index has changed', e.detail)
     },
-  
+    hide() {
+        this.setData({
+        show: false
+    })},
+    galleryhide:function(){
+      this.setData({
+        show: false
+    })},
+     //画廊结束
+    imgList:function(e){
+      //console.log(e);
+      //console.log(e.currentTarget.dataset.itemid);
+      //执行放大过程
+      this.setData({
+        show: true,
+        current:e.currentTarget.dataset.itemid
+    })
+     },
+      onLoad: function() {}
+    })
     /**
      * Lifecycle function--Called when page is initially rendered
      */

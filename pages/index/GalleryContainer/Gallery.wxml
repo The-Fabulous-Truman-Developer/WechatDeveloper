@@ -1,7 +1,6 @@
 <view class="page">
     <view class="page__hd">
         <view class="page__title">Gallery</view>
-        <view class="page__desc">画廊，类似原生的wx.previewImage的展示。点击开启展示</view>
     </view>
     <view bindtap="imgList" wx:for="{{imgUrls}}" data-itemid="{{idx}}" wx:key="id" wx:for-index="idx" wx:for-item="src">
         <view >{{idx}}<image style="width: 100px; height: 100px; background-color: #eeeeee;"  src="{{src}}"></image></view>
