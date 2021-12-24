@@ -1,7 +1,10 @@
-<swiper indicator-dots="{{indicatorDots}}"
-        indicator-active-color="rgb(128, 0, 128)"
-        autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular='true'>
-    <swiper-item wx:for="{{imgUrls}}">
-      <image src='{{item}}' width="500" height="500" mode='widthFix' class='img' />
-    </swiper-item>
-</swiper>
+<view class="page">
+    <view class="page__hd">
+        <view class="page__title">Gallery</view>
+    </view>
+    <view bindtap="imgList" wx:for="{{imgUrls}}" data-itemid="{{idx}}" wx:key="id" wx:for-index="idx" wx:for-item="src">
+        <view >{{idx}}<image style="width: 100px; height: 100px; background-color: #eeeeee;"  src="{{src}}"></image></view>
+    </view>
+    <mp-gallery show="{{show}}" showDelete="{{false}}" bindchange="change" binddelete="delete" bindhide="hide" img-urls="{{imgUrls}}"  hide-on-click="{{true}}" current="{{current}}"></mp-gallery>
+    <view bindtap="galleryhide"  class="gallery-cover-view {{show?'show':'hide'}}">关闭</view>
+</view>
