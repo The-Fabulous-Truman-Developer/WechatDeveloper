@@ -66,12 +66,12 @@ Page({
 
     EatPageChange:function(){
         wx.navigateTo({
-            url: '../Traffic/Eat/eat'
+            url: '/pages/Traffic/Eat'
         })
     },
     trafficInKirksville: function(){
         wx.navigateTo({
-          url: '../Traffic/Route/route',
+          url: '/pages/Traffic/Route',
         })
     }
 })
