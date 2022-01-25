@@ -23,15 +23,15 @@
 
     <view class="kirksvilleSurrounding" bindtap="kirkSurrPageChange">
       <text class="kirksville">柯克斯维尔周边</text>
-      <image class="kirksvilleIcon" src="https://636c-cloud1-0gbp4wfdcd43709a-1307090649.tcb.qcloud.la/static/images/infoTrumanIcons/kirksville.png"></image> 
+      <image class="kirksvilleIcon" src="https://636c-cloud1-0gbp4wfdcd43709a-1307090649.tcb.qcloud.la/static/images/infoTrumanIcons/kirksville.png"></image>
     </view>
 
     <view class="kirkTransport" bindtap="kirkTransPageChange">
       <text class="transports">便捷交通与班车</text>
-      <image class="kirkTransportIcon" src="https://636c-cloud1-0gbp4wfdcd43709a-1307090649.tcb.qcloud.la/static/images/infoTrumanIcons/kirkTransit.png"></image>       
+      <image class="kirkTransportIcon" src="https://636c-cloud1-0gbp4wfdcd43709a-1307090649.tcb.qcloud.la/static/images/infoTrumanIcons/kirkTransit.png"></image>
     </view>
   </view>
-  
+
   <view class="infoScholarshipBulletinSSASContainer">
     <view class="Scholarship" catchtap="ScholarshipProgramPageChange" >
       <view class="bulletinBoard"> 杜鲁门奖学金计划</view>
@@ -43,7 +43,7 @@
       <image class='bannerStyle1'  src='cloud://cloud1-0gbp4wfdcd43709a.636c-cloud1-0gbp4wfdcd43709a-1307090649/static/images/CISbullet.png'></image>
     </view>
   </view>
-  
+
   <view class="alumiGalleryContainer">
     <view class="alumi" catchtap="AlumiPageChange">
       <view class="alumiAndGradFont">毕业生与校友</view>
@@ -54,25 +54,4 @@
       <image class='graduatesAlumni' src='cloud://cloud1-0gbp4wfdcd43709a.636c-cloud1-0gbp4wfdcd43709a-1307090649/static/images/TrumanGalleryBG.png'></image>
     </view>
   </view>
-</view>  
-
-
-  
-            
-
-
-              
-
-
-            
-
-
-
-
-
-              
-            
-
-            
-
-
+</view>

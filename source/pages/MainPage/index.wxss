@@ -10,7 +10,7 @@
 .englishChineseContainer{
   display: flex;
   flex-direction: column;
-  align-items: center;    
+  align-items: center;
   vertical-align: center;
   justify-content: center;
   margin-left: 20rpx;
@@ -43,21 +43,21 @@
   height: 300rpx;
 }
 .infoTrumanContainer{
-  display:flex; 
-  flex-direction:row; 
-  min-height: 230rpx; 
-  margin: 10rpx; 
+  display:flex;
+  flex-direction:row;
+  min-height: 230rpx;
+  margin: 10rpx;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
 }
 
 .trumanAbout{
   margin-right: 6rpx;
   display: flex;
-  align-items: center;    
+  align-items: center;
   vertical-align: center;
   justify-content: center;
-  flex-direction: column; 
+  flex-direction: column;
 }
 
 .trumanAboutTitle{
@@ -75,14 +75,14 @@
 
 .kirksvilleSurrounding{
   min-width: 240rpx;
-  border-right: 3rpx solid #e4ded6; 
-  border-left: 3rpx solid  #e4ded6; 
+  border-right: 3rpx solid #e4ded6;
+  border-left: 3rpx solid  #e4ded6;
   margin-left: 5rpx;
-  display: flex; 
-  align-items: center;    
+  display: flex;
+  align-items: center;
   vertical-align: center;
   justify-content: center;
-  flex-direction: column; 
+  flex-direction: column;
 }
 
 .kirksville{
@@ -103,10 +103,10 @@
 .kirkTransport{
   margin-left: 6rpx;
   display: flex;
-  align-items: center;    
+  align-items: center;
   vertical-align: center;
   justify-content: center;
-  flex-direction: column; 
+  flex-direction: column;
 }
 
 .transports{
@@ -125,18 +125,18 @@
 }
 .infoScholarshipBulletinSSASContainer{
   margin-top: 10rpx;
-  border-top: 3rpx double #e4ded6; 
+  border-top: 3rpx double #e4ded6;
   border-top-width: 10rpx;
-  display:flex; 
-  flex-direction:column;  
+  display:flex;
+  flex-direction:column;
   margin-bottom: 20rpx;
 }
 .Scholarship{
   display: flex;
-  align-items: center;    
+  align-items: center;
   vertical-align: center;
   justify-content: center;
-  flex-direction: column; 
+  flex-direction: column;
 }
 
 
@@ -155,14 +155,14 @@
 }
 
 .CISBulletinBoard{
-  border-top: 3rpx double #e4ded6; 
+  border-top: 3rpx double #e4ded6;
   border-top-width: 10rpx;
   margin-top: 10rpx;
   display: flex;
-  align-items: center;    
+  align-items: center;
   vertical-align: center;
   justify-content: center;
-  flex-direction: column; 
+  flex-direction: column;
   margin-bottom: 20rpx;
 }
 .bulletinBoard{
@@ -174,60 +174,60 @@
 }
 
 .infoScholarshipBulletinSSCAContainer{
-  display:flex; 
-  flex-direction:column; 
-  min-height: 150px; 
-  padding: 10px; 
-  margin-bottom: 10px; 
+  display:flex;
+  flex-direction:column;
+  min-height: 150px;
+  padding: 10px;
+  margin-bottom: 10px;
   justify-content: center;
-  width: 714rpx; 
-  height: 308rpx; 
-  display: flex; 
-  box-sizing: border-box; 
-  left: 10rpx; 
+  width: 714rpx;
+  height: 308rpx;
+  display: flex;
+  box-sizing: border-box;
+  left: 10rpx;
   top: 0rpx;
-  position: relative; 
-  left: 19rpx; 
+  position: relative;
+  left: 19rpx;
   top: -19rpx
 }
 
 .alumiGalleryContainer{
-  border-top: 3rpx solid #e4ded6; 
-  display:flex; 
-  flex-direction:row; 
-  min-height: 150px; 
-  margin: 10px; 
+  border-top: 3rpx solid #e4ded6;
+  display:flex;
+  flex-direction:row;
+  min-height: 150px;
+  margin: 10px;
   justify-content: center;
   position: relative;
   top: 40rpx;
-  left: 0rpx; 
+  left: 0rpx;
   top: -55rpx;
   background-color: #ffffff;
 }
 
 .alumi{
-  display:flex; 
-  flex-direction:column; 
-  min-height: 150px; 
-  margin-bottom: 10px; 
+  display:flex;
+  flex-direction:column;
+  min-height: 150px;
+  margin-bottom: 10px;
   justify-content: center;
-  width: 50%; 
-  height: 339rpx; 
-  box-sizing: border-box; 
+  width: 50%;
+  height: 339rpx;
+  box-sizing: border-box;
   top: 10rpx;
-  position: relative; 
-  background-color: #ffffff; 
+  position: relative;
+  background-color: #ffffff;
   color: rgb(128, 0, 128);
   align-items: center;
 }
 .graduatesAlumni{
-  display:flex; 
-  flex-direction:column; 
+  display:flex;
+  flex-direction:column;
   justify-content: center;
-  width: 300rpx; 
-  height: 339rpx; 
-  box-sizing: border-box; 
-  position: relative; 
+  width: 300rpx;
+  height: 339rpx;
+  box-sizing: border-box;
+  position: relative;
   color: rgb(128, 0, 128);
   border-radius: 20rpx;
 }
@@ -241,17 +241,17 @@
 }
 
 .gallery{
-  display:flex; 
-  flex-direction:column; 
-  min-height: 150px; 
-  margin-bottom: 10px; 
+  display:flex;
+  flex-direction:column;
+  min-height: 150px;
+  margin-bottom: 10px;
   justify-content: center;
-  width: 50%; 
-  height: 339rpx; 
-  box-sizing: border-box; 
+  width: 50%;
+  height: 339rpx;
+  box-sizing: border-box;
   top: 10rpx;
-  position: relative; 
-  background-color: #ffffff; 
+  position: relative;
+  background-color: #ffffff;
   color: rgb(128, 0, 128);
   align-items: center;
 }
