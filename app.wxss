@@ -1,1 +1,2 @@
 /*全局样式公共文件*/
+@import "/css/heti.min.wxss";

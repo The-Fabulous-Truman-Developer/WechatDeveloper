@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "mp-style": "../../../../weui-miniprogram/weui-wxss/dist/style/weui.wxss"
+  }
+}
