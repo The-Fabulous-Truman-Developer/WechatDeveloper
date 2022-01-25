@@ -1,21 +1,20 @@
 {
-    "condition": {
-        "plugin": {
+    "condition":
+    {
+        "plugin":
+        {
             "list": []
         },
-        "game": {
-            "list": []
-        },
-        "gamePlugin": {
-            "list": []
-        },
-        "miniprogram": {
-            "list": [
+        "miniprogram":
+        {
+            "list":
+            [
                 {
-                    "name": "pages/index/index",
-                    "pathName": "pages/index/index",
+                    "name": "/source/pages/MainPage/index",
+                    "pathName": "/source/pages/MainPage/index",
                     "query": "",
-                    "scene": null
+                    "scene": null,
+                    "lazyCodeLoading": "requiredComponents"
                 }
             ]
         }
