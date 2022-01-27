@@ -2338,4 +2338,3 @@ page {
   position: relative;
   z-index: 50;
 }
-@import "weui-wxa-auto-dark.wxss";
