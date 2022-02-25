@@ -18,15 +18,14 @@
 <view>
     <view class="smallTag">校内参观</view>
 </view>
-<view class="adviseDormRental" >
-  <view class="TODOList" catchtap="DormRoomPageChange">
-    <image class="innerBlock" src="https://sand.truman.edu/cis/WechatSource/Pictures/dorm_tour.png"></image>
+
+<view class="school_tour">
+  <view class="section_first_square" catchtap="DormRoomPageChange">
+    <image class="innerBlock" src="https://sand.truman.edu/cis/WechatSource/Pictures/dorm_tour.png" />
   </view>
-
-
-
-
-
+  <view>
+    <text>school building_tour</text>
+  </view>
 </view>
 
 
