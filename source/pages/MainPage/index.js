@@ -12,12 +12,12 @@ Page({
     duration: 1048,
     //这个是滚动的图片地址
     imgUrls: [
-      "https://636c-cloud1-0gbp4wfdcd43709a-1307090649.tcb.qcloud.la/static/images/Gallery/mainIndexImage.png",
-      "https://636c-cloud1-0gbp4wfdcd43709a-1307090649.tcb.qcloud.la/static/images/Gallery/Admission.png",
-      "https://636c-cloud1-0gbp4wfdcd43709a-1307090649.tcb.qcloud.la/static/images/Gallery/Academics.png",
-      "https://636c-cloud1-0gbp4wfdcd43709a-1307090649.tcb.qcloud.la/static/images/Gallery/Impact.png",
-      "https://636c-cloud1-0gbp4wfdcd43709a-1307090649.tcb.qcloud.la/static/images/Gallery/StudentLife.png",
-      "https://636c-cloud1-0gbp4wfdcd43709a-1307090649.tcb.qcloud.la/static/images/Gallery/WhatWeHave.png",
+      "https://sand.truman.edu/cis/WechatSource/Pictures/mainIndexImage.png",
+      "https://sand.truman.edu/cis/WechatSource/Pictures/Admission.png",
+      "https://sand.truman.edu/cis/WechatSource/Pictures/Academics.png",
+      "https://sand.truman.edu/cis/WechatSource/Pictures/mpact.png",
+      "https://sand.truman.edu/cis/WechatSource/Pictures/StudentLife.png",
+      "https://sand.truman.edu/cis/WechatSource/Pictures/WhatWeHave.png",
     ],
   },
   /**
