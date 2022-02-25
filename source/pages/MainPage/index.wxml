@@ -1,6 +1,6 @@
 <view class="indexContainer">
   <view class="titelContainer">
-     <image class="schoolSign" src="https://sand.truman.edu/cis/WechatMiniProgramResources/TrumanSignTitle.png"></image>
+     <image class="schoolSign" src="https://sand.truman.edu/cis/WechatSource/Pictures/TrumanSignTitle.png"></image>
      <view class="englishChineseContainer">
         <text class="chineseSchoolName">杜鲁门州立大学信息平台</text>
         <text class="englishSchoolName">Truman General Information Platform</text>
@@ -18,40 +18,40 @@
   <view class="infoTrumanContainer">
     <view class="trumanAbout" bindtap="trumanAboutPageChange">
       <text class="trumanAboutTitle"> 关于杜鲁门大学 </text>
-      <image class="trumanAboutIcon" src="https://sand.truman.edu/cis/WechatMiniProgramResources/trumanAboutIcon.jpg"></image>
+      <image class="trumanAboutIcon" src="https://sand.truman.edu/cis/WechatSource/Pictures/trumanAboutIcon.jpg"></image>
     </view>
 
     <view class="kirksvilleSurrounding" bindtap="kirkSurrPageChange">
       <text class="kirksville">柯克斯维尔周边</text>
-      <image class="kirksvilleIcon" src="https://sand.truman.edu/cis/WechatMiniProgramResources/kirksville.png"></image>
+      <image class="kirksvilleIcon" src="https://sand.truman.edu/cis/WechatSource/Pictures/kirksville.png"></image>
     </view>
 
     <view class="kirkTransport" bindtap="kirkTransPageChange">
       <text class="transports">便捷交通与班车</text>
-      <image class="kirkTransportIcon" src="https://sand.truman.edu/cis/WechatMiniProgramResources/kirkTransit.png"></image>
+      <image class="kirkTransportIcon" src="https://sand.truman.edu/cis/WechatSource/Pictures/kirkTransit.png"></image>
     </view>
   </view>
 
   <view class="infoScholarshipBulletinSSASContainer">
     <view class="Scholarship" catchtap="ScholarshipProgramPageChange" >
       <view class="bulletinBoard"> 杜鲁门奖学金计划</view>
-      <image class='bannerStyle1'  src='https://sand.truman.edu/cis/WechatMiniProgramResources/scholarshipProgram.png'></image>
+      <image class='bannerStyle1'  src='https://sand.truman.edu/cis/WechatSource/Pictures/scholarshipProgram.png'></image>
     </view>
 
     <view class="CISBulletinBoard" catchtap="CISBulletinBoardPageChange">
       <view class="bulletinBoard"> 国际生办公室公告栏</view>
-      <image class='bannerStyle1'  src='https://sand.truman.edu/cis/WechatMiniProgramResources/CISbullet.png'></image>
+      <image class='bannerStyle1'  src='https://sand.truman.edu/cis/WechatSource/Pictures/CISbullet.png'></image>
     </view>
   </view>
 
   <view class="alumiGalleryContainer">
     <view class="alumi" catchtap="AlumiPageChange">
       <view class="alumiAndGradFont">毕业生与校友</view>
-      <image class='graduatesAlumni'  src='https://sand.truman.edu/cis/WechatMiniProgramResources/graduatesAlumini.png'></image>
+      <image class='graduatesAlumni'  src='https://sand.truman.edu/cis/WechatSource/Pictures/graduatesAlumini.png'></image>
     </view>
     <view class="gallery" catchtap="GalleryPageChange">
       <view class="SchoolGalleryText">Truman影集</view>
-      <image class='graduatesAlumni' src='https://sand.truman.edu/cis/WechatMiniProgramResources/TrumanGalleryBG.png'></image>
+      <image class='graduatesAlumni' src='https://sand.truman.edu/cis/WechatSource/Pictures/TrumanGalleryBG.png'></image>
     </view>
   </view>
 </view>
