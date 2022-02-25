@@ -1,1 +1,6 @@
 /* pages/index/trumanAbout/trumanAbout.wxss */
+image
+{
+  align-self:center;
+  justify-self: center;
+}
