@@ -19,8 +19,10 @@
 <view>
     <view class="smallTag">校内参观</view>
 </view>
-<view class="adviseDormRental">
-  <view class="TODOList" catchtap="DormRoomPageChange">宿舍概览</view>
+<view class="adviseDormRental" >
+  <view class="TODOList" catchtap="DormRoomPageChange">
+    <image class="innerBlock" src="cloud://cloud1-0gbp4wfdcd43709a.636c-cloud1-0gbp4wfdcd43709a-1307090649/static/images/dorm_tour.png"></image>
+  </view>
 </view>
 
 
