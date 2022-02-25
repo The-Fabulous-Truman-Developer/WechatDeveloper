@@ -5,12 +5,12 @@
 
 <view class="infoApplication">
   <view class="TODOList" catchtap="todoListPageChange">
-      <image class='innerBlock'  src='cloud://cloud1-0gbp4wfdcd43709a.636c-cloud1-0gbp4wfdcd43709a-1307090649/static/images/todo_list_2.png'>
+      <image class='innerBlock'  src='https://sand.truman.edu/cis/WechatSource/Pictures/todo_list_2.png'>
     </image>
   </view>
 
   <view class="passportVisa" catchtap="passportVisaPageChange">
-    <image class='innerBlock'  src='cloud://cloud1-0gbp4wfdcd43709a.636c-cloud1-0gbp4wfdcd43709a-1307090649/static/images/passportAndVisa.png'>
+    <image class='innerBlock'  src='https://sand.truman.edu/cis/WechatSource/Pictures/passportAndVisa.png'>
     </image>
   </view>
 </view>
