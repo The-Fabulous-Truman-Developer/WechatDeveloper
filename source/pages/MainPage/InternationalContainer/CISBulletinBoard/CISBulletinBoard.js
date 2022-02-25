@@ -15,7 +15,9 @@ Page({
     {
       wx.downloadFile
       ({
-        url: 'https://636c-cloud1-0gbp4wfdcd43709a-1307090649.tcb.qcloud.la/static/Docs/Bulletin.docx?sign=6a9792ed97ee251aa3928eb641d2e7b4&t=1638305512',
+        url: 
+        'https://636c-cloud1-0gbp4wfdcd43709a-1307090649.tcb.qcloud.la/static/Docs/Bulletin.docx?sign=6a9792ed97ee251aa3928eb641d2e7b4&t=1638305512',
+
         success: function (res) 
         {
           const filePath = res.tempFilePath

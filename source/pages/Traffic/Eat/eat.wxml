@@ -1,30 +1,51 @@
 <view class="weui-article">
-  <text class="weui-article__h1">
-    吃在柯克斯维尔
-  </text>
-  <text class="weui-article__h2">
-    有啥吃的？
-  </text>
-  <text class="weui-article__p">
-    作为游子，最不可避免的就是饿肚子的问题。作为初来Truman的freshman，你或许害怕于人生地不熟，天天只敢吃学校食堂。不要担心！本文将拯救你于水火之中。\n
-    首先从学校内讲起。学校内有两个食堂，分别位于Ryle Hall和 Centenial Hall，食堂早中晚供应可以无限次加餐的每日更换的多种菜肴和主食，且只需支付一个meal。\n
-    两个便利店分别位于Dobson Hall与West Campus，便利店可以使用meal和dining dollar支付，每个meal等值4刀。\n
-  </text>
-  <image src="https://sand.truman.edu/cis/WechatMiniProgramResources/school_map.png" alt="maps" mode="widthFix" lazy-load="true" show-menu-by-longpress="true"/>
-  <text class="weui-article__p">
-    \n 学校的SUB也有包括Chick-fil-A，Mein Bowl，Einstein Bros在内的多个餐点。学校图书馆内有星巴克，在学习之余可以品尝一杯咖啡提神醒脑。\n
+  <h1 class="weui-article__h1"> 吃在柯克斯维尔 </h1>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <h2 class="weui-article__h2"> 有啥吃的？</h2>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <p class="weui-article__p">
+    作为游子，最不可避免的就是饿肚子的问题。作为初来Truman的freshman，你或许害怕于人生地不熟，天天只敢吃学校食堂。不要担心！本文将拯救你于水火之中。
+    首先从学校内讲起。学校内有两个食堂，分别位于Ryle Hall和 Centenial Hall，食堂早中晚供应可以无限次加餐的每日更换的多种菜肴和主食，且只需支付一个meal。
+    两个便利店分别位于Dobson Hall与West Campus，便利店可以使用meal和dining dollar支付，每个meal等值4刀。
+  </p>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <p>
+    <image src="https://sand.truman.edu/cis/WechatMiniProgramResources/school_map.png" alt="maps" mode="widthFix" lazy-load="true" show-menu-by-longpress="true"/>
+  </p>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <p class="weui-article__p">
+    学校的SUB也有包括Chick-fil-A，Mein Bowl，Einstein Bros在内的多个餐点。学校图书馆内有星巴克，在学习之余可以品尝一杯咖啡提神醒脑。
     具体的食物信息与开放/休息时间可以在学校餐厅网站上进行查询。上述餐点除Mein Bowl仅在每周四接受meal外，包括星巴克在内所有餐点均可使用meal支付。
-  </text>
-
-  <text class="weui-article__h2">
-    不想在学校吃？
-  </text>
-  <text class="weui-article__p">
-    学校周边则有着Casey’s便利店与Greek Gyro、Maxwell、Pagliai’s Pizza、King’s Buffet等物美价廉的餐馆。Greek Gyro的Gyro Meal不但好吃而且十分具有特色，甚至有人专程驱车前来购买。Maxwell有以Truman命名的汉堡，十分美味而且量大管饱。\n
-    如果想尝尝家乡的味道，不妨试试陈园(Chen’s Palace)或明园(China Palace)中餐。目前疫情期间两家中餐馆只接受电话点餐上门取餐(明园有外送服务) \n
-  </text>
+  </p>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <h2 class="weui-article__h2"> 不想在学校吃？</h2>
+  <view></view>
+  <p class="weui-article__p">
+    学校周边则有着Casey’s便利店与Greek Gyro、Maxwell、Pagliai’s Pizza、King’s Buffet等物美价廉的餐馆。
+    Greek Gyro的Gyro Meal不但好吃而且十分具有特色，甚至有人专程驱车前来购买。Maxwell有以Truman命名的汉堡，十分美味而且量大管饱。
+    如果想尝尝家乡的味道，不妨试试陈园(Chen’s Palace)或明园(China Palace)中餐。目前疫情期间两家中餐馆只接受电话点餐上门取餐(明园有外送服务)
+  </p>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <p>
     <image src="https://sand.truman.edu/cis/WechatMiniProgramResources/chen_palace.jpg" alt="chenpacace" mode="widthFix" lazy-load="true" show-menu-by-longpress="true"/>
-  <text class="weui-article__p">
-   \n 前者的土豆牛腩深得笔者喜爱，而后者的凉拌牛肉牛肚，鸭子，牛蛙等菜品更是因为点餐的人太多导致频频断货。Kirksville的店家绝不止上述这些，更多的店家可以打开地图进行查看。
-  </text>
+  </p>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <p class="weui-article__p">
+   前者的土豆牛腩深得笔者喜爱，而后者的凉拌牛肉牛肚，鸭子，牛蛙等菜品更是因为点餐的人太多导致频频断货。
+   Kirksville的店家绝不止上述这些，更多的店家可以打开地图进行查看。
+  </p>
 </view>
