@@ -18,6 +18,7 @@
 <view>
     <view class="smallTag">校内参观</view>
 </view>
+<<<<<<< HEAD
 
 <view class="school_tour" >
   <view class="section_first_square" catchtap="DormRoomPageChange">
@@ -25,6 +26,11 @@
     <view>
       <text>school building_tour</text>
     </view>
+=======
+<view class="adviseDormRental" >
+  <view class="TODOList" catchtap="DormRoomPageChange">
+    <image class="innerBlock" src="https://sand.truman.edu/cis/WechatSource/Pictures/dorm_tour.png"></image>
+>>>>>>> 2f541e18491f36ae7852c07182315cff3a6a17ed
   </view>
 
 
