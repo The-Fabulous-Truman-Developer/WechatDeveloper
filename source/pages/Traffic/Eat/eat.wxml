@@ -16,7 +16,7 @@
     <text>\r\n</text>
   </view>
   <p>
-    <image src="https://sand.truman.edu/cis/WechatMiniProgramResources/school_map.png" alt="maps" mode="widthFix" lazy-load="true" show-menu-by-longpress="true"/>
+    <image src="https://sand.truman.edu/cis/WechatSource/Pictures/school_map.png" alt="maps" mode="widthFix" lazy-load="true" show-menu-by-longpress="true"/>
   </p>
   <view>
     <text>\r\n</text>
