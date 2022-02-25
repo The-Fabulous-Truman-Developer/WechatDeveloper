@@ -1,2 +1,3 @@
-<!--pages/ContactUS.wxml-->
-<text>pages/ContactUS.wxml</text>
+<view>
+  <p class="weiui__p"> 如果你还有什么问题，欢迎致电CIS </p>
+</view>
