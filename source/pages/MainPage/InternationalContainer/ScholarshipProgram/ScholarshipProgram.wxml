@@ -11,7 +11,7 @@
   <view>
     <text>\n</text>
   </view>
-  <image class="image_style" src="https://sand.truman.edu/cis/WechatMiniProgramResources/Tuition.png" alt="tuition" mode="aspectFit" lazy-load="true" show-menu-by-longpress="true"/>
+  <image class="image_style" src="https://sand.truman.edu/cis/WechatSource/Pictures/Tuition.png" alt="tuition" mode="aspectFit" lazy-load="true" show-menu-by-longpress="true"/>
   <view>
     <text>\n</text>
   </view>
@@ -28,8 +28,8 @@
     <text>\n</text>
   </view>
   <p class="weui-article__p">
-    杜鲁门州立大学通过为国际学生提供重要的奖学金计划来表彰杰出的学业成绩和课外活动。 
-    奖学金最高可达学费的 50% 或更多。学生在申请时会自动考虑获得此奖学金,无需单独申请。 
+    杜鲁门州立大学通过为国际学生提供重要的奖学金计划来表彰杰出的学业成绩和课外活动。
+    奖学金最高可达学费的 50% 或更多。学生在申请时会自动考虑获得此奖学金,无需单独申请。
     通过保持 3.25 的杜鲁门平均绩点，奖学金最多可续签 8 个学期（4 年）。
     在第一学年以后，学生需要维持每周4小时的校内工作时间以获得全额奖学金续签。
   </p>
