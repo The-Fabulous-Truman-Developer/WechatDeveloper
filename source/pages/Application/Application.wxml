@@ -21,7 +21,7 @@
 </view>
 <view class="adviseDormRental" >
   <view class="TODOList" catchtap="DormRoomPageChange">
-    <image class="innerBlock" src="cloud://cloud1-0gbp4wfdcd43709a.636c-cloud1-0gbp4wfdcd43709a-1307090649/static/images/dorm_tour.png"></image>
+    <image class="innerBlock" src="https://sand.truman.edu/cis/WechatSource/Pictures/dorm_tour.png"></image>
   </view>
 </view>
 
