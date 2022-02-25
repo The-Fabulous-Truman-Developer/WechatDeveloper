@@ -15,7 +15,7 @@ Page({
       "https://sand.truman.edu/cis/WechatSource/Pictures/mainIndexImage.png",
       "https://sand.truman.edu/cis/WechatSource/Pictures/Admission.png",
       "https://sand.truman.edu/cis/WechatSource/Pictures/Academics.png",
-      "https://sand.truman.edu/cis/WechatSource/Pictures/mpact.png",
+      "https://sand.truman.edu/cis/WechatSource/Pictures/Impact.png",
       "https://sand.truman.edu/cis/WechatSource/Pictures/StudentLife.png",
       "https://sand.truman.edu/cis/WechatSource/Pictures/WhatWeHave.png",
     ],
