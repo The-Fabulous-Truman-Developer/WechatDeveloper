@@ -1,7 +1,7 @@
 {
   "pages":
   [
-    "source/pages/MainPage/index",
+    "source/pages/MainPage/MainPage",
     "source/pages/MainPage/AlumiContainer/Alumi",
     "source/pages/MainPage/GalleryContainer/Gallery",
     "source/pages/MainPage/infoTrumanContainer/kirksvilleSurrounding/kirksvilleSurrounding",
