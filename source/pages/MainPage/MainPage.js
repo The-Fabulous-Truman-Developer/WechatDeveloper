@@ -38,9 +38,9 @@ Page({
     });
   },
 
-  CISBulletinBoardPageChange: function () {
+  TrumanIHousePageChange: function () {
     wx.navigateTo({
-      url: "../MainPage/InternationalContainer/CISBulletinBoard/CISBulletinBoard",
+      url: "/source/pages/MainPage/InternationalContainer/TrumanIHouse/TrumanIHouse",
     });
   },
   ScholarshipProgramPageChange: function () {

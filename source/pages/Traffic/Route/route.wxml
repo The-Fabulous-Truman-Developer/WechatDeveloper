@@ -1,8 +1,12 @@
 <view class="weui-article">
   <p class="weui-article__h1"> 在Kirksville的交通 </p>
-  <view> </view>
+  <view>
+    <text>\r\n</text>
+  </view>
   <p class="weui-article__h2"> 是否要考驾照和买车? </p>
-  <view> </view>
+  <view>
+    <text>\r\n</text>
+  </view>
   <p class="weui-article__p">
     美国被称为车上的国家，这一点从美国合法吸烟喝酒年龄为21岁，但驾照16岁便可考取就可见一斑。
     和国内不一样的是，而由于在美国汽车保有量巨大以及维护成本较低的原因，大多数的二手车都会相对比较便宜。
@@ -11,11 +15,15 @@
     当然不会也没有关系，学校也会组织每周末的由学长和老师们驱车的沃尔玛购物之行，也可以通过网购等方式购买需要的物品。
   </p>
   <p>
-    <image src="https://sand.truman.edu/cis/WechatMiniProgramResources/maps.png" alt="maps" mode="widthFix" lazy-load="true" show-menu-by-longpress="true"/>
+    <image src="https://sand.truman.edu/cis/WechatSource/Pictures/maps.png" alt="maps" mode="widthFix" lazy-load="true" show-menu-by-longpress="true"/>
   </p>
-  <view></view>
+  <view>
+    <text>\r\n</text>
+  </view>
   <p class="weui-article__h2"> 周边有什么？</p>
-  <view></view>
+  <view>
+    <text>\r\n</text>
+  </view>
   <p class="weui-article__p">
     柯克斯维尔处于美国的中西部地区，有浓厚的美式田园风光，在其西边不远就是密苏里州的千丘州立公园，作为野餐，烧烤，聚会的地方再好不过了。中心的一片湖可以划船，公园内也常常有鹿，鹤等国内不常见到的动物。
     放远一些来看的话，柯克斯维尔的位置可以看作是一个正方形，四个顶点分别是左上的爱荷华州首府得梅因城，右上的达文波特，左下的堪萨斯城和右下的圣路易斯。

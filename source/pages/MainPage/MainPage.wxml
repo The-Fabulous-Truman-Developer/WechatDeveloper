@@ -38,8 +38,8 @@
       <image class='bannerStyle1'  src='https://sand.truman.edu/cis/WechatSource/Pictures/scholarshipProgram.png'></image>
     </view>
 
-    <view class="CISBulletinBoard" catchtap="CISBulletinBoardPageChange">
-      <view class="bulletinBoard"> 国际生办公室公告栏</view>
+    <view class="TrumanIHouse" catchtap="TrumanIHousePageChange">
+      <view class="iHouse"> Truman iHouse </view>
       <image class='bannerStyle1'  src='https://sand.truman.edu/cis/WechatSource/Pictures/CISbullet.png'></image>
     </view>
   </view>
