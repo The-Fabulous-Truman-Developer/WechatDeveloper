@@ -1,9 +1,5 @@
 // pages/index/infoTrumanContainer/kirksvilleSurrounding/kirksvilleSurrounding.js
 Page({
-
-    /**
-     * Page initial data
-     */
     data: {
       imgUrls: [
         'https://sand.truman.edu/cis/WechatSource/Pictures/AdmissionsPhotoShoot27April2021-100.jpg?sign=e628f6012e44eb1cd62f835b97a53607&t=1640147428',
@@ -34,7 +30,6 @@ Page({
       show: true,
       current:0
     },
-
     change(e) {
       console.log('current index has changed', e.detail)
     },
@@ -55,54 +50,5 @@ Page({
         show: true,
         current:e.currentTarget.dataset.itemid
     })
-     },
-      onLoad: function() {},
-    /**
-     * Lifecycle function--Called when page is initially rendered
-     */
-    onReady: function () {
-
-    },
-
-    /**
-     * Lifecycle function--Called when page show
-     */
-    onShow: function () {
-
-    },
-
-    /**
-     * Lifecycle function--Called when page hide
-     */
-    onHide: function () {
-
-    },
-
-    /**
-     * Lifecycle function--Called when page unload
-     */
-    onUnload: function () {
-
-    },
-
-    /**
-     * Page event handler function--Called when user drop down
-     */
-    onPullDownRefresh: function () {
-
-    },
-
-    /**
-     * Called when page reach bottom
-     */
-    onReachBottom: function () {
-
-    },
-
-    /**
-     * Called when user click on the top right corner to share
-     */
-    onShareAppMessage: function () {
-
-    }
+     }
   })

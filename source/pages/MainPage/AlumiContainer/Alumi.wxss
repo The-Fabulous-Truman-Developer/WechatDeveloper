@@ -1,24 +1,3 @@
-
-.title{
-    position: relative; 
-    left: 300rpx; 
-    top: 28rpx;
-    user-select: false;
-    font-family:'Times New Roman', Times, serif;
-    font-size: 24;
-    font-weight: bold;
-}
-
-.content{
-    position: relative; 
-    left: 17rpx; 
-    top: 13rpx;
-    user-select: false;
-    font-family:'Times New Roman', Times, serif;
-    font-size: 24;
-    font-weight: bold;
-}
-
 .aluminiPhoto{
     display:flex; 
     flex-direction:column; 
