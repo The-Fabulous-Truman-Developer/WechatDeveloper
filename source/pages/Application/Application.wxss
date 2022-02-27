@@ -84,11 +84,12 @@ page {
   width: 100%;
   height: 100rpx;
   font-size: 32rpx;
-  font-family: PingFangSC-Regular, PingFang SC;
-  font-weight: 400;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
   color: rgba(102, 102, 102, 1);
 }
 
 .isActive {
-  color: #07c160;
+  color: rgb(128, 0, 128);
+  border-bottom: solid #d1474e;
 }

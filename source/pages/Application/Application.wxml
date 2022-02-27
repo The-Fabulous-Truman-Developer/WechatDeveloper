@@ -28,7 +28,6 @@
     <view class="{{item.isActive?'isActive':''}}" wx:for="{{ tabs }}" wx:key="id" data-index="{{index}}" bind:tap="changeTab">{{ item.name }}</view>
   </view>
   <block wx:if="{{tabs[0].isActive}}">这个是未开始</block>
-  <block wx:elif="{{tabs[1].isActive}}">这个是未开始</block>
-  <block wx:elif="{{tabs[2].isActive}}">这个是待审批</block>
+  <block wx:elif="{{tabs[1].isActive}}">这个是未开始1</block>
 </view>
 
