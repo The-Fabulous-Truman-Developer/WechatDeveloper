@@ -166,8 +166,11 @@
   justify-content: center;
   flex-direction: column;
   margin-bottom: 20rpx;
+  padding-bottom: 10rpx;
+  border-bottom: 3rpx double #e4ded6;
+  border-bottom-width: 10rpx;
 }
-.iHouse{
+.text_purple_emphasize{
   font-size: 30rpx;
   font-weight: bold;
   font-family:'Times New Roman', Times, serif;
@@ -194,7 +197,6 @@
 }
 
 .alumiGalleryContainer{
-  border-top: 3rpx solid #e4ded6;
   display:flex;
   flex-direction:row;
   min-height: 150px;

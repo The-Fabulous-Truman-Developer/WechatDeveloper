@@ -2,7 +2,7 @@
   <view class="titelContainer">
      <image class="schoolSign" src="https://sand.truman.edu/cis/WechatSource/Pictures/TrumanSignTitle.png"></image>
      <view class="englishChineseContainer">
-        <text class="chineseSchoolName">杜鲁门州立大学信息平台</text>
+        <text class="chineseSchoolName">杜鲁门州立大学</text>
         <text class="englishSchoolName">Truman General Information Platform</text>
      </view>
   </view>
@@ -34,13 +34,13 @@
 
   <view class="infoScholarshipBulletinSSASContainer">
     <view class="Scholarship" catchtap="ScholarshipProgramPageChange" >
-      <view class="bulletinBoard"> 杜鲁门奖学金计划</view>
+      <text class="text_purple_emphasize">杜鲁门奖学金计划</text>
       <image class='bannerStyle1'  src='https://sand.truman.edu/cis/WechatSource/Pictures/scholarshipProgram.png'></image>
     </view>
 
     <view class="TrumanIHouse" catchtap="TrumanIHousePageChange">
-      <view class="iHouse"> Truman iHouse </view>
-      <image class='bannerStyle1'  src='https://sand.truman.edu/cis/WechatSource/Pictures/ihouse_bar.png'></image>
+      <text class="text_purple_emphasize">Truman iHouse</text>
+      <image class='bannerStyle1' src='https://sand.truman.edu/cis/WechatSource/Pictures/ihouse_bar.png'></image>
     </view>
   </view>
 
