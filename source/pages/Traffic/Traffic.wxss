@@ -1,27 +1,10 @@
-.foodFunRoute {
-  display: flex;
-  flex-direction: column;
-  height: 573rpx;
-  padding: 10px;
-  margin-bottom: 10px;
-  width: 750rpx;
-  box-sizing: border-box;
-  position: relative;
-  left: 13rpx;
-  top: -24rpx;
-  width: 714rpx;
-  height: 531rpx;
+.EatInKirksville
+{
+  background-color: #F1F1F1;
+  flex: 1;
 }
-
-.flightRoute {
-  width: 714rpx;
-  background: #d1d1d1;
-  height: 174rpx;
-  display: block;
-  box-sizing: border-box;
-  position: relative;
-  left: 31rpx;
-  top: -42rpx;
-  width: 678rpx;
-  height: 308rpx;
+.TrafficInKirksville
+{
+  background-color: #F0F0F0;
+  flex: 1;
 }

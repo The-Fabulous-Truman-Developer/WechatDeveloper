@@ -1,0 +1,54 @@
+<view class="weui-article">
+  <h1 class="weui-article__h1">欢迎来到 Kirksville!</h1>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <p class="weui-article__p">
+    这里是您理想的学术之地。到达这里以后你会发现整个小镇就是围绕着我们的校园而建。所以日常生活的便利店，餐馆，药房都是步行距离就可以到达。Truman iHouse也提供每周一次的去沃尔玛购物的班车，想要购买什么也都是应有尽有。
+  </p>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <p class="weui-article__p">
+    在校园内也有学校自己运营的便利店，分别在 West Campus 宿舍1楼和Dobson宿舍的1楼。当然，对于学生党来说，星巴克这类的咖啡肯定是不能少的。所以学校在图书馆内也有星巴克咖啡的分店，并且运营时间是早上7点到晚上8点，覆盖了大部分学生的需求。
+  </p>
+  <p>
+    <image src="https://sand.truman.edu/cis/WechatSource/Pictures/starbuck.png" alt="starbuck" mode="aspectFit" lazy-load="true" show-menu-by-longpress="true"/>
+  </p>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <p class="weui-article__p">
+    想家了？没问题！我们有Student Union Building, 简称SUB，在这栋楼里面有美食街，特别推荐Mein Bowl这家餐厅，让你远在美国也能感受到家乡的味道。
+  </p>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <p>
+    <image src="https://sand.truman.edu/cis/WechatSource/Pictures/mein-bowl.png" alt="starbuck" mode="aspectFit" lazy-load="true" show-menu-by-longpress="true"/>
+  </p>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <p class="weui-article__p">
+    换点口味？在SUB里你能品尝最经典的美洲食物，比如Chick-Fill-A
+  </p>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <p>
+    <image src="https://sand.truman.edu/cis/WechatSource/Pictures/chick-fill-a.png" alt="starbuck" mode="aspectFit" lazy-load="true" show-menu-by-longpress="true"/>
+  </p>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <p class="weui-article__p">
+    或者试试来自中美洲的热情！
+  </p>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <p>
+    <image src="https://sand.truman.edu/cis/WechatSource/Pictures/Tres-Habaneros.png" alt="starbuck" mode="aspectFit" lazy-load="true" show-menu-by-longpress="true"/>
+  </p>
+</view>

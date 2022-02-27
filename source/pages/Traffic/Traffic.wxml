@@ -1,4 +1,4 @@
 <view class="foodFunRoute">
-    <view style="background-color: #F1F1F1; flex: 1;" catchtap="EatPageChange">吃在Kirksville</view>
-    <view style="background-color: #F1F1F1; flex: 1;" catchtap="trafficInKirksville"> kirksville 的交通</view>
+    <view class="EatInKirksville" catchtap="EatPageChange">吃在Kirksville</view>
+    <view class="TrafficInKirksville" catchtap="trafficInKirksville"> kirksville 的交通</view>
 </view>
