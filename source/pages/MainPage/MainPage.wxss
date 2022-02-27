@@ -63,7 +63,7 @@
 .trumanAboutTitle{
   font-size: 30rpx;
   font-weight: bold;
-  margin-bottom: 33rpx;
+  margin-bottom: 15rpx;
   font-family:'Times New Roman', Times, serif;
   color: rgb(128, 0, 128);
   justify-content: center;
