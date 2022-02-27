@@ -20,11 +20,8 @@
 </view>
 
 <view class="school_tour">
-  <view class="section_first_square" catchtap="DormRoomPageChange">
-    <image class="innerBlock" src="https://sand.truman.edu/cis/WechatSource/Pictures/dorm_tour.png" />
-  </view>
-  <view>
-    <text>school building_tour</text>
+  <view catchtap="DormRoomPageChange">
+    <image class="bannerStyle1" src="https://sand.truman.edu/cis/WechatSource/Pictures/dorm_tour_bar.png" />
   </view>
 </view>
 
