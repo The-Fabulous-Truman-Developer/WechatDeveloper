@@ -40,7 +40,7 @@
 
     <view class="TrumanIHouse" catchtap="TrumanIHousePageChange">
       <view class="iHouse"> Truman iHouse </view>
-      <image class='bannerStyle1'  src='https://sand.truman.edu/cis/WechatSource/Pictures/CISbullet.png'></image>
+      <image class='bannerStyle1'  src='https://sand.truman.edu/cis/WechatSource/Pictures/ihouse_bar.png'></image>
     </view>
   </view>
 
