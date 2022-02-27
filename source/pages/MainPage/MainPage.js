@@ -26,10 +26,10 @@ Page({
     });
   },
 
-  kirkSurrPageChange: function () {
+  KirksvilleAboutPageChange: function () {
     wx.navigateTo({
       url:
-        "../MainPage/infoTrumanContainer/kirksvilleSurrounding/kirksvilleSurrounding",
+        "../MainPage/infoTrumanContainer/KirksvilleAbout/KirksvilleAbout",
     });
   },
   kirkTransPageChange: function () {
