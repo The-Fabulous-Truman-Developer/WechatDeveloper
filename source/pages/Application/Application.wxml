@@ -1,33 +1,39 @@
 <!--pages/Application.wxml-->
-<view>
+<view class="body">
+  <view>
     <view class="smallTag">申请须知</view>
-</view>
-
-<view class="infoApplication">
-  <view class="section_first_square" catchtap="todoListPageChange">
-      <image class='innerBlock'  src='https://sand.truman.edu/cis/WechatSource/Pictures/todo_list_2.png'></image>
   </view>
 
-  <view class="section_second_square" catchtap="passportVisaPageChange">
-    <image class='innerBlock'  src='https://sand.truman.edu/cis/WechatSource/Pictures/passportAndVisa.png'></image>
+  <view class="infoApplication">
+    <view class="section_first_square" catchtap="todoListPageChange">
+        <image class='innerBlock'  src='https://sand.truman.edu/cis/WechatSource/Pictures/todo_list_2.png'></image>
+    </view>
+
+    <view class="section_second_square" catchtap="passportVisaPageChange">
+      <image class='innerBlock'  src='https://sand.truman.edu/cis/WechatSource/Pictures/passportAndVisa.png'></image>
+    </view>
+  </view>
+
+  <view class="institutionalView">
+    <view class="tab">
+      <view class="{{item.isActive?'isActive':''}}" wx:for="{{ tabs }}" wx:key="id" data-index="{{index}}" bind:tap="changeTab">{{ item.name }}</view>
+    </view>
+    
+    <!-- block one content -->
+    <block wx:if="{{tabs[0].isActive}}">
+      <view class="school_tour">
+        <view catchtap="DormRoomPageChange">
+          <image class="bannerStyle1" src="https://sand.truman.edu/cis/WechatSource/Pictures/dorm_tour_bar.png" />
+        </view>
+      </view>
+    </block>
+
+    <!-- block two  content -->
+    <block wx:elif="{{tabs[1].isActive}}">
+      这个是未开始1
+    </block>
+
   </view>
 </view>
 
-<view>
-    <view class="smallTag">校内参观</view>
-</view>
-
-<view class="school_tour">
-  <view catchtap="DormRoomPageChange">
-    <image class="bannerStyle1" src="https://sand.truman.edu/cis/WechatSource/Pictures/dorm_tour_bar.png" />
-  </view>
-</view>
-
-<view class="institutionalView">
-  <view class="tab">
-    <view class="{{item.isActive?'isActive':''}}" wx:for="{{ tabs }}" wx:key="id" data-index="{{index}}" bind:tap="changeTab">{{ item.name }}</view>
-  </view>
-  <block wx:if="{{tabs[0].isActive}}">这个是未开始</block>
-  <block wx:elif="{{tabs[1].isActive}}">这个是未开始1</block>
-</view>
 
