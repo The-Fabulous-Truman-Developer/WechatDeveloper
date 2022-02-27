@@ -3,6 +3,30 @@
   <view>
     <text>\r\n</text>
   </view>
+  <p class="weui-article__p">
+    我们的申请截至日如下：如果希望在秋季学期入学，请在每年的6月1日之前提交您的申请。
+    如果是希望春季学期入学，请在每年的11月1日之前提交您的申请材料
+  </p>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <p class="weui-article__p">
+    秋季学期的起始为每年的八月，结束为每年的12月。春季学期的起始为每年的1月，结束为每年的五月。
+    如果您是新生、从另一所大学转学的学生、访问学生或交换学生，我们需要满足以下条件才能让您完全被录取。
+  </p>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <h2 class="weui-article__h2"> 完成您的申请表格 </h2>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <p class="weui-article__p">
+    您申请的第一步是在线完成杜鲁门申请。 提交申请后，请使用学生门户查看申请状态或上传其他材料。
+  </p>
+  <view>
+    <text>\r\n</text>
+  </view>
   <h2 class="weui-article__h2"> (1). 提交语言能力的相关证明文件 </h2>
   <view>
     <text>\r\n</text>

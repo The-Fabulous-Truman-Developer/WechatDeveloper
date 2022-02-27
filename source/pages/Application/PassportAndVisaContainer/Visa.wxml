@@ -1,34 +1,35 @@
 <view class="weui-article">
-  <h1 class="weui-article__h1"> 申请流程 </h1>
+  <h1 class="weui-article__h1"> 签证办理 </h1>
   <view>
     <text>\r\n</text>
   </view>
   <p class="weui-article__p">
-    当你收到学校来自校方邮寄给你的I-20以后，总的来说，签证申请由以下步骤组成
+    在您收到来自Truman发出的I-20表格以后，您需要做的第一件事便是在这个表格的Signature一栏签字
+    然后再去美国国务院网站填写非移民签证申请表格。在表格填写完成以后打印确认页并保管好。
   </p>
   <view>
     <text>\r\n</text>
   </view>
-  <view wx:for="{{messages}}"  >
-    {{item}}
-  </view>
+  <p class="weui-article__p">
+    下一步，去cgifederal.secure.force.com用邮箱注册一个新账号， 选择和DS-160填写的同样的使馆。使领馆。这时候你可以先选择一个离你最近的并且选择自己的学生类型。如果是本科新生请选择F-1，交换生请选择J-1。然后
+    设置密保问题。注意，在密保设置问题上，一定要将你的密保设置问题答案保存好，之后如果退出后回来续填要用到。
+  </p>
   <view>
     <text>\r\n</text>
   </view>
-  <h2 class="weui-article__h2"> F1签证申请材料 </h2>
+  <p class="weui-article__p">
+    进入 DS-160 填写页面，在右上角可以看到一个 Application Number（两个A打头的）,复制该号码并回到使馆约签网站上开始填写完整信息，填写前面复制的DS-160 A码。接着填写后面的 SEVIS号码， 这里要将你的 I20 左上角的 SEVIS ID 填入并提交预约表格。
+  </p>
   <view>
     <text>\r\n</text>
   </view>
-  <view wx:for="{{Materials}}"  >
-    {{item}}
-  </view>
+  <p class="weui-article__p">
+    约签表格填写完成后，可以付款并且确定具体的约签时间，下一步是打印缴费通知单。然后凭护照及缴费通知单在中信银行柜台、中信ATM或网上金融商城（银联网上银行）缴费160美金。在成功缴费后，系统自动生成唯一的收据号码，流程的最后会生成一个确认页，需要打印出来，面签的时候一并带上。
+  </p>
   <view>
     <text>\r\n</text>
   </view>
-<text>
-
-
-
-
-</text>
+  <p class="weui-article__p">
+    签证预约好时间之后别忘了还需要完成 SEVIS 缴费，这是交给美国国土安全局用来记录学生信息的一个费用,这个费用最迟在面签的前3天要完成，缴费之后也是需要打印收据，带着去面签的。
+  </p>
 </view>
