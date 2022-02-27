@@ -18,7 +18,7 @@
   <view class="infoTrumanContainer">
     <view class="trumanAbout" bindtap="trumanAboutPageChange">
       <text class="trumanAboutTitle"> 关于杜鲁门大学 </text>
-      <image class="trumanAboutIcon" src="https://sand.truman.edu/cis/WechatSource/Pictures/truman_icon.png"></image>
+      <image class="trumanAboutIcon" src="https://sand.truman.edu/cis/WechatSource/Pictures/truman_icon_trans.png"></image>
     </view>
 
     <view class="kirksvilleSurrounding" bindtap="kirkSurrPageChange">
