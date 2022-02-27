@@ -69,8 +69,8 @@
   justify-content: center;
 }
 .trumanAboutIcon{
-  width: 165rpx;
-  height: 90rpx;
+  width: 185rpx;
+  height: 110rpx;
 }
 
 .kirksvilleSurrounding{
