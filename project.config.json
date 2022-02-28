@@ -66,8 +66,8 @@
     "miniprogram": {
       "list": [
         {
-          "name": "pages/MainPage/MainPage",
-          "pathName": "pages/MainPage/MainPage",
+          "name": "Main",
+          "pathName": "/source/pages/MainPage/MainPage",
           "query": "",
           "scene": null
         }
