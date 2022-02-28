@@ -21,7 +21,7 @@
     
     <!-- block one content -->
     <block wx:if="{{tabs[0].isActive}}">
-      <view class="school_tour">
+      <view class="switch_tabs_style">
         <view catchtap="DormRoomPageChange">
           <image class="bannerStyle1" src="https://sand.truman.edu/cis/WechatSource/Pictures/dorm_tour_bar.png" />
         </view>
@@ -30,9 +30,19 @@
 
     <!-- block two  content -->
     <block wx:elif="{{tabs[1].isActive}}">
-      这个是未开始1
+      <view class="switch_tabs_style">
+        <view catchtap="EatPageChange">
+          <image class="bannerStyle1" src="https://sand.truman.edu/cis/WechatSource/Pictures/dining_in_kirk.png" />
+        </view>
+      </view>
+      
+      <view class="switch_tabs_style">
+        <view catchtap="trafficInKirksville">
+          <image class="bannerStyle1" src="https://sand.truman.edu/cis/WechatSource/Pictures/kirk_transport.png" />
+        </view>
+      </view>
     </block>
-
+    
   </view>
 </view>
 

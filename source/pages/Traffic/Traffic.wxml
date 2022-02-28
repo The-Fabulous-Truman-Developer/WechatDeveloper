@@ -1,4 +1,0 @@
-<view class="foodFunRoute">
-    <view class="EatInKirksville" catchtap="EatPageChange">吃在Kirksville</view>
-    <view class="TrafficInKirksville" catchtap="trafficInKirksville"> kirksville 的交通</view>
-</view>
