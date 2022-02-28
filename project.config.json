@@ -9,7 +9,7 @@
     "es6": true,
     "enhance": true,
     "postcss": true,
-    "preloadBackgroundData": true,
+    "preloadBackgroundData": false,
     "minified": true,
     "coverView": true,
     "autoAudits": true,
@@ -67,7 +67,7 @@
       "list": [
         {
           "name": "Main",
-          "pathName": "/source/pages/MainPage/MainPage",
+          "pathName": "pages/MainPage/MainPage",
           "query": "",
           "scene": null
         }
