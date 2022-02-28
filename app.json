@@ -51,12 +51,6 @@
         "pagePath": "source/pages/Application/Application"
       },
       {
-        "text": "交通与周边",
-        "iconPath": "static/images/TabBarIcon/火车站.png",
-        "selectedIconPath": "static/images/TabBarIcon/火车站_填充.png",
-        "pagePath": "source/pages/Traffic/Traffic"
-      },
-      {
         "text": "联系我们",
         "iconPath": "static/images/TabBarIcon/帮助.png",
         "selectedIconPath": "static/images/TabBarIcon/帮助_填充.png",
