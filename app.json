@@ -14,9 +14,8 @@
     "source/pages/Application/PassportAndVisaContainer/Visa",
     "source/pages/Application/TO-DOListContainer/TO-DOList",
     "source/pages/ContactUS/ContactUS",
-    "source/pages/Traffic/Traffic",
-    "source/pages/Traffic/Eat/eat",
-    "source/pages/Traffic/Route/route"
+    "source/pages/Application/Eat/eat",
+    "source/pages/Application/Route/route"
   ],
   "window":
   {

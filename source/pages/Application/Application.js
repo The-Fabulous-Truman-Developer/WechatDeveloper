@@ -17,6 +17,17 @@ Page({
       })
     },
 
+    EatPageChange: function () {
+      wx.navigateTo({
+        url: '../Application/Eat/eat',
+      });
+    },
+
+    trafficInKirksville: function () {
+      wx.navigateTo({
+        url: '../Application/Route/route',
+      });
+    },
 
     data: {
       // tab 栏数据
@@ -44,16 +55,6 @@ Page({
       });
       this.setData({
         tabs
-      });
-    },
-    EatPageChange: function () {
-      wx.navigateTo({
-        url: "./Eat/eat",
-      });
-    },
-    trafficInKirksville: function () {
-      wx.navigateTo({
-        url: "./Route/route",
       });
     },
 })
