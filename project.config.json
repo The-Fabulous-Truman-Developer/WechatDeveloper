@@ -12,9 +12,9 @@
     "preloadBackgroundData": false,
     "minified": true,
     "coverView": true,
-    "autoAudits": false,
+    "autoAudits": true,
     "showShadowRootInWxmlPanel": true,
-    "uglifyFileName": false,
+    "uglifyFileName": true,
     "checkInvalidKey": true,
     "uploadWithSourceMap": true,
     "compileHotReLoad": true,
@@ -66,7 +66,7 @@
     "miniprogram": {
       "list": [
         {
-          "name": "pages/MainPage/MainPage",
+          "name": "Main",
           "pathName": "pages/MainPage/MainPage",
           "query": "",
           "scene": null
