@@ -44,7 +44,6 @@ Page({
         },
       ]
     },
-  
     // 切换 tab栏 选项
     changeTab(e){
       console.log(e)
