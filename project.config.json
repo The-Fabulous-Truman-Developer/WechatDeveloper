@@ -27,7 +27,7 @@
       "disablePlugins": [],
       "outputPath": ""
     },
-    "useIsolateContext": true,
+    "useIsolateContext": false,
     "packNpmManually": false,
     "packNpmRelationList": [],
     "minifyWXSS": true,
