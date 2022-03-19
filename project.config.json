@@ -5,7 +5,8 @@
     "include": []
   },
   "setting": {
-    "urlCheck": true,
+    "urlCheck": false,
+    "useIsolateContext": false,
     "es6": true,
     "enhance": true,
     "postcss": true,
@@ -27,7 +28,6 @@
       "disablePlugins": [],
       "outputPath": ""
     },
-    "useIsolateContext": false,
     "packNpmManually": false,
     "packNpmRelationList": [],
     "minifyWXSS": true,
@@ -39,7 +39,7 @@
     "minifyWXML": true
   },
   "compileType": "miniprogram",
-  "libVersion": "2.19.2",
+  "libVersion": "2.23.0",
   "appid": "wxde90b48a2cf2dc25",
   "projectname": "TrumanStateUniveristyInformationPlatform",
   "cloudfunctionTemplateRoot": "",
