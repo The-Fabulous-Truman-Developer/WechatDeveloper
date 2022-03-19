@@ -1,3 +1,34 @@
-<view>
-  <p class="weiui__p"> 如果你还有什么问题，欢迎致电CIS </p>
+<view class="weui-article">
+  <h1 class="weui-article__h1"> 联系我们 </h1>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <h2 class="weui-article__h2">我们的邮寄地址</h2>
+  <text selectable="{{ true }}">
+    Center for International Students
+    Truman State University
+    Baldwin Hall 104
+    100 East Normal Avenue
+    Kirksville, Missouri 63501
+    USA
+  </text>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <h2 class="weui-article__h2">我们的工作时间</h2>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <p class="weui-article__p"> 周一到周五，美国中部时间早上8点到下午5点 </p>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <h2 class="weui-article__h2"> 我们的联系方式 </h2>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <p class="weui-article__p">
+  您可以通过邮件：<text selectable="{{ true }}"> intladmit@truman.edu </text> 或者可以通过电话：<text selectable="{{ true }}"> +1（660）785-7570 </text> 联系到我们.
+  </p>
+  <image src="https://sand.truman.edu/cis/WechatSource/Pictures/truman_icon_trans.png" alt="Truman" mode="aspectFit" lazy-load="true" show-menu-by-longpress="true"/>
 </view>
