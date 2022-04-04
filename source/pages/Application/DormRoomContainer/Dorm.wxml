@@ -52,9 +52,11 @@
   <view>
     <text>\r\n</text>
   </view>
+  <view class="picture">
   <p>
     <image src="https://sand.truman.edu/cis/WechatSource/Pictures/Brewer-Hall-June-2014-2_1000-1.jpg"></image>
   </p>
+  </view>
   <view class="picture_discribtion">
     <p>图1: Blanton-Nason-Brewer (BNB) Hall 左侧</p>
   </view>
@@ -73,9 +75,11 @@
   <view>
     <text>\r\n</text>
   </view>
-  <p>
-    <image src="https://sand.truman.edu/cis/WechatSource/Pictures/Centennial-Hall-1000x578-1.jpg"></image>
-  </p>
+  <view class="picture">
+    <p>
+      <image src="https://sand.truman.edu/cis/WechatSource/Pictures/Centennial-Hall-1000x578-1.jpg"></image>
+    </p>
+  </view>
   <view class="picture_discribtion">
     <p>图2: Centennial Hall 右侧</p>
   </view>
@@ -92,9 +96,11 @@
   <view>
     <text>\r\n</text>
   </view>
-  <p>
+  <view class="picture">
+    <p>
     <image src="https://sand.truman.edu/cis/WechatSource/Pictures/Dobson-Hall-Pet-Friendly-Housing_2.jpg"></image>
-  </p>
+    </p>
+  </view>
   <view class="picture_discribtion">
     <p>图3: Dobson Hall 正面</p>
   </view>
@@ -112,9 +118,11 @@
   <view>
     <text>\r\n</text>
   </view>
-  <p>
-    <image src="https://sand.truman.edu/cis/WechatSource/Pictures/Missouri-Hall-June-2014-1-min.jpg"></image>
-  </p>
+  <view class="picture">
+    <p>
+      <image src="https://sand.truman.edu/cis/WechatSource/Pictures/Missouri-Hall-June-2014-1-min.jpg"></image>
+    </p>
+  </view>
   <view>
   <view class="picture_discribtion">
     <p>图4: Missour Hall 右侧</p>
@@ -133,9 +141,11 @@
   <view>
     <text>\r\n</text>
   </view>
-  <p>
-    <image src="https://sand.truman.edu/cis/WechatSource/Pictures/RyleHallJune2013-2-50-min.jpg"></image>
-  </p>
+  <view class="picture">
+    <p>
+      <image src="https://sand.truman.edu/cis/WechatSource/Pictures/RyleHallJune2013-2-50-min.jpg"></image>
+    </p>
+  </view>
   <view class="picture_discribtion">
     <p>图5: Ryle Hall 正面</p>
   </view>
@@ -153,13 +163,16 @@
   <view>
     <text>\r\n</text>
   </view>
-  <p>
-    <image src="https://sand.truman.edu/cis/WechatSource/Pictures/West-Campus-Suites-1000x504-1.jpg"></image>
-  </p>
+  <view class="picture">
+    <p>
+      <image src="https://sand.truman.edu/cis/WechatSource/Pictures/West-Campus-Suites-1000x504-1.jpg"></image>
+    </p>
+  </view>
+
   <view class="picture_discribtion">
     <p>图6: West Campus 左侧</p>
   </view>
   <view class="truman_logo">
-    <image src="https://sand.truman.edu/cis/WechatSource/Pictures/truman_icon_trans.png"></image>
+    <image class="logo" src="https://sand.truman.edu/cis/WechatSource/Pictures/truman_icon_trans.png" ></image>
   </view>
 </view>
