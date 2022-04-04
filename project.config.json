@@ -6,43 +6,51 @@
   },
   "setting": {
     "urlCheck": false,
-    "useIsolateContext": false,
     "es6": true,
     "enhance": true,
     "postcss": true,
     "preloadBackgroundData": false,
     "minified": true,
+    "newFeature": false,
     "coverView": true,
+    "nodeModules": false,
     "autoAudits": true,
     "showShadowRootInWxmlPanel": true,
+    "scopeDataCheck": false,
     "uglifyFileName": true,
     "checkInvalidKey": true,
+    "checkSiteMap": true,
     "uploadWithSourceMap": true,
     "compileHotReLoad": true,
     "lazyloadPlaceholderEnable": false,
-    "useMultiFrameRuntime": false,
-    "useApiHook": false,
-    "useApiHostProcess": false,
+    "useMultiFrameRuntime": true,
+    "useApiHook": true,
+    "useApiHostProcess": true,
     "babelSetting": {
       "ignore": [],
       "disablePlugins": [],
       "outputPath": ""
     },
+    "useIsolateContext": false,
+    "userConfirmedBundleSwitch": false,
     "packNpmManually": false,
     "packNpmRelationList": [],
     "minifyWXSS": true,
     "disableUseStrict": false,
+    "minifyWXML": true,
     "showES6CompileOption": false,
     "useCompilerPlugins": false,
-    "ignoreUploadUnusedFiles": true,
-    "useStaticServer": true,
-    "minifyWXML": true
+    "ignoreUploadUnusedFiles": true
   },
   "compileType": "miniprogram",
   "libVersion": "2.23.0",
   "appid": "wxde90b48a2cf2dc25",
   "projectname": "TrumanStateUniveristyInformationPlatform",
   "cloudfunctionTemplateRoot": "",
+  "editorSetting": {
+    "tabIndent": "insertSpaces",
+    "tabSize": 2
+  },
   "condition": {
     "miniprogram": {
       "list": [
@@ -54,9 +62,5 @@
         }
       ]
     }
-  },
-  "editorSetting": {
-    "tabIndent": "insertSpaces",
-    "tabSize": 2
   }
 }

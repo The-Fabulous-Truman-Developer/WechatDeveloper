@@ -546,6 +546,29 @@ button.weui-vcode-btn {
 .weui-article__section {
   margin-bottom: 1.5em;
 }
+#lastmode
+{
+  font-size: 25rpx;
+}
+
+#or
+{
+  font-size: 50rpx;
+}
+
+.truman_logo
+{
+  height: 20px;
+  width:  50px;
+}
+.picture_discribtion
+{
+  font-size: 25rpx;
+  color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .weui-article__h1 {
   font-size: 22px;
   font-weight: 700;
@@ -554,6 +577,7 @@ button.weui-vcode-btn {
 }
 .weui-article__h2 {
   font-size: 17px;
+  color: #10aeff;
 }
 .weui-article__h2,
 .weui-article__h3 {
@@ -562,9 +586,14 @@ button.weui-vcode-btn {
   line-height: 1.4;
 }
 .weui-article__h3 {
-  font-size: 15px;
+  font-size: 18px;
+  color: darkblue;
 }
 .weui-article__p {
+  margin: 0 0 0.8em;
+}
+
+.weui-article__p_part {
   margin: 0 0 0.8em;
 }
 .weui-msg {
