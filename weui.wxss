@@ -551,7 +551,7 @@ button.weui-vcode-btn {
   font-size: 12px;
 }
 
-#or
+.or
 {
   font-size: 50rpx;
 }

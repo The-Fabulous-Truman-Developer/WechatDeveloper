@@ -11,7 +11,7 @@
   <view>
     <text>\r\n</text>
   </view>
-  <h3 class="weui-article__h2"><span id = "or">⩔</span> 宿舍楼介绍 </h3>
+  <h3 class="weui-article__h2"><span class="or">⩔</span> 宿舍楼介绍 </h3>
   <view>
     <text>\r\n</text>
   </view>
