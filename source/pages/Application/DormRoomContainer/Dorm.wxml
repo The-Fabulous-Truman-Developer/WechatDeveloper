@@ -1,31 +1,50 @@
 <view class="weui-article">
-  <h1 class="weui-article__h1"> 宿舍选择 </h1>
+  <h1 class="weui-article__h1"> 宿舍选择指南</h1>
+  <text>\r\n</text>
+  <text id="lastmode">杜鲁门州立大学CIS 2022-4-2 19:00</text>
   <view>
     <text>\r\n</text>
   </view>
   <p class="weui-article__p">
   大学生活是每个人人生中最重要的部分，特别是海外游子，温暖舒适的住宿环境既可以提供好的学习休闲环境，也可以缓解同学的思乡之苦。
-  杜鲁门大学总共有5栋公寓楼，为学生提供了多种不同的住宿选择，其中包括：单人间、双人间、三人间，有单间和套房，所有的房间均配备室内空调和Wi-Fi。
-  除此之外，每一楼层有厨房、洗衣房、公共浴室等公共区域，每栋公寓楼都设有风格不同的休息区和休闲社区，学生可以在学习之余即刻意参加丰富多彩的社区活动，也可以独自享受休闲时光。
   </p>
   <view>
     <text>\r\n</text>
   </view>
-  <h2 class="weui-article__h2">  宿舍楼介绍 </h2>
+  <h3 class="weui-article__h2"><span class="or">⩔</span> 宿舍楼介绍 </h3>
   <view>
     <text>\r\n</text>
   </view>
-  <p class="weui-article__p">
-    我们有各种风格的宿舍楼，从社区到套间到公寓我们应有尽有 - 包括洗衣设施，休息室，Wi-Fi和家具。所有建筑物均禁止吸烟。
-  </p>
+  <view>
+    <p class="weui-article__p">
+    杜鲁门州立大学总共有6栋公寓楼,风格各异，为学生提供了多种不同的住宿选择。其中包括：单人间、双人间、三人间，有单间和套房，所有的房间均配备室内空调和Wi-Fi。
+    </p>
+  </view>
   <view>
     <text>\r\n</text>
   </view>
-  <h3 class="weui-article__h3"> Blanton-Nason-Brewer Hall </h3>
+  <view>
+    <p class="weui-article__p"> 
+     除此之外，每一楼层有厨房、洗衣房、公共浴室等公共区域，每栋公寓楼都设有风格不同的休息区和休闲社区，学生可以在学习之余即刻意参加丰富多彩的社区活动，也可以独自享受休闲时光。
+     </p>
+  </view>
   <view>
     <text>\r\n</text>
   </view>
-  <p class="weui-article__p">
+  <view>
+    <p class="weui-article__p">
+      从社区到套间到公寓我们应有尽有 - 包括洗衣设施，休息室，自习室和家具。顺便说一句，所有建筑物均禁止吸烟。
+    </p>
+  </view>
+
+  <view>
+    <text>\r\n</text>
+  </view>
+  <h2 class="weui-article__h3">『 Blanton-Nason-Brewer Hall 』</h2>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <p class="weui-article__p_part">
     BNB 是一座三层楼的套房式宿舍，可容纳约 300 名居民。
     BNB于2007年重新装修，每层都有室内空调、洗衣设施、厨房和书房，一楼有大会议室，二楼和三楼有电脑工作站，还有电梯。
     BNB 同时是我们六个社团联谊会的所在地。
@@ -33,17 +52,22 @@
   <view>
     <text>\r\n</text>
   </view>
+  <view class="picture">
   <p>
     <image src="https://sand.truman.edu/cis/WechatSource/Pictures/Brewer-Hall-June-2014-2_1000-1.jpg"></image>
   </p>
+  </view>
+  <view class="picture_discribtion">
+    <p>图1: Blanton-Nason-Brewer (BNB) Hall 左侧</p>
+  </view>
   <view>
     <text>\r\n</text>
   </view>
-  <h3 class="weui-article__h3"> Centennial Hall </h3>
+  <h3 class="weui-article__h3">『 Centennial Hall 』</h3>
   <view>
     <text>\r\n</text>
   </view>
-  <p class="weui-article__p">
+  <p class="weui-article__p_part">
     CHall 是一座五层楼的套房式宿舍，可容纳约 600 名居民。 Centennial 以校园内最大的楼层休息室和餐厅的形式来提供了出色的公共空间。
     Centennial 在 2012-2014 年进行了翻新，更新了洗衣设施、厨房、学习区和计算机站。 Centennial 以其出色的社区氛围、每年秋天的 Festival
     Centennial 及其吉祥物香蕉而闻名。 但是Centennial 的房间内没有空调或地毯。
@@ -51,53 +75,65 @@
   <view>
     <text>\r\n</text>
   </view>
-  <p>
-    <image src="https://sand.truman.edu/cis/WechatSource/Pictures/Centennial-Hall-1000x578-1.jpg"></image>
-  </p>
+  <view class="picture">
+    <p>
+      <image src="https://sand.truman.edu/cis/WechatSource/Pictures/Centennial-Hall-1000x578-1.jpg"></image>
+    </p>
+  </view>
+  <view class="picture_discribtion">
+    <p>图2: Centennial Hall 右侧</p>
+  </view>
   <view>
     <text>\r\n</text>
   </view>
-  <h3 class="weui-article__h3">  Dobson Hall </h3>
+  <h3 class="weui-article__h3">『 Dobson Hall 』</h3>
   <view>
     <text>\r\n</text>
   </view>
-  <p class="weui-article__p">
+  <p class="weui-article__p_part">
     Dobson 是杜鲁门州立大学宠物友好社区的所在地。如果您是动物爱好者，这里是您居住的理想场所。Dobson毗邻柯克斯维尔的居民住宅区，其人行道非常适合遛狗。
   </p>
   <view>
     <text>\r\n</text>
   </view>
-  <p>
+  <view class="picture">
+    <p>
     <image src="https://sand.truman.edu/cis/WechatSource/Pictures/Dobson-Hall-Pet-Friendly-Housing_2.jpg"></image>
-  </p>
-  <view>
-    <text>\r\n</text>
+    </p>
+  </view>
+  <view class="picture_discribtion">
+    <p>图3: Dobson Hall 正面</p>
   </view>
   <view>
     <text>\r\n</text>
   </view>
-  <h3 class="weui-article__h3">  Missour Hall </h3>
+  <h3 class="weui-article__h3">『 Missour Hall 』</h3>
   <view>
     <text>\r\n</text>
   </view>
-  <p class="weui-article__p">
+  <p class="weui-article__p_part">
     Missouri Hall 是一座五层楼的宿舍楼，可容纳大约 500 名居民。密苏里州提供社区风格的生活，包括单人间、双人间和豪华双人间。
     Missouri Hall 的住宅空间于 2007 年进行了翻新，其中包括在每层楼增加空调、更新的厨房、社区休息室、学习休息室和洗衣房供学生使用。
   </p>
   <view>
     <text>\r\n</text>
   </view>
-  <p>
-    <image src="https://sand.truman.edu/cis/WechatSource/Pictures/Missouri-Hall-June-2014-1-min.jpg"></image>
-  </p>
+  <view class="picture">
+    <p>
+      <image src="https://sand.truman.edu/cis/WechatSource/Pictures/Missouri-Hall-June-2014-1-min.jpg"></image>
+    </p>
+  </view>
+  <view>
+  <view class="picture_discribtion">
+    <p>图4: Missour Hall 右侧</p>
+  </view>
+    <text>\r\n</text>
+  </view>
+  <h3 class="weui-article__h3">『 Ryle Hall 』</h3>
   <view>
     <text>\r\n</text>
   </view>
-  <h3 class="weui-article__h3">  Ryle Hall </h3>
-  <view>
-    <text>\r\n</text>
-  </view>
-  <p class="weui-article__p">
+  <p class="weui-article__p_part">
     Ryle Hall 是一个五层的宿舍楼，可容纳大约 500 名居民。 Ryle 提供套房式和社区式住房，包括单人间、双人间和三人间。
     Ryle 在 2010-2012 年间进行了翻新，每层楼都有空调、厨房、社区休息室和学习休息室供学生使用。
     Ryle 在大楼两侧的二楼设有两个洗衣设施。
@@ -105,24 +141,38 @@
   <view>
     <text>\r\n</text>
   </view>
-  <p>
-    <image src="https://sand.truman.edu/cis/WechatSource/Pictures/RyleHallJune2013-2-50-min.jpg"></image>
-  </p>
+  <view class="picture">
+    <p>
+      <image src="https://sand.truman.edu/cis/WechatSource/Pictures/RyleHallJune2013-2-50-min.jpg"></image>
+    </p>
+  </view>
+  <view class="picture_discribtion">
+    <p>图5: Ryle Hall 正面</p>
+  </view>
   <view>
     <text>\r\n</text>
   </view>
-  <h3 class="weui-article__h3"> West Campus </h3>
+  <h3 class="weui-article__h3">『 West Campus 』</h3>
   <view>
     <text>\r\n</text>
   </view>
-  <p class="weui-article__p">
+  <p class="weui-article__p_part">
     West Campus Suites (West) 是一个四层的宿舍楼，可容纳大约 400 名学生。
     West Campus Suites 是校园内最新的宿舍楼，每层楼都设有空调、厨房、社区休息室、学习休息室和洗衣房。
   </p>
   <view>
     <text>\r\n</text>
   </view>
-  <p>
-    <image src="https://sand.truman.edu/cis/WechatSource/Pictures/West-Campus-Suites-1000x504-1.jpg"></image>
-  </p>
+  <view class="picture">
+    <p>
+      <image src="https://sand.truman.edu/cis/WechatSource/Pictures/West-Campus-Suites-1000x504-1.jpg"></image>
+    </p>
+  </view>
+
+  <view class="picture_discribtion">
+    <p>图6: West Campus 左侧</p>
+  </view>
+  <view class="truman_logo">
+    <image class="logo" src="https://sand.truman.edu/cis/WechatSource/Pictures/truman_icon_trans.png" ></image>
+  </view>
 </view>
