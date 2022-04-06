@@ -1,0 +1,27 @@
+.tag
+{
+  font-size: x-large;
+  font-style: italic;
+  font-weight: bolder;
+  color: darkblue;
+}
+
+.i20
+{
+  height: 400px;
+}
+
+.ds160
+{
+  height: 350px;
+}
+
+.visa_apply
+{
+  height: 200px;
+}
+
+.app_id
+{
+  height: 400px;
+}
