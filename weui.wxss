@@ -563,7 +563,7 @@ button.weui-vcode-btn {
 }
 .logo
 {
-  height: 250rpx;
+  height: 350rpx;
 }
 
 .truman_logo
