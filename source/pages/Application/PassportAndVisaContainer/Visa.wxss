@@ -25,3 +25,8 @@
 {
   height: 400px;
 }
+
+.sevis_id
+{
+  height: 200px;
+}

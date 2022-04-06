@@ -57,7 +57,7 @@
     <text>\r\n</text>
   </view>
   <p>
-    DS-160表格需要填写的内容确很多，建议你提早填写，美国领事馆建议至少在赴美前三个月开始申请签证，也就是建议你三个月前要先完成DS-160表格！
+    DS-160表格需要填写的内容确很多，建议你提早填写，美国领事馆建议至少在赴美前三个月开始申请签证，也就是建议你三个月前要先完成DS-160表格！所以，申请杜鲁门州立大学，并拿到offer更要提前哦！
   </p>
   <view>
     <text>\r\n</text>
@@ -84,8 +84,11 @@
   <h3 class="tag">Step 4：申请码</h3>
   <text>\r\n</text>
   <p class="weui-article__p">
-    进入 DS-160 填写页面，在右上角可以看到一个申请码（“Application  ID”），复制该号码并回到使馆约签网站上开始填写完整信息，填写前面复制的申请码。接着填写后面的 SEVIS号码， 这里要将你的 I20 左上角的 SEVIS ID 填入并提交预约表格。
+    进入 DS-160 填写页面，在右上角可以看到一个申请码（“Application  ID”），复制该号码并回到使馆约签网站上开始填写完整信息，填写前面复制的申请码。
   </p>
+  <view>
+    <text>\r\n</text>
+  </view>
   <view class="picture">
   <p>
     <image class="app_id" src="https://sand.truman.edu/cis/WechatSource/Pictures/app_id.png"></image>
@@ -97,18 +100,45 @@
   <view>
     <text>\r\n</text>
   </view>
-  <h3 class="tag">Step 5</h3>
-  <text>\r\n</text>
   <p class="weui-article__p">
-    约签表格填写完成后，可以付款并且确定具体的约签时间，下一步是打印缴费通知单。然后凭护照及缴费通知单在中信银行柜台、中信ATM或网上金融商城（银联网上银行）缴费160美金。在成功缴费后，系统自动生成唯一的收据号码，流程的最后会生成一个确认页，需要打印出来，面签的时候一并带上。
+    紧接着，你需要填写你的 SEVIS ID，它在你的 I-20的左上角，填入后并提交预约表格。
   </p>
   <view>
     <text>\r\n</text>
   </view>
-  <h3 class="tag">Step 6</h3>
+  <view class="picture">
+  <p>
+    <image class="sevis_id" src="https://sand.truman.edu/cis/WechatSource/Pictures/sevis_id.png"></image>
+  </p>
+  </view>
+  <view class="picture_discribtion">
+    <p>“SEVIS  ID”</p>
+  </view>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <h3 class="tag">Step 5:缴纳签证费用</h3>
   <text>\r\n</text>
   <p class="weui-article__p">
-    签证预约好时间之后别忘了还需要完成 SEVIS 缴费，这是交给美国国土安全局用来记录学生信息的一个费用,这个费用最迟在面签的前3天要完成，缴费之后也是需要打印收据，带着去面签的。
+    约签表格填写完成后，可以付款并且确定具体的约签时间，下一步是打印缴费通知单。然后凭护照及缴费通知单在中信银行柜台、中信ATM或网上金融商城（银联网上银行）缴费160美元。在成功缴费后，系统自动生成唯一的收据号码，流程的最后会生成一个确认页，需要打印出来，面签的时候一并带上。
+  </p>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <h3 class="tag">Step 6：缴纳 SEVIS 费用</h3>
+  <text>\r\n</text>
+  <p class="weui-article__p">
+    完成 SEVIS 缴费是预约签证的最后一步。这是交给美国国土安全局用来记录学生信息的一个费用,这个费用最迟在面签的前3天要完成，缴费之后也是需要打印收据，面签的时候也需要带着。
+  </p>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <h3 class="tag">后言</h3>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <p class="weui-article__p">
+    小编在这里，希望学弟，学妹们在能顺利通过签证！如果你还有什么不懂的，可以发送电子邮件给杜鲁门州立大学的国际招生部（“intladmit@truman.edu”），他们会耐心的为你们解答你的疑难。
   </p>
   <view class="truman_logo">
     <image class="logo" src="https://sand.truman.edu/cis/WechatSource/Pictures/truman_icon_trans.png" ></image>
