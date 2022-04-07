@@ -18,7 +18,7 @@
   <text>\r\n</text>
   <text>\r\n</text>
   <p class="weui-article__p">
-    如果你是未成年人（18岁以下），还需要在你的监护人在“Name of parent or guardian”那一栏选择是家长（“parent”） 或者监护人（“guardian”），并在签名（“Signature”）签上他们的名字。别忘了还有地址（“Address”）和 日期（“Date”）。
+    如果你是未成年人（18岁以下），还需要在你的父母或者监护人在（“Name of parent or guardian”）那一栏选择是父母（“parent”） 或者监护人（“guardian”），并在签名（“Signature”）签上他们的名字。别忘了还有地址（“Address”）和 日期（“Date”）。
   </p>
   <text>\r\n</text>
   <text>\r\n</text>
@@ -140,6 +140,9 @@
   <p class="weui-article__p">
     小编在这里，希望学弟，学妹们在能顺利通过签证！如果你还有什么不懂的，可以发送电子邮件给杜鲁门州立大学的国际招生部（“intladmit@truman.edu”），他们会耐心的为你们解答你的疑难。
   </p>
+  <view>
+    <text>\r\n</text>
+  </view>
   <view class="truman_logo">
     <image class="logo" src="https://sand.truman.edu/cis/WechatSource/Pictures/truman_icon_trans.png" ></image>
   </view>

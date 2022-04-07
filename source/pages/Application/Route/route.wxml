@@ -1,18 +1,97 @@
 <view class="weui-article">
   <h1 class="weui-article__h1"> 在Kirksville的交通 </h1>
+  <text>\r\n</text>
+  <view>
+    <text id="lastmode">杜鲁门州立大学CIS 2022-4-2 19:00</text>
+  </view>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <h3 class="weui-article__h2"><span class="or">⩔</span> 地理位置 </h3>
   <view>
     <text>\r\n</text>
   </view>
   <p class="weui-article__p">
-    杜鲁门大学位于美国的中北部地区密苏里州的柯克斯维尔市。
-    该市始建于1841年，因最早的移民柯克先生而得名，寓意为教堂的城市，是一个富有浓厚美国文化色彩的地方。
-    这里四季分明，你可以享受夏天的阳光沙滩，也可以欣赏冬天的白雪皑皑，可以听到春雷滚滚，也有秋风瑟瑟，不同的季节带给你不一样的感受。
-    假期一定要去旅游，附近的目的地有圣路易斯，堪萨斯城，爱荷华州的首府德美茵，芝加哥，五彩绚烂的大城市，多元文化的冲击使你的留学生活更加完美。
+    杜鲁门州立大学位于美国的中北部地区密苏里州（“Missouri State”）阿代尔县（“Adair County”）柯克斯维尔市（“Kirksville City”）。「小贴士：美国的县级别要比市高」
   </p>
   <view>
     <text>\r\n</text>
   </view>
-  <p class="weui-article__h2">
+  <view class="picture">
+  <p>
+    <image src="https://sand.truman.edu/cis/WechatSource/Pictures/kirk01.jpg"></image>
+  </p>
+  </view>
+  <view class="picture_discribtion">
+    <p>柯克斯维尔的市中心（dwontown）</p>
+  </view>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <p class="weui-article__p">
+    该市始建于1841年，因最早的移民者柯克先生而得名，寓意为“教堂的城市”。柯克斯维尔市是一个富有浓厚美国文化色彩的地方。
+  </p>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <p class="weui-article__p">
+    这里四季分明，你可以享受夏天的阳光沙滩，也可以欣赏冬天的白雪皑皑，可以听到春雷滚滚，也有秋风瑟瑟，不同的季节带给你不一样的感受。
+  </p>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <view class="picture">
+  <p>
+    <image src="https://sand.truman.edu/cis/WechatSource/Pictures/kirk_chun.jpeg"></image>
+  </p>
+  </view>
+  <view class="picture_discribtion">
+    <p>春</p>
+  </view>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <view class="picture">
+  <p>
+    <image src="https://sand.truman.edu/cis/WechatSource/Pictures/school_xia.jpeg"></image>
+  </p>
+  </view>
+  <view class="picture_discribtion">
+    <p>夏</p>
+  </view>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <view class="picture">
+  <p>
+    <image src="https://sand.truman.edu/cis/WechatSource/Pictures/kirk_qiu.JPG"></image>
+  </p>
+  </view>
+  <view class="picture_discribtion">
+    <p>秋</p>
+  </view>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <view class="picture">
+    <p>
+      <image src="https://sand.truman.edu/cis/WechatSource/Pictures/kirk_dong.jpeg"></image>
+    </p>
+  </view>
+  <view class="picture_discribtion">
+    <p>冬</p>
+  </view>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <p class="weui-article__p">
+    假期一定要出去旅游，附近有很多旅游胜地：圣路易斯（“St. Louis”），堪萨斯城 （“Kansas City”），
+    爱荷华州的首府得梅因（“Des Moines”），大城市芝加哥（“Chicago”）等等。多元文化的冲击使你的留学生活更加完美。
+  </p>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <p class="weui-article__p">
     2020年新冠肺炎疫情席卷了全世界，我们的生活和学习不同程度都受了影响。
     为了给留学生营造更安全和放心的学习生活环境，杜鲁门大学全体师生做出了最大的努力。
     留学生可以无需预约，随时安排接种疫苗，
@@ -32,6 +111,9 @@
     不会驾驶在美国是极其影响日常生活的，尤其是柯克斯维尔这样的大学城，所以笔者建议，最好在国内提前学习驾驶技术，以便抵达学校之后轻松考取美国驾照。
     当然不会也没有关系，学校也会组织每周末的由学长和老师们驱车的沃尔玛购物之行，也可以通过网购等方式购买需要的物品。
   </p>
+  <view>
+    <text>\r\n</text>
+  </view>
   <p>
     <image src="https://sand.truman.edu/cis/WechatSource/Pictures/maps.png" alt="maps" mode="widthFix" lazy-load="true" show-menu-by-longpress="true"/>
   </p>
