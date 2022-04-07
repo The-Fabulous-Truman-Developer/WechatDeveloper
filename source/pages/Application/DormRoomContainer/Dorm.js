@@ -4,7 +4,24 @@ Page({
    * 页面的初始数据
    */
   data: {
+    imgList : 
+    [
+      "https://sand.truman.edu/cis/WechatSource/Pictures/Brewer-Hall-June-2014-2_1000-1.jpg",
+      "https://sand.truman.edu/cis/WechatSource/Pictures/Centennial-Hall-1000x578-1.jpg",
+      "https://sand.truman.edu/cis/WechatSource/Pictures/Dobson-Hall-Pet-Friendly-Housing_2.jpg",
+      "https://sand.truman.edu/cis/WechatSource/Pictures/Missouri-Hall-June-2014-1-min.jpg",
+      "https://sand.truman.edu/cis/WechatSource/Pictures/RyleHallJune2013-2-50-min.jpg",
+      "https://sand.truman.edu/cis/WechatSource/Pictures/West-Campus-Suites-1000x504-1.jpg"
+    ]
 
+  },
+
+  click_img : function(event) {
+    let currentUrl = event.currentTarget.dataset.src
+    wx.previewImage({
+      current: currentUrl, // 当前显示图片的http链接
+      urls: this.data.imgList // 需要预览的图片http链接列表
+    })
   },
 
   /**
