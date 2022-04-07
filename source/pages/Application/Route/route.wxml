@@ -19,6 +19,23 @@
   </view>
   <view class="picture">
   <p>
+    <image src="https://sand.truman.edu/cis/WechatSource/Pictures/kirk02.jpg"></image>
+  </p>
+  </view>
+  <view class="picture_discribtion">
+    <p>柯村的傍晚</p>
+  </view>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <p class="weui-article__p">
+    该市始建于1841年，因最早的移民者柯克先生而得名，寓意为“教堂的城市”。柯克斯维尔市是一个富有浓厚美国文化色彩的地方。
+  </p>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <view class="picture">
+  <p>
     <image src="https://sand.truman.edu/cis/WechatSource/Pictures/kirk01.jpg"></image>
   </p>
   </view>
@@ -28,9 +45,6 @@
   <view>
     <text>\r\n</text>
   </view>
-  <p class="weui-article__p">
-    该市始建于1841年，因最早的移民者柯克先生而得名，寓意为“教堂的城市”。柯克斯维尔市是一个富有浓厚美国文化色彩的地方。
-  </p>
   <view>
     <text>\r\n</text>
   </view>
@@ -85,8 +99,7 @@
     <text>\r\n</text>
   </view>
   <p class="weui-article__p">
-    假期一定要出去旅游，附近有很多旅游胜地：圣路易斯（“St. Louis”），堪萨斯城 （“Kansas City”），
-    爱荷华州的首府得梅因（“Des Moines”），大城市芝加哥（“Chicago”）等等。多元文化的冲击使你的留学生活更加完美。
+    假期一定要出去旅游，附近有很多旅游胜地：圣路易斯（“St. Louis”），堪萨斯城 （“Kansas City”），爱荷华州的首府得梅因（“Des Moines”），大城市芝加哥（“Chicago”）等等。多元文化的冲击使你的留学生活更加完美。
   </p>
   <view>
     <text>\r\n</text>
@@ -130,4 +143,7 @@
     沿着63号国道一路向下走就可以走到位于堪萨斯城和圣路易斯中间的哥伦比亚，也是Truman学子们最常造访的城市。不但有琳琅满目的餐厅，购物中心。
     更具吸引力的则是香港超市和数十家珍珠奶茶店。70号国道则联通着堪萨斯城，哥伦比亚和圣路易斯。向左走是堪萨斯城，向右走是圣路易斯，而沿着63号国道继续向下走则是密苏里州首府杰斐逊城，是一座有着悠久的历史的城市，在闲暇时间或放假时不妨前去观光。
   </p>
+  <view class="truman_logo">
+    <image class="logo" src="https://sand.truman.edu/cis/WechatSource/Pictures/truman_icon_trans.png" ></image>
+  </view>
 </view>
