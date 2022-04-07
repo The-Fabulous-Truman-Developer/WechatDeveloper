@@ -566,6 +566,11 @@ button.weui-vcode-btn {
   height: 350rpx;
 }
 
+.cis_logo
+{
+  width: 450rpx;
+}
+
 .truman_logo
 {
   display: flex;

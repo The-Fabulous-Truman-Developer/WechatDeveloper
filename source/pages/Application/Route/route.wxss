@@ -1,1 +1,5 @@
 /* source/pages/Application/Route/route.wxss */
+.wroning
+{
+  color: brown;
+}

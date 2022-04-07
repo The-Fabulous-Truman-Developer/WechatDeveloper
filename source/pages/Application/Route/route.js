@@ -6,6 +6,17 @@ Page({
    */
   data: {
 
+    imgList : 
+    [
+      "https://sand.truman.edu/cis/WechatSource/Pictures/maps.png",
+    ]
+  },
+  click_img : function(event) {
+    let currentUrl = event.currentTarget.dataset.src
+    wx.previewImage({
+      current: currentUrl, // 当前显示图片的http链接
+      urls: this.data.imgList // 需要预览的图片http链接列表
+    })
   },
 
   /**
