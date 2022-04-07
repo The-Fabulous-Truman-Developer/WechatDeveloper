@@ -196,15 +196,64 @@
     <text>\r\n</text>
   </view>
   <p class="weui-article__p">
-    柯克斯维尔处于美国的中西部地区，有浓厚的美式田园风光，在其西边不远就是密苏里州的千丘州立公园（"Thousand Hills States Park"），作为野餐，烧烤，聚会的地方的不二之选。中心的一片湖可以划船，公园内也常常有鹿，鹤等国内不常见到的动物。
+    柯克斯维尔处于美国的中西部地区，有浓厚的美式田园风光，在其西边不远就是密苏里州的千丘州立公园（"Thousand Hills States Park"）。中心的一片湖可以划船，公园内也常常有鹿，鹤等国内不常见到的动物。
   </p>
   <view>
     <text>\r\n</text>
   </view>
-
+  <view class="picture">
+    <p>
+      <image src="{{imgList[10]}}" alt="maps" mode="widthFix" lazy-load="true" show-menu-by-longpress="true"bindtap="click_img" data-src="{{imgList[10]}}"/>
+    </p>
+  </view>
+  <view class="picture_discribtion">
+    <p>千丘州立公园（"Thousand Hills States Park"）</p>
+  </view>
+  <view>
+    <text>\r\n</text>
+  </view>
   <p class="weui-article__p">
-    放远一些来看的话，柯克斯维尔的位置可以看作是一个正方形，四个顶点分别是左上的爱荷华州首府得梅因城，右上的达文波特，左下的堪萨斯城和右下的圣路易斯。
+    千丘州立公园作为学生们野餐，烧烤，聚会的地方是不二之选。
   </p>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <view class="picture">
+    <p>
+      <image class=" bbq" src="{{imgList[11]}}" alt="maps" mode="widthFix" lazy-load="true" show-menu-by-longpress="true"bindtap="click_img" data-src="{{imgList[11]}}"/>
+    </p>
+  </view>
+  <view class="picture_discribtion">
+    <p>学生在千丘州立公园做的烧烤</p>
+  </view>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <view class="picture">
+    <p>
+      <image class=" bbq" src="{{imgList[12]}}" alt="maps" mode="widthFix" lazy-load="true" show-menu-by-longpress="true"bindtap="click_img" data-src="{{imgList[12]}}"/>
+    </p>
+  </view>
+  <view class="picture_discribtion">
+    <p>“帅就完事”</p>
+  </view>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <p class="weui-article__p">
+    放远一些来看的话，柯克斯维尔的位置可以看作是一个正方形，四个顶点分别是左上的爱荷华州首府得梅因城（“Des Moines”），右上的达文波特（“Davenport”），左下的堪萨斯城（“Kansas City”）和右下的圣路易斯（“St. Louis”）。
+  </p>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <view class="picture">
+    <p>
+      <image class=" bbq" src="{{imgList[13]}}" alt="maps" mode="widthFix" lazy-load="true" show-menu-by-longpress="true"bindtap="click_img" data-src="{{imgList[13]}}"/>
+    </p>
+  </view>
+  <view class="picture_discribtion">
+    <p>Truman学子们最常造访的城市</p>
+  </view>
   <view>
     <text>\r\n</text>
   </view>
@@ -214,8 +263,41 @@
   <view>
     <text>\r\n</text>
   </view>
+  <view class="picture">
+    <p>
+      <image class=" bbq" src="{{imgList[14]}}" alt="maps" mode="widthFix" lazy-load="true" show-menu-by-longpress="true"bindtap="click_img" data-src="{{imgList[14]}}"/>
+    </p>
+  </view>
+  <view class="picture_discribtion">
+    <p>哥伦比亚的奶茶店</p>
+  </view>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <view class="picture">
+    <p>
+      <image class=" bbq" src="{{imgList[15]}}" alt="maps" mode="widthFix" lazy-load="true" show-menu-by-longpress="true"bindtap="click_img" data-src="{{imgList[15]}}"/>
+    </p>
+  </view>
+  <view class="picture_discribtion">
+    <p>🥤要来一杯吗？</p>
+  </view>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <view class="picture">
+    <p>
+      <image class=" bbq" src="{{imgList[16]}}" alt="maps" mode="widthFix" lazy-load="true" show-menu-by-longpress="true"bindtap="click_img" data-src="{{imgList[16]}}"/>
+    </p>
+  </view>
+  <view class="picture_discribtion">
+    <p>香港超市，冲冲冲！</p>
+  </view>
+  <view>
+    <text>\r\n</text>
+  </view>
   <p class="weui-article__p">
-    70号国道则联通着堪萨斯城，哥伦比亚和圣路易斯。向左走是堪萨斯城，向右走是圣路易斯，而沿着63号国道继续向下走则是密苏里州首府杰斐逊城，是一座有着悠久的历史的城市，在闲暇时间或放假时不妨前去观光。
+    70号国道则横贯着三座城市，分别是堪萨斯城，哥伦比亚和圣路易斯。向左走是堪萨斯城，向右走是圣路易斯，而沿着63号国道继续向下走则是密苏里州首府杰斐逊城（“Jefferson City”），是一座有着悠久的历史的城市，在闲暇时间或放假时不妨前去观光。
   </p>
   <view>
     <text>\r\n</text>

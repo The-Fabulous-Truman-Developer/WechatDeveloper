@@ -16,7 +16,15 @@ Page({
       "https://sand.truman.edu/cis/WechatSource/Pictures/kirk_dong.jpeg",
       "https://sand.truman.edu/cis/WechatSource/Pictures/cars.jpeg",
       "https://sand.truman.edu/cis/WechatSource/Pictures/cars02.jpeg",
-      "https://sand.truman.edu/cis/WechatSource/Pictures/drive_license.JPG"
+      "https://sand.truman.edu/cis/WechatSource/Pictures/drive_license.JPG",
+      "https://sand.truman.edu/cis/WechatSource/Pictures/qian_shan.jpg",
+      "https://sand.truman.edu/cis/WechatSource/Pictures/bbq.JPG",
+      "https://sand.truman.edu/cis/WechatSource/Pictures/student_life.JPG",
+      "https://sand.truman.edu/cis/WechatSource/Pictures/kirk_square.png",
+      "https://sand.truman.edu/cis/WechatSource/Pictures/naicha01.JPG",
+      "https://sand.truman.edu/cis/WechatSource/Pictures/naicha02.JPG",
+      "https://sand.truman.edu/cis/WechatSource/Pictures/chaoshi.JPG"
+
     ]
   },
   click_img : function(event) {
