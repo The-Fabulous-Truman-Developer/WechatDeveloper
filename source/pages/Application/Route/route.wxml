@@ -34,7 +34,7 @@
   </view>
   <view class="picture">
   <p>
-    <image src="https://sand.truman.edu/cis/WechatSource/Pictures/kirk01.jpg" alt="maps" mode="widthFix" lazy-load="true" show-menu-by-longpress="true"></image>
+    <image src="{{imgList[1]}}" alt="maps" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[1]}}"/>
   </p>
   </view>
   <view class="picture_discribtion">
@@ -45,7 +45,7 @@
   </view>
   <view class="picture">
   <p>
-    <image src="https://sand.truman.edu/cis/WechatSource/Pictures/kirk02.jpg" alt="maps" mode="widthFix" lazy-load="true" show-menu-by-longpress="true"></image>
+    <image src="{{imgList[2]}}" alt="maps" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[2]}}"/>
   </p>
   </view>
   <view class="picture_discribtion">
@@ -62,7 +62,7 @@
   </view>
   <view class="picture">
   <p>
-    <image src="https://sand.truman.edu/cis/WechatSource/Pictures/kirk_chun.jpeg" alt="maps" mode="widthFix" lazy-load="true" show-menu-by-longpress="true"></image>
+    <image src="{{imgList[3]}}" alt="maps" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[3]}}"/>
   </p>
   </view>
   <view class="picture_discribtion">
@@ -73,7 +73,8 @@
   </view>
   <view class="picture">
   <p>
-    <image src="https://sand.truman.edu/cis/WechatSource/Pictures/school_xia.jpeg" alt="maps" mode="widthFix" lazy-load="true" show-menu-by-longpress="true"></image>
+    <image src="{{imgList[4]}}" alt="maps" mode="widthFix" lazy-load="true" show-menu-by-longpress="true"bindtap="click_img" data-src="{{imgList[4]}}"
+    />
   </p>
   </view>
   <view class="picture_discribtion">
@@ -84,7 +85,8 @@
   </view>
   <view class="picture">
   <p>
-    <image src="https://sand.truman.edu/cis/WechatSource/Pictures/kirk_qiu.JPG" alt="maps" mode="widthFix" lazy-load="true" show-menu-by-longpress="true"></image>
+    <image src="{{imgList[5]}}" alt="maps" mode="widthFix" lazy-load="true" show-menu-by-longpress="true"bindtap="click_img" data-src="{{imgList[5]}}"
+    />
   </p>
   </view>
   <view class="picture_discribtion">
@@ -95,7 +97,7 @@
   </view>
   <view class="picture">
     <p>
-      <image src="https://sand.truman.edu/cis/WechatSource/Pictures/kirk_dong.jpeg" alt="maps" mode="widthFix" lazy-load="true" show-menu-by-longpress="true"></image>
+      <image src="{{imgList[6]}}" alt="maps" mode="widthFix" lazy-load="true" show-menu-by-longpress="true"bindtap="click_img" data-src="{{imgList[6]}}"/>
     </p>
   </view>
   <view class="picture_discribtion">
@@ -118,7 +120,7 @@
   </view>
   <h3 class="weui-article__h2 wroning"><span class="or">⩔</span>关于疫情😷</h3>
   <text>\r\n</text>
-  <p class="weui-article__p">
+  <p class="weui-article__p important">
     2020年新冠肺炎疫情席卷了全世界，我们的生活和学习不同程度都受了影响。
     为了给留学生营造更安全和放心的学习生活环境，杜鲁门大学全体师生做出了最大的努力。
     留学生可以无需预约，随时安排接种疫苗.
@@ -126,7 +128,7 @@
   <view>
     <text>\r\n</text>
   </view>
-  <p class="weui-article__p">
+  <p class="weui-article__p important">
     根据安全协议，如果同学需要隔离或者就医，学校会安排专人负责照料学生的饮食起居，同时教授也会特别辅导，免除您的后顾之忧。
   </p>
   <view>
@@ -145,7 +147,7 @@
   </view>
   <view class="picture">
     <p>
-      <image src="https://sand.truman.edu/cis/WechatSource/Pictures/cars.jpeg"></image>
+      <image src="{{imgList[7]}}" alt="maps" mode="widthFix" lazy-load="true" show-menu-by-longpress="true"bindtap="click_img" data-src="{{imgList[7]}}"/>
     </p>
   </view>
   <view class="picture_discribtion">
@@ -156,7 +158,7 @@
   </view>
   <view class="picture">
     <p>
-      <image src="https://sand.truman.edu/cis/WechatSource/Pictures/cars02.jpeg" alt="maps" mode="widthFix" lazy-load="true" show-menu-by-longpress="true"></image>
+      <image src="{{imgList[8]}}" alt="maps" mode="widthFix" lazy-load="true" show-menu-by-longpress="true"bindtap="click_img" data-src="{{imgList[8]}}"/>
     </p>
   </view>
   <view class="picture_discribtion">
@@ -171,6 +173,17 @@
   <view>
     <text>\r\n</text>
   </view>
+  <view class="picture">
+    <p>
+      <image src="{{imgList[9]}}" alt="maps" mode="widthFix" lazy-load="true" show-menu-by-longpress="true"bindtap="click_img" data-src="{{imgList[9]}}"/>
+    </p>
+  </view>
+  <view class="picture_discribtion">
+    <p>密苏里驾驶证</p>
+  </view>
+  <view>
+    <text>\r\n</text>
+  </view> 
   <p class="weui-article__p">
     当然不会也没有关系，学长和老师们也会组织每周末的沃尔玛购物之行，你也可以通过网购等方式购买日常用品。
   </p>
@@ -183,11 +196,12 @@
     <text>\r\n</text>
   </view>
   <p class="weui-article__p">
-    柯克斯维尔处于美国的中西部地区，有浓厚的美式田园风光，在其西边不远就是密苏里州的千丘州立公园，作为野餐，烧烤，聚会的地方再好不过了。中心的一片湖可以划船，公园内也常常有鹿，鹤等国内不常见到的动物。
+    柯克斯维尔处于美国的中西部地区，有浓厚的美式田园风光，在其西边不远就是密苏里州的千丘州立公园("Thousand Hills States Park")，作为野餐，烧烤，聚会的地方的不二之选。中心的一片湖可以划船，公园内也常常有鹿，鹤等国内不常见到的动物。
   </p>
   <view>
     <text>\r\n</text>
   </view>
+
   <p class="weui-article__p">
     放远一些来看的话，柯克斯维尔的位置可以看作是一个正方形，四个顶点分别是左上的爱荷华州首府得梅因城，右上的达文波特，左下的堪萨斯城和右下的圣路易斯。
   </p>

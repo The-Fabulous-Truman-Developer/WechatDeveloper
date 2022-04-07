@@ -3,3 +3,8 @@
 {
   color: brown;
 }
+
+.important
+{
+  font-weight: bolder;
+}

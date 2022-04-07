@@ -24,7 +24,7 @@
   <text>\r\n</text>
   <view class="picture">
   <p>
-    <image class="i20" src="https://sand.truman.edu/cis/WechatSource/Pictures/i20_exp.png"></image>
+    <image class="i20" src="{{imgList[0]}}"mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[0]}}"/>
   </p>
   </view>
   <view class="picture_discribtion">
@@ -47,7 +47,7 @@
   </view>
   <view class="picture">
   <p>
-    <image class="ds160" src="https://sand.truman.edu/cis/WechatSource/Pictures/ds160.png"></image>
+    <image class="ds160" src="{{imgList[1]}}" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[1]}}"/>
   </p>
   </view>
   <view class="picture_discribtion">
@@ -72,7 +72,7 @@
   </view>
   <view class="picture">
   <p>
-    <image class="visa_apply" src="https://sand.truman.edu/cis/WechatSource/Pictures/visa_apply.png"></image>
+    <image class="visa_apply" src="{{imgList[2]}}"lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[2]}}"/>
   </p>
   </view>
   <view class="picture_discribtion">
@@ -91,7 +91,7 @@
   </view>
   <view class="picture">
   <p>
-    <image class="app_id" src="https://sand.truman.edu/cis/WechatSource/Pictures/app_id.png"></image>
+    <image class="app_id" src="{{imgList[3]}}"lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[3]}}"/>
   </p>
   </view>
   <view class="picture_discribtion">
@@ -108,7 +108,7 @@
   </view>
   <view class="picture">
   <p>
-    <image class="sevis_id" src="https://sand.truman.edu/cis/WechatSource/Pictures/sevis_id.png"></image>
+    <image class="sevis_id" src="{{imgList[4]}}"lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[4]}}"/>
   </p>
   </view>
   <view class="picture_discribtion">

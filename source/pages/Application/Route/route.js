@@ -5,10 +5,18 @@ Page({
    * 页面的初始数据
    */
   data: {
-
     imgList : 
     [
       "https://sand.truman.edu/cis/WechatSource/Pictures/maps.png",
+      "https://sand.truman.edu/cis/WechatSource/Pictures/kirk01.jpg",
+      "https://sand.truman.edu/cis/WechatSource/Pictures/kirk02.jpg",
+      "https://sand.truman.edu/cis/WechatSource/Pictures/kirk_chun.jpeg",
+      "https://sand.truman.edu/cis/WechatSource/Pictures/school_xia.jpeg",
+      "https://sand.truman.edu/cis/WechatSource/Pictures/kirk_qiu.JPG",
+      "https://sand.truman.edu/cis/WechatSource/Pictures/kirk_dong.jpeg",
+      "https://sand.truman.edu/cis/WechatSource/Pictures/cars.jpeg",
+      "https://sand.truman.edu/cis/WechatSource/Pictures/cars02.jpeg",
+      "https://sand.truman.edu/cis/WechatSource/Pictures/drive_license.JPG"
     ]
   },
   click_img : function(event) {
