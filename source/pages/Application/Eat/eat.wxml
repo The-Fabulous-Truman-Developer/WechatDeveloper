@@ -30,7 +30,7 @@
   </view>
   <view class="picture">
   <p>
-    <image src="https://sand.truman.edu/cis/WechatSource/Pictures/schoolrest01.jpeg" alt="chenpacace" mode="widthFix" lazy-load="true" show-menu-by-longpress="true"/>
+    <image src="{{imgList[0]}}"lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[0]}}"/>
   </p>
   </view>
   <view class="picture_discribtion">
@@ -51,7 +51,7 @@
   </view>
   <view class="picture">
   <p>
-    <image src="https://sand.truman.edu/cis/WechatSource/Pictures/schoolrest02.jpeg" alt="chenpacace" mode="widthFix" lazy-load="true" show-menu-by-longpress="true"/>
+    <image src="{{imgList[1]}}"lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[1]}}"/>
   </p>
   </view>
   <view class="picture_discribtion">
@@ -65,19 +65,22 @@
     <text>\r\n</text>
   </view>
   <p class="weui-article__p">
-    学校的两个便利店 (C store) 分别位于Dobson Hall与West Campus，便利店可以使用meal和dining dollar支付。 如果你用meal 去支付的话，每个meal都会被折半，约为4美元。现金和信用卡也是可以在便利店使用哦。
+    学校的两个便利店（“C Store”）分别位于Dobson Hall与West Campus，便利店可以使用meal和dining dollar支付。 如果你用meal 去支付的话，每个meal都会被折半，约为4美元。现金和信用卡也是可以在便利店使用哦。
   </p>
   <view>
     <text>\r\n</text>
   </view>
-  <p>
-    <image src="https://sand.truman.edu/cis/WechatSource/Pictures/school_map.png" alt="maps" mode="widthFix" lazy-load="true" show-menu-by-longpress="true"/>
+  <p class="picture">
+    <image src="{{imgList[2]}}"lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[2]}}"/>
   </p>
+  <view class="picture_discribtion">
+    <p>图3: West Campus的便利店（“C Store”）</p>
+  </view>
   <view>
     <text>\r\n</text>
   </view>
   <p class="weui-article__p">
-    学校的SUB (Student Union Building) 也有包括Chick-fil-A，Mein Bowl，Einstein Bros在内的多个餐点。上述餐点除Mein Bowl仅在每周四接受meal外，均可使用meal支付费用。
+    学校的SUB（“Student Union Building”）也有包括Chick-fil-A，Mein Bowl，Einstein Bros在内的多个餐点。上述餐点除Mein Bowl仅在每周四接受meal外，均可使用meal支付费用。
   </p>
   <view>
     <text>\r\n</text>
@@ -90,7 +93,7 @@
   </view>
   <view class="picture">
   <p>
-    <image src="https://sand.truman.edu/cis/WechatSource/Pictures/pinkdrink.jpeg" alt="chenpacace" mode="widthFix" lazy-load="true" show-menu-by-longpress="true"/>
+    <image src="{{imgList[3]}}"lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[3]}}"/>
   </p>
   </view>
   <view class="picture_discribtion">
@@ -121,7 +124,7 @@
   </view>
   <view class="picture">
   <p>
-    <image src="https://sand.truman.edu/cis/WechatSource/Pictures/chen_palace.jpg" alt="chenpacace" mode="widthFix" lazy-load="true" show-menu-by-longpress="true"/>
+    <image src="{{imgList[4]}}"lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[4]}}"/>
   </p>
   </view>
   <view class="picture_discribtion">
@@ -132,7 +135,7 @@
   </view>
   <p class="weui-article__p">
    前者的土豆牛腩深得笔者喜爱，而后者的凉拌牛肉牛肚，鸭子，牛蛙等菜品更是因为点餐的人太多导致频频断货。
-   Kirksville的店家绝不止上述这些，更多的店家可以打开地图进行查看。
+   Kirksville的店家绝不止上述这些，更多的店家可以打开地图进行查看，等待你来解锁！
   </p>
   <view class="truman_logo">
     <image class="logo" src="https://sand.truman.edu/cis/WechatSource/Pictures/truman_icon_trans.png" ></image>

@@ -1,0 +1,14 @@
+.important
+{
+  font-weight: bolder;
+}
+
+.small
+{
+  font-size: small;
+}
+
+.underline
+{
+  text-decoration-line: underline;
+}

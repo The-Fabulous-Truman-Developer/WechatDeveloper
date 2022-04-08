@@ -1,40 +1,150 @@
 <view class="weui-article">
   <h1 class="weui-article__h1"> 签证办理 </h1>
+  <text>\r\n</text>
+  <text id="lastmode">杜鲁门州立大学CIS 2022-4-2 19:00</text>
   <view>
     <text>\r\n</text>
   </view>
+  <h3 class="tag">Step 1：I-20签名</h3>
+    <text>\r\n</text>
   <p class="weui-article__p">
-    在您收到来自Truman发出的I-20表格以后，您需要做的第一件事便是在I-20的Signature的那一栏，签上的你的名字，一定是拼音！名在前，姓在后（例如：San Zhang）。如果你是未成年人（18岁以下），还需要在你的监护人在签上他们的名字。。。。
+    I-20是由美国国土安全部授权的美国教育机构发出用以证明其合法学生身份的文件。而且这薄薄的一张纸可是你获得F-1签证前往美国的重要身份证明。
+  </p>
+  <text>\r\n</text>
+  <text>\r\n</text>
+  <p class="weui-article__p">
+    所以，在您收到来自Truman发出的I-20表格以后，您需要做的第一件事便是在I-20的签名（“Signature of”）的那一栏，签上的你的名字，一定是拼音！名在前，姓在后（例如：San Zhang）并日期（“Date”）那一栏签上当天的日期。
+  </p>
+  <text>\r\n</text>
+  <text>\r\n</text>
+  <p class="weui-article__p">
+    如果你是未成年人（18岁以下），还需要在你的父母或者监护人在（“Name of parent or guardian”）那一栏选择是父母（“parent”） 或者监护人（“guardian”），并在签名（“Signature”）签上他们的名字。别忘了还有地址（“Address”）和日期（“Date”）。
+  </p>
+  <text>\r\n</text>
+  <text>\r\n</text>
+  <view class="picture">
+  <p>
+    <image class="i20" src="{{imgList[0]}}"mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[0]}}"/>
+  </p>
+  </view>
+  <view class="picture_discribtion">
+    <p>I-20 签名模版</p>
+  </view>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <h3 class="tag">Step 2：非移民签证申请表格</h3>
+  <text>\r\n</text>
+  <p class="weui-article__p">
+    这一步需要前往美国国务院网站（"ceac.state.gov/genniv"）填写非移民签证申请表格（DS-160）。在表格填写完成以后打印确认页并保管好。如果有什么疑问，可以直接搜索“非移民签证申请(DS-160)信息”，就可以查看到关于DS-160表格填写指南。小编觉得这个网站
+  </p>
+  <text>\r\n</text>
+  <p>
+    （“www.abcdreamusa.com/ds160表格填写指南/”）会对你填写DS-160有很大的帮助。
   </p>
   <view>
     <text>\r\n</text>
   </view>
-  <p class="weui-article__p">
-    然后再去美国国务院网站（www.state.gov）填写非移民签证申请表格（DS-160）。在表格填写完成以后打印确认页并保管好。如果有什么疑问，可以直接搜索”非移民签证申请(DS-160)信息“，就可以查看到关于DS-160表格填写指南。
+  <view class="picture">
+  <p>
+    <image class="ds160" src="{{imgList[1]}}" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[1]}}"/>
+  </p>
+  </view>
+  <view class="picture_discribtion">
+    <p>DS-160 填写开始界面</p>
+  </view>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <p>
+    DS-160表格需要填写的内容确很多，建议你提早填写，美国领事馆建议至少在赴美前三个月开始申请签证，也就是建议你三个月前要先完成DS-160表格！所以，申请杜鲁门州立大学，并拿到offer更要提前哦！
   </p>
   <view>
     <text>\r\n</text>
   </view>
+  <h3 class="tag">Step 3: 申请美国签证</h3>
+  <text>\r\n</text>
   <p class="weui-article__p">
-    下一步，去cgifederal.secure.force.com用邮箱注册一个新账号， 选择和DS-160填写的同样的使馆。使领馆。这时候你可以先选择一个离你最近的并且选择自己的学生类型。如果是本科新生请选择F-1，交换生请选择J-1。然后
-    设置密保问题。注意，在密保设置问题上，一定要将你的密保设置问题答案保存好，之后如果退出后回来续填要用到。
+    如果你已经完成了前面两步，那么下一步，你需要前往申请美国签证官网（“cgifederal.secure.force.com”）用邮箱注册一个新账号。如果已经有帐户了，就直接使用之前的账户就可以啦。如果没有，你就需要选择和DS-160填写的同样的使馆。下一步就是选择自己的学生类型。如果是本科新生或者研究生新生请选择F-1，交换生请选择J-1。最后，就是设置密保问题。注意，在密保设置问题上，一定要将你的密保设置问题答案保存好，之后如果退出后回来续填要用到。
   </p>
   <view>
     <text>\r\n</text>
   </view>
+  <view class="picture">
+  <p>
+    <image class="visa_apply" src="{{imgList[2]}}"lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[2]}}"/>
+  </p>
+  </view>
+  <view class="picture_discribtion">
+    <p>申请美国签证官网</p>
+  </view>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <h3 class="tag">Step 4：申请码</h3>
+  <text>\r\n</text>
   <p class="weui-article__p">
-    进入 DS-160 填写页面，在右上角可以看到一个 Application Number（两个A打头的）,复制该号码并回到使馆约签网站上开始填写完整信息，填写前面复制的DS-160 A码。接着填写后面的 SEVIS号码， 这里要将你的 I20 左上角的 SEVIS ID 填入并提交预约表格。
+    进入 DS-160 填写页面，在右上角可以看到一个申请码（“Application  ID”），复制该号码并回到使馆约签网站上开始填写完整信息，填写前面复制的申请码。
   </p>
   <view>
     <text>\r\n</text>
   </view>
-  <p class="weui-article__p">
-    约签表格填写完成后，可以付款并且确定具体的约签时间，下一步是打印缴费通知单。然后凭护照及缴费通知单在中信银行柜台、中信ATM或网上金融商城（银联网上银行）缴费160美金。在成功缴费后，系统自动生成唯一的收据号码，流程的最后会生成一个确认页，需要打印出来，面签的时候一并带上。
+  <view class="picture">
+  <p>
+    <image class="app_id" src="{{imgList[3]}}"lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[3]}}"/>
   </p>
+  </view>
+  <view class="picture_discribtion">
+    <p>申请码（“Application  ID”）</p>
+  </view>
   <view>
     <text>\r\n</text>
   </view>
   <p class="weui-article__p">
-    签证预约好时间之后别忘了还需要完成 SEVIS 缴费，这是交给美国国土安全局用来记录学生信息的一个费用,这个费用最迟在面签的前3天要完成，缴费之后也是需要打印收据，带着去面签的。
+    紧接着，你需要填写你的 SEVIS ID，它在你的 I-20的左上角，填入后并提交预约表格。
   </p>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <view class="picture">
+  <p>
+    <image class="sevis_id" src="{{imgList[4]}}"lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[4]}}"/>
+  </p>
+  </view>
+  <view class="picture_discribtion">
+    <p>“SEVIS  ID”</p>
+  </view>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <h3 class="tag">Step 5:缴纳签证费用</h3>
+  <text>\r\n</text>
+  <p class="weui-article__p">
+    约签表格填写完成后，可以付款并且确定具体的约签时间，下一步是打印缴费通知单。然后凭护照及缴费通知单在中信银行柜台、中信ATM或网上金融商城（银联网上银行）缴费160美元。在成功缴费后，系统自动生成唯一的收据号码，流程的最后会生成一个确认页，需要打印出来，面签的时候一并带上。
+  </p>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <h3 class="tag">Step 6：缴纳 SEVIS 费用</h3>
+  <text>\r\n</text>
+  <p class="weui-article__p">
+    完成 SEVIS 缴费是预约签证的最后一步。这是交给美国国土安全局用来记录学生信息的一个费用,这个费用最迟在面签的前3天要完成，缴费之后也是需要打印收据，面签的时候也需要带着。
+  </p>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <h3 class="tag">后言</h3>
+    <text>\r\n</text>
+  <p class="weui-article__p">
+    小编在这里，希望学弟，学妹们能早日顺利通过签证！如果你还有什么不懂的，可以发送电子邮件给我们杜鲁门州立大学的国际招生部（“intladmit@truman.edu”），他们会耐心的为你们解答你的疑难。
+  </p>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <view class="truman_logo">
+    <image class="logo" src="https://sand.truman.edu/cis/WechatSource/Pictures/truman_icon_trans.png" ></image>
+  </view>
+  <view class="truman_logo">
+    <image class="cis_logo" src="https://sand.truman.edu/cis/WechatSource/Pictures/cis_logo.JPG" ></image>
+  </view>
 </view>
