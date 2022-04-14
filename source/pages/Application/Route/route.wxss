@@ -1,1 +1,15 @@
 /* source/pages/Application/Route/route.wxss */
+.wroning
+{
+  color: brown;
+}
+
+.important
+{
+  font-weight: bolder;
+}
+
+.bbq
+{
+  height: 100px;
+}

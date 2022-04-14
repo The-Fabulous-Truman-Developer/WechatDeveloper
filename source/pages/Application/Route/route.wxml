@@ -1,51 +1,308 @@
 <view class="weui-article">
   <h1 class="weui-article__h1"> 在Kirksville的交通 </h1>
+  <text>\r\n</text>
+  <view>
+    <text id="lastmode">杜鲁门州立大学CIS 2022-4-2 19:00</text>
+  </view>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <h3 class="weui-article__h2"><span class="or">⩔</span> 地理位置 </h3>
   <view>
     <text>\r\n</text>
   </view>
   <p class="weui-article__p">
-    杜鲁门大学位于美国的中北部地区密苏里州的柯克斯维尔市。
-    该市始建于1841年，因最早的移民柯克先生而得名，寓意为教堂的城市，是一个富有浓厚美国文化色彩的地方。
-    这里四季分明，你可以享受夏天的阳光沙滩，也可以欣赏冬天的白雪皑皑，可以听到春雷滚滚，也有秋风瑟瑟，不同的季节带给你不一样的感受。
-    假期一定要去旅游，附近的目的地有圣路易斯，堪萨斯城，爱荷华州的首府德美茵，芝加哥，五彩绚烂的大城市，多元文化的冲击使你的留学生活更加完美。
+    杜鲁门州立大学位于美国的中西部地区密苏里州（“Missouri State”）阿代尔县（“Adair County”）柯克斯维尔市（“Kirksville City”）。「小贴士：美国的县级别要比市高」
   </p>
   <view>
     <text>\r\n</text>
   </view>
-  <p class="weui-article__h2">
+  <p class="picture">
+    <image src="{{imgList[0]}}" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[0]}}"/>
+  </p>
+  <view class="picture_discribtion">
+    <p>杜鲁门州立大学的位置</p>
+  </view>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <p class="weui-article__p">
+    该市始建于1841年，因最早的移民者柯克先生而得名，寓意为“教堂的城市”。柯克斯维尔市是一个富有浓厚美国文化色彩的地方。
+  </p>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <view class="picture">
+  <p>
+    <image src="{{imgList[1]}}" alt="maps" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[1]}}"/>
+  </p>
+  </view>
+  <view class="picture_discribtion">
+    <p>柯克斯维尔的市中心（dwontown）</p>
+  </view>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <view class="picture">
+  <p>
+    <image src="{{imgList[2]}}" alt="maps" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[2]}}"/>
+  </p>
+  </view>
+  <view class="picture_discribtion">
+    <p>柯村的傍晚</p>
+  </view>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <p class="weui-article__p">
+    这里四季分明，你可以享受夏天的阳光沙滩，也可以欣赏冬天的白雪皑皑，可以听到春雷滚滚，也有秋风瑟瑟。
+  </p>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <view class="picture">
+  <p>
+    <image src="{{imgList[3]}}" alt="maps" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[3]}}"/>
+  </p>
+  </view>
+  <view class="picture_discribtion">
+    <p>春</p>
+  </view>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <view class="picture">
+  <p>
+    <image src="{{imgList[4]}}" alt="maps" mode="widthFix" lazy-load="true" show-menu-by-longpress="true"bindtap="click_img" data-src="{{imgList[4]}}"
+    />
+  </p>
+  </view>
+  <view class="picture_discribtion">
+    <p>夏</p>
+  </view>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <view class="picture">
+  <p>
+    <image src="{{imgList[5]}}" alt="maps" mode="widthFix" lazy-load="true" show-menu-by-longpress="true"bindtap="click_img" data-src="{{imgList[5]}}"
+    />
+  </p>
+  </view>
+  <view class="picture_discribtion">
+    <p>秋</p>
+  </view>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <view class="picture">
+    <p>
+      <image src="{{imgList[6]}}" alt="maps" mode="widthFix" lazy-load="true" show-menu-by-longpress="true"bindtap="click_img" data-src="{{imgList[6]}}"/>
+    </p>
+  </view>
+  <view class="picture_discribtion">
+    <p>冬</p>
+  </view>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <p class="weui-article__p">
+    不同的季节带给你不一样的感受。
+  </p>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <p class="weui-article__p">
+    假期一定要出去旅游，附近有很多旅游胜地：圣路易斯（“St. Louis”），堪萨斯城 （“Kansas City”），爱荷华州的首府得梅因（“Des Moines”），大城市芝加哥（“Chicago”）等等。多元文化的冲击使你的留学生活更加完美。
+  </p>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <h3 class="weui-article__h2 wroning"><span class="or">⩔</span>关于疫情😷</h3>
+  <text>\r\n</text>
+  <p class="weui-article__p important">
     2020年新冠肺炎疫情席卷了全世界，我们的生活和学习不同程度都受了影响。
     为了给留学生营造更安全和放心的学习生活环境，杜鲁门大学全体师生做出了最大的努力。
-    留学生可以无需预约，随时安排接种疫苗，
+    留学生可以无需预约，随时安排接种疫苗.
+  </p>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <p class="weui-article__p important">
     根据安全协议，如果同学需要隔离或者就医，学校会安排专人负责照料学生的饮食起居，同时教授也会特别辅导，免除您的后顾之忧。
   </p>
   <view>
     <text>\r\n</text>
   </view>
-  <p class="weui-article__h2"> 是否要考驾照和买车? </p>
+  <p class="weui-article__h2"><span class="or">⩔</span>考驾照和买车 </p>
   <view>
     <text>\r\n</text>
   </view>
   <p class="weui-article__p">
     美国被称为车上的国家，这一点从美国合法吸烟喝酒年龄为21岁，但驾照16岁便可考取就可见一斑。
     和国内不一样的是，而由于在美国汽车保有量巨大以及维护成本较低的原因，大多数的二手车都会相对比较便宜。
-    也因此美国绝大部分大学生都拥有驾照并且拥有自己的车辆。
-    不会驾驶在美国是极其影响日常生活的，尤其是柯克斯维尔这样的大学城，所以笔者建议，最好在国内提前学习驾驶技术，以便抵达学校之后轻松考取美国驾照。
-    当然不会也没有关系，学校也会组织每周末的由学长和老师们驱车的沃尔玛购物之行，也可以通过网购等方式购买需要的物品。
-  </p>
-  <p>
-    <image src="https://sand.truman.edu/cis/WechatSource/Pictures/maps.png" alt="maps" mode="widthFix" lazy-load="true" show-menu-by-longpress="true"/>
   </p>
   <view>
     <text>\r\n</text>
   </view>
-  <p class="weui-article__h2"> 周边有什么？</p>
+  <view class="picture">
+    <p>
+      <image src="{{imgList[7]}}" alt="maps" mode="widthFix" lazy-load="true" show-menu-by-longpress="true"bindtap="click_img" data-src="{{imgList[7]}}"/>
+    </p>
+  </view>
+  <view class="picture_discribtion">
+    <p>OP 停车场</p>
+  </view>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <view class="picture">
+    <p>
+      <image src="{{imgList[8]}}" alt="maps" mode="widthFix" lazy-load="true" show-menu-by-longpress="true"bindtap="click_img" data-src="{{imgList[8]}}"/>
+    </p>
+  </view>
+  <view class="picture_discribtion">
+    <p>Missouri Hall 停车场</p>
+  </view>
   <view>
     <text>\r\n</text>
   </view>
   <p class="weui-article__p">
-    柯克斯维尔处于美国的中西部地区，有浓厚的美式田园风光，在其西边不远就是密苏里州的千丘州立公园，作为野餐，烧烤，聚会的地方再好不过了。中心的一片湖可以划船，公园内也常常有鹿，鹤等国内不常见到的动物。
-    放远一些来看的话，柯克斯维尔的位置可以看作是一个正方形，四个顶点分别是左上的爱荷华州首府得梅因城，右上的达文波特，左下的堪萨斯城和右下的圣路易斯。
-    沿着63号国道一路向下走就可以走到位于堪萨斯城和圣路易斯中间的哥伦比亚，也是Truman学子们最常造访的城市。不但有琳琅满目的餐厅，购物中心。
-    更具吸引力的则是香港超市和数十家珍珠奶茶店。70号国道则联通着堪萨斯城，哥伦比亚和圣路易斯。向左走是堪萨斯城，向右走是圣路易斯，而沿着63号国道继续向下走则是密苏里州首府杰斐逊城，是一座有着悠久的历史的城市，在闲暇时间或放假时不妨前去观光。
+    也因此美国绝大部分大学生都拥有驾照并且拥有自己的车辆。不会驾驶在美国是极其影响日常生活的，尤其是柯克斯维尔这样的大学城。所以，笔者建议，最好在国内提前学习驾驶技术，以便抵达学校之后轻松考取到密苏里州的驾照。
   </p>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <view class="picture">
+    <p>
+      <image src="{{imgList[9]}}" alt="maps" mode="widthFix" lazy-load="true" show-menu-by-longpress="true"bindtap="click_img" data-src="{{imgList[9]}}"/>
+    </p>
+  </view>
+  <view class="picture_discribtion">
+    <p>密苏里驾驶证</p>
+  </view>
+  <view>
+    <text>\r\n</text>
+  </view> 
+  <p class="weui-article__p">
+    当然不会也没有关系，学长和老师们也会组织每周末的沃尔玛购物之行，你也可以通过网购等方式购买日常用品。
+  </p>
+  <view>
+    <text>\r\n</text>
+  </view>
+  
+  <p class="weui-article__h2"><span class="or">⩔</span>周边有什么</p>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <p class="weui-article__p">
+    柯克斯维尔处于美国的中西部地区，有浓厚的美式田园风光，在其西边不远就是密苏里州的千丘州立公园（"Thousand Hills States Park"）。中心的一片湖可以划船，公园内也常常有鹿，鹤等国内不常见到的动物。
+  </p>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <view class="picture">
+    <p>
+      <image src="{{imgList[10]}}" alt="maps" mode="widthFix" lazy-load="true" show-menu-by-longpress="true"bindtap="click_img" data-src="{{imgList[10]}}"/>
+    </p>
+  </view>
+  <view class="picture_discribtion">
+    <p>千丘州立公园（"Thousand Hills States Park"）</p>
+  </view>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <p class="weui-article__p">
+    千丘州立公园作为学生们野餐，烧烤，聚会的地方是不二之选。
+  </p>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <view class="picture">
+    <p>
+      <image class=" bbq" src="{{imgList[11]}}" alt="maps" mode="widthFix" lazy-load="true" show-menu-by-longpress="true"bindtap="click_img" data-src="{{imgList[11]}}"/>
+    </p>
+  </view>
+  <view class="picture_discribtion">
+    <p>学生在千丘州立公园做的烧烤</p>
+  </view>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <view class="picture">
+    <p>
+      <image class=" bbq" src="{{imgList[12]}}" alt="maps" mode="widthFix" lazy-load="true" show-menu-by-longpress="true"bindtap="click_img" data-src="{{imgList[12]}}"/>
+    </p>
+  </view>
+  <view class="picture_discribtion">
+    <p>“帅就完事”</p>
+  </view>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <p class="weui-article__p">
+    放远一些来看的话，柯克斯维尔的位置可以看作是一个正方形，四个顶点分别是左上的爱荷华州首府得梅因城（“Des Moines”），右上的达文波特（“Davenport”），左下的堪萨斯城（“Kansas City”）和右下的圣路易斯（“St. Louis”）。
+  </p>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <view class="picture">
+    <p>
+      <image class=" bbq" src="{{imgList[13]}}" alt="maps" mode="widthFix" lazy-load="true" show-menu-by-longpress="true"bindtap="click_img" data-src="{{imgList[13]}}"/>
+    </p>
+  </view>
+  <view class="picture_discribtion">
+    <p>Truman学子们最常造访的城市</p>
+  </view>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <p class="weui-article__p">
+    沿着63号国道一路向下走就可以走到位于堪萨斯城和圣路易斯中间的哥伦比亚，也是Truman学子们最常造访的城市。不但有琳琅满目的餐厅，购物中心。更具吸引力的则是香港超市和数十家珍珠奶茶店。
+  </p>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <view class="picture">
+    <p>
+      <image class=" bbq" src="{{imgList[14]}}" alt="maps" mode="widthFix" lazy-load="true" show-menu-by-longpress="true"bindtap="click_img" data-src="{{imgList[14]}}"/>
+    </p>
+  </view>
+  <view class="picture_discribtion">
+    <p>哥伦比亚的奶茶店</p>
+  </view>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <view class="picture">
+    <p>
+      <image class=" bbq" src="{{imgList[15]}}" alt="maps" mode="widthFix" lazy-load="true" show-menu-by-longpress="true"bindtap="click_img" data-src="{{imgList[15]}}"/>
+    </p>
+  </view>
+  <view class="picture_discribtion">
+    <p>🥤要来一杯吗？</p>
+  </view>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <view class="picture">
+    <p>
+      <image class=" bbq" src="{{imgList[16]}}" alt="maps" mode="widthFix" lazy-load="true" show-menu-by-longpress="true"bindtap="click_img" data-src="{{imgList[16]}}"/>
+    </p>
+  </view>
+  <view class="picture_discribtion">
+    <p>香港超市，冲冲冲！</p>
+  </view>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <p class="weui-article__p">
+    70号国道则横贯着三座城市，分别是堪萨斯城，哥伦比亚和圣路易斯。向左走是堪萨斯城，向右走是圣路易斯，而沿着63号国道继续向下走则是密苏里州首府杰斐逊城（“Jefferson City”），是一座有着悠久的历史的城市，在闲暇时间或放假时不妨前去观光。
+  </p>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <view class="truman_logo">
+    <image class="logo" src="https://sand.truman.edu/cis/WechatSource/Pictures/truman_icon_trans.png"></image>
+  </view>
 </view>

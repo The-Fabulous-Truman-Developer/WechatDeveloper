@@ -1,68 +1,82 @@
 <view class="weui-article">
   <h1 class="weui-article__h1"> 申请准备事项 </h1>
+  <text>\r\n</text>
+  <view>
+    <text id="lastmode">杜鲁门州立大学CIS 2022-4-2 19:00</text>
+  </view>
   <view>
     <text>\r\n</text>
   </view>
-  <h2 class="weui-article__h2"> 申请条件 </h2>
+  <h2 class="weui-article__h2"><span class="or">⩔</span>申请条件</h2>
   <view>
     <text>\r\n</text>
   </view>
   <p class="weui-article__p">
-  如果您申请杜鲁门大学本科段学习，您须满足：<text>\n</text>
+  如果您申请杜鲁门州立大学本科段学习，您须满足：<text>\n</text>
   1）高中毕业或同等学历 <text>\n</text>
-  2）英语语言能力证明，杜鲁门大学要求：
+  2）英语语言能力证明<span class="important ">*</span>，杜鲁门州立大学要求：
   <text class="weui-article__p" selectable="{{ true }}" space="ensp">
     (a). 托福 (iBT) 79 或以上（托福网考）
-    (b). 雅思6.0或以上
+    (b). 雅思 (IELTS) 6.0或以上
     (c). 多邻国 100以上或其他英语语言能力证明
   </text>
   <text>\n</text>
-  如果您申请杜鲁门大学研究生段学习，您须满足：<text>\n</text>
+  如果您申请杜鲁门州立大学研究生段学习，您须满足：<text>\n</text>
   1）本科毕业证明及学位证明（或同等学力证明）<text>\n</text>
-  2）英语语言能力证明，杜鲁门大学要求:
+  2）英语语言能力证明<span class="important ">*</span>，杜鲁门州立大学要求:
   <text class="weui-article__p" selectable="{{ true }}" space="ensp">
     (a). 托福 (iBT) 79 或以上（托福网考）
     (b). 雅思6.0或以上
     (c). 多邻国 100以上或其他英语语言能力证明
   </text>
   </p>
+  <text>\r\n</text>
+  <view>
+    <p class="important small">
+      <span class="important ">*</span>注：以上三种英语语言能力证明，只需要按足一个即可。
+    </p>
+  </view>
   <view>
     <text>\r\n</text>
   </view>
-  <h2 class="weui-article__h2"> 关于录取 </h2>
-  <view>
-    <text>\r\n</text>
-  </view>
-  <p class="weui-article__p">
-    除了满足以上录取条件，正常录取外，杜鲁门大学还提供条件式录取,
-    即：如果您没有来得及参加语言考试，或语言成绩不合格，可以进入语言学习项目，待语言成绩合格后正式进入学分课程的学习。
-  </p>
-  <view>
-    <text>\r\n</text>
-  </view>
-  <h2 class="weui-article__h2"> 关于签证 </h2>
+  <h2 class="weui-article__h2"><span class="or">⩔</span>关于录取</h2>
   <view>
     <text>\r\n</text>
   </view>
   <p class="weui-article__p">
-  学生被录取后。学校国际部办公室会颁发录取通知书和I-20表格，学生可以凭这两份文件在所在国申请赴美学习签证。
-  在申请过程中遇到任何问题，可以向学校国际部老师咨询
+    杜鲁门州立大学直接录取满足上述录取条件的学生以外，杜鲁门州立大学还提供条件式录取，给学生们更多被录取的机会。
   </p>
-  <view>
-    <text>\r\n</text>
-  </view>
-  <h2 class="weui-article__h2"> 毕业 </h2>
   <view>
     <text>\r\n</text>
   </view>
   <p class="weui-article__p">
-  和美国其他的大学一样，杜鲁门大学也采用学分制，学生可以根据自己的实际情况，灵活调整学业进度，
-  修满专业所需的学分数即可毕业，大部分本科专业需120学分以上。
+    如果您<span class="important underline">没有来得及参加语言考试</span>，或<span class="important underline">语言成绩未达标</span>，可以进入语言学习项目 TLC（“The Language Company”），待语言成绩合格，并且符合大学生英语水平后，就可以正式进入学分课程的学习了。
   </p>
   <view>
     <text>\r\n</text>
   </view>
-  <h2 class="weui-article__h2"> 申请截止时间 </h2>
+  <h2 class="weui-article__h2"><span class="or">⩔</span>关于签证</h2>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <p class="weui-article__p">
+  学生被录取后。学校国际部办公室会颁发录取通知书和I-20表格，学生可以凭这两份文件在所在地区申请赴美学习签证。
+  在申请过程中遇到任何问题，可以直接向学校国际部老师发邮件咨询，也可以查看我们的另一个板块“签证和护照”，让您的申请更加尽然有序。
+  </p>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <h2 class="weui-article__h2"><span class="or">⩔</span>关于毕业</h2>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <p class="weui-article__p">
+  和美国其他的大学一样，杜鲁门大学也采用学分制，学生可以根据自己的实际情况，灵活调整学业进度，修满专业所需的学分数即可毕业。大部分本科专业需120学分以上；研究生专业需要32分及以上。
+  </p>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <h2 class="weui-article__h2"><span class="or">⩔</span>申请截止时间</h2>
   <view>
     <text>\r\n</text>
   </view>
@@ -74,13 +88,16 @@
     <text>\r\n</text>
   </view>
   <p class="weui-article__p">
-    秋季学期的起始为每年的八月，结束为每年的12月。春季学期的起始为每年的1月，结束为每年的五月。
-    如果您是新生、从另一所大学转学的学生、访问学生或交换学生，我们需要满足以下条件才能让您完全被录取。
+    秋季学期的起始为每年的8月，结束为每年的12月。春季学期的起始为每年的1月，结束为每年的5月。
   </p>
   <view>
     <text>\r\n</text>
   </view>
-  <h2 class="weui-article__h2"> 完成您的申请表格 </h2>
+  <p class="weui-article__p">
+    如果您是新生、从另一所大学转学的学生、访问学生或交换学生，我们需要满足以下条件才能让您完全被录取。
+  </p>
+  <text>\r\n</text>
+  <h3 class="weui-article__h2"><span class="or">⩔</span>完成您的申请表格</h3>
   <view>
     <text>\r\n</text>
   </view>
@@ -90,15 +107,15 @@
   <view>
     <text>\r\n</text>
   </view>
-  <h2 class="weui-article__h2"> (1). 提交语言能力的相关证明文件 </h2>
+  <h2 class="weui-article__h3">(1). 提交语言能力的相关证明文件</h2>
   <view>
     <text>\r\n</text>
   </view>
   <p class="weui-article__p">
     选项一：提交官方英语水平分数：杜鲁门要求最低总分：
-    托福 (iBT) 79
-    雅思6.0
-    多邻国 100
+    托福 (iBT) 79,
+    雅思6.0,
+    多邻国 100,
     或其他等效措施。
     对于完全录取，官方分数必须由您的测试机构直接发送到杜鲁门州立大学。您也可以通过从美国大学转移英语作文学分或申请豁免来满足此要求，因为您是美国公民或您在母语为英语的国家完成了大部分中学教育。在此处获取更多详细信息。
   </p>
@@ -106,30 +123,35 @@
     <text>\r\n</text>
   </view>
   <p class="weui-article__p">
-    选项二：作为有条件学生申请：如果您无法提供英语水平证明，您可以在申请中以有条件学生的身份申请。作为有条件的学生，在被杜鲁门州立大学完全录取之前，您将需要在杜鲁门校区的语言公司完成 9 级英语证书或在美国获得批准的替代 ESL 课程。请注意：访问和交换学生不得作为有条件的学生申请。
+    选项二：作为有条件学生申请<span class="important ">*</span>：如果您无法提供英语水平证明，您可以在申请中以有条件学生的身份申请。作为有条件的学生，在被杜鲁门州立大学完全录取之前，您将需要在杜鲁门校区的语言公司（“TLC”）完成 9 级英语证书或在美国获得批准的替代 ESL 课程。
+  </p>
+  <text>\r\n</text>
+  <p class="weui-article__p small">
+    <span class="important ">*</span>注：<span class="important underline">访问</span>和<span class="important underline">交换学生</span>不得作为有条件的学生申请。
   </p>
   <view>
     <text>\r\n</text>
   </view>
-  <h2 class="weui-article__h2"> (2). 提交成绩单 </h2>
+  <h2 class="weui-article__h3"> (2). 提交成绩单 </h2>
   <view>
     <text>\r\n</text>
   </view>
   <p class="weui-article__p">
     要被完全录取，杜鲁门必须收到您以前就读的每所学校的正式成绩单或经过认证的副本。 这包括高中、中学和大学。 这些成绩单的正式副本或经过认证的副本应由您的学校直接发送到杜鲁门国际办公室。 成绩单可以通过成绩单服务交付或由您的学校邮寄到以下地址：
   </p>
+  <text>\r\n</text>
   <text selectable="{{ true }}" decode="{{ true }}" user-select="{{ true }}">
     Center for International Students
     Truman State University
     Baldwin Hall 104
     100 East Normal Avenue
-    Kirksville, Missouri 63501
-    USACenter for International Students
+    Kirksville, Missouri 63501 USA 
+    Center for International Students
   </text>
   <view>
     <text>\r\n</text>
   </view>
-  <h2 class="weui-article__h2"> (3). 提交资产证明 </h2>
+  <h2 class="weui-article__h3"> (3). 提交资产证明 </h2>
   <view>
     <text>\r\n</text>
   </view>
@@ -139,43 +161,58 @@
   <view>
     <text>\r\n</text>
   </view>
-  <h2 class="weui-article__h2"> (4). 提交相应的银行证明文件 </h2>
+  <h2 class="weui-article__h3"> (4). 提交相应的银行证明文件 </h2>
   <view>
     <text>\r\n</text>
   </view>
   <p class="weui-article__p">
-    对于所有非美国公民，财务支持证书必须通过银行文件进行验证。 这些银行文件应通过学生门户上传，并
-    应包括以下内容：
-    金融赞助商银行出具的日期在过去 6 个月内的信函或声明，证明有足够的资金支付您提议的学习计划至少
-    一年的费用（访问或交换学生参加一个学期只需证明一个 学期的资金）。 可以在此处找到这些银行文件
-    所需的余额。 如果您在收到奖学金offer后提交这些文件，奖学金金额可能会从所需金额中扣除
-    银行信函或对账单必须表明该账户是以您的担保人的名义持有的（如财务支持证书上所列），列出账户的
-    当前余额和货币，并说明账户开立的日期
+    对于所有非美国公民，财务支持证书必须通过银行文件进行验证。 这些银行文件应通过学生门户上传，并应包括以下内容：
   </p>
-  <view>
-    <text>\r\n</text>
-  </view>
-
-  <h2 class="weui-article__h2"> (5). 提交护照和相关入境材料 </h2>
   <view>
     <text>\r\n</text>
   </view>
   <p class="weui-article__p">
-    您必须提交护照照片页和任何其他美国签证、永久居留卡或永久居留申请文件的副本。 这些文件应通过学生门户(portal)上传。
+    金融赞助商银行出具的日期在过去 6 个月内的信函或声明，证明有足够的资金支付您提议的学习计划至少一年的费用（访问或交换学生参加一个学期只需证明一个学期的资金）。可以在此处找到这些银行文件所需的余额。
   </p>
-  <view>
-    <text>\r\n</text>
-  </view>
-  <h2 class="weui-article__h2"> (6). 申请建议 </h2>
   <view>
     <text>\r\n</text>
   </view>
   <p class="weui-article__p">
-    可选择提交材料：提交下述材料申请奖学金
-    国际学生奖学金主要基于过去的学业成绩，反映在您的考试成绩和成绩单上。 但是，我们的招生团队在进行奖学金评估时也会考
-    虑其他文件，例如简历或简历、活动清单、个人陈述或论文、特别奖项或荣誉或作品集。 这些附加文件对于入学和奖学金考虑都
-    是完全可选的。 如果您想在您的申请中包含这些项目，请将它们与您的申请一起上传，以确保它们与您的申请一起进行审核并包
-    含在我们的奖学金考虑中。 注意：由于访问和交换学生没有资格获得基于成绩的奖学金，我们鼓励他们不要提交任何这些可选材
-    料。
+    如果您在收到奖学金offer后提交这些文件，奖学金金额可能会从所需金额中扣除银行信函或对账单必须表明该账户是以您的担保人的名义持有的（如财务支持证书上所列），列出账户的当前余额和货币，并说明账户开立的日期。
   </p>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <h2 class="weui-article__h3"> (5). 提交护照和相关入境材料 </h2>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <p class="weui-article__p">
+    您必须提交护照照片页和任何其他美国签证、永久居留卡或永久居留申请文件的副本。 这些文件应通过学生门户（“portal”）上传。
+  </p>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <h2 class="weui-article__h3"> (6). 申请建议 </h2>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <p class="weui-article__p">
+    可选择提交材料：提交下述材料申请奖学金国际学生奖学金主要基于过去的学业成绩，反映在您的考试成绩和成绩单上。 但是，我们的招生团队在进行奖学金评估时也会考虑其他文件，例如简历或简历、活动清单、个人陈述或论文、特别奖项或荣誉或作品集。
+  </p>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <p class="weui-article__p">
+    这些附加文件对于入学和奖学金考虑都是完全可选的。 如果您想在您的申请中包含这些项目，请将它们与您的申请一起上传，以确保它们与您的申请一起进行审核并包含在我们的奖学金考虑中。 
+  </p>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <p class="weui-article__p">
+    ⚠️注意：由于<span class="important underline">访问</span>和<span class="important underline">交换学生</span>没有资格获得基于成绩的奖学金，我们鼓励他们不要提交任何这些可选材料。
+  </p>
+  <view class="truman_logo">
+    <image class="logo" src="https://sand.truman.edu/cis/WechatSource/Pictures/truman_icon_trans.png" ></image>
+  </view>
 </view>

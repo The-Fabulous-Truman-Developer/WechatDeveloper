@@ -1,51 +1,143 @@
 <view class="weui-article">
   <h1 class="weui-article__h1"> 吃在柯克斯维尔 </h1>
-  <view>
-    <text>\r\n</text>
-  </view>
-  <h2 class="weui-article__h2"> 有啥吃的？</h2>
+  <text>\r\n</text>
+  <text id="lastmode">杜鲁门州立大学CIS 2022-4-2 19:00</text>
   <view>
     <text>\r\n</text>
   </view>
   <p class="weui-article__p">
-    作为游子，最不可避免的就是饿肚子的问题。作为初来Truman的freshman，你或许害怕于人生地不熟，天天只敢吃学校食堂。不要担心！本文将拯救你于水火之中。
-    首先从学校内讲起。学校内有两个食堂，分别位于Ryle Hall和 Centenial Hall，食堂早中晚供应可以无限次加餐的每日更换的多种菜肴和主食，且只需支付一个meal。
-    两个便利店分别位于Dobson Hall与West Campus，便利店可以使用meal和dining dollar支付，每个meal等值4刀。
+    作为游子，最不可避免的就是饿肚子的问题。作为初来杜鲁门的新生，你或许害怕于
+    人生地不熟，天天只敢吃学校食堂。不要担心！本文将拯救你于水火之中。
   </p>
   <view>
     <text>\r\n</text>
   </view>
+  <h2 class="weui-article__h2"> <span class="or">⩔</span>学校食堂</h2>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <p class="weui-article__p">
+    首先从学校内讲起。学校内有三个食堂，分别位于Ryle Hall， Missouri Hall 和 Centenial Hall，
+    分别位于学校的南边，北边和西边。
+  </p>
+  <text>\r\n</text>
+  <text>\r\n</text>
+  <p class="weui-article__p">
+  学校食堂的好处有很多，周一到周六早中晚都会供应，周日只会提供早餐和午饭。你只需支付一个meal（约8美元），你就可以品尝到来自世界各地的美食。
+  </p>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <view class="picture">
   <p>
-    <image src="https://sand.truman.edu/cis/WechatSource/Pictures/school_map.png" alt="maps" mode="widthFix" lazy-load="true" show-menu-by-longpress="true"/>
+    <image src="{{imgList[0]}}"lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[0]}}"/>
+  </p>
+  </view>
+  <view class="picture_discribtion">
+    <p>图1: 学生自己搭配的午餐</p>
+  </view>
+  <text>\r\n</text>
+  <text>\r\n</text>
+  <p class="weui-article__p">
+  你不用担心吃不饱，只要你不离开食堂，你可以无限次加餐。你也不用担心会吃腻，因为学校食堂每天都会更换的多种菜肴和主食。
+  </p>
+  <text>\r\n</text>
+  <text>\r\n</text>
+  <p class="weui-article__p">
+    在食堂吃饭的好处不止这些，你还可以知道每道菜的卡路里。这样，你就可以控制你的能量的摄入量；同时，你可以从网站“What's Open Now Truman” 知道每个食堂每天的菜品有哪些，也可以知道现在有哪些食堂，便利店开着的。
+  </p>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <view class="picture">
+  <p>
+    <image src="{{imgList[1]}}"lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[1]}}"/>
+  </p>
+  </view>
+  <view class="picture_discribtion">
+    <p>图2: 食堂里的甜点区</p>
+  </view>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <h2 class="weui-article__h2"> <span class="or">⩔</span>便利店</h2>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <p class="weui-article__p">
+    学校的两个便利店（“C Store”）分别位于Dobson Hall与West Campus，便利店可以使用meal和dining dollar支付。 如果你用meal 去支付的话，每个meal都会被折半，约为4美元。现金和信用卡也是可以在便利店使用哦。
+  </p>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <p class="picture">
+    <image src="{{imgList[2]}}"lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[2]}}"/>
+  </p>
+  <view class="picture_discribtion">
+    <p>图3: West Campus的便利店（“C Store”）</p>
+  </view>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <p class="weui-article__p">
+    学校的SUB（“Student Union Building”）也有包括Chick-fil-A，Mein Bowl，Einstein Bros在内的多个餐点。上述餐点除Mein Bowl仅在每周四接受meal外，均可使用meal支付费用。
   </p>
   <view>
     <text>\r\n</text>
   </view>
   <p class="weui-article__p">
-    学校的SUB也有包括Chick-fil-A，Mein Bowl，Einstein Bros在内的多个餐点。学校图书馆内有星巴克，在学习之余可以品尝一杯咖啡提神醒脑。
-    具体的食物信息与开放/休息时间可以在学校餐厅网站上进行查询。上述餐点除Mein Bowl仅在每周四接受meal外，包括星巴克在内所有餐点均可使用meal支付。
+    学校图书馆内有星巴克，在学习之余可以品尝一杯咖啡提神醒脑。除了咖啡，他们的各种茶类饮品都还不错哦！小编强烈推荐新生试一试pink drink，真的很好喝！星巴克在也是可使用meal来支付的。
   </p>
   <view>
     <text>\r\n</text>
   </view>
-  <h2 class="weui-article__h2"> 不想在学校吃？</h2>
+  <view class="picture">
+  <p>
+    <image src="{{imgList[3]}}"lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[3]}}"/>
+  </p>
+  </view>
+  <view class="picture_discribtion">
+    <p>图1: pink drink</p>
+  </view>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <h2 class="weui-article__h2"> <span class="or">⩔</span>学校周边</h2>
   <view></view>
   <p class="weui-article__p">
-    学校周边则有着Casey’s便利店与Greek Gyro、Maxwell、Pagliai’s Pizza、King’s Buffet等物美价廉的餐馆。
-    Greek Gyro的Gyro Meal不但好吃而且十分具有特色，甚至有人专程驱车前来购买。Maxwell有以Truman命名的汉堡，十分美味而且量大管饱。
+    周末到了，同学难免会有聚会活动或者想改善一下伙食。学校周边有很多美价廉的当地餐馆则Greek Gyro、Maxwell's、Pagliai’s Pizza、King’s Buffet等等。
+  </p>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <p class="weui-article__p">
+    Greek Gyro是一家希腊餐厅，他们的Gyro Meal不但好吃而且十分具有特色，甚至有人专程驱车前来购买。Maxwell's有以Truman命名的汉堡，十分美味而且量大管饱。
+  </p>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <p class="weui-article__p">
     如果想尝尝家乡的味道，不妨试试陈园(Chen’s Palace)或明园(China Palace)中餐。目前疫情期间两家中餐馆只接受电话点餐上门取餐(明园有外送服务)
   </p>
   <view>
     <text>\r\n</text>
   </view>
+  <view class="picture">
   <p>
-    <image src="https://sand.truman.edu/cis/WechatSource/Pictures/chen_palace.jpg" alt="chenpacace" mode="widthFix" lazy-load="true" show-menu-by-longpress="true"/>
+    <image src="{{imgList[4]}}"lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[4]}}"/>
   </p>
+  </view>
+  <view class="picture_discribtion">
+    <p>图2: 陈园 (Chen’s Palace)</p>
+  </view>
   <view>
     <text>\r\n</text>
   </view>
   <p class="weui-article__p">
    前者的土豆牛腩深得笔者喜爱，而后者的凉拌牛肉牛肚，鸭子，牛蛙等菜品更是因为点餐的人太多导致频频断货。
-   Kirksville的店家绝不止上述这些，更多的店家可以打开地图进行查看。
+   Kirksville的店家绝不止上述这些，更多的店家可以打开地图进行查看，等待你来解锁！
   </p>
+  <view class="truman_logo">
+    <image class="logo" src="https://sand.truman.edu/cis/WechatSource/Pictures/truman_icon_trans.png" ></image>
+  </view>
 </view>
