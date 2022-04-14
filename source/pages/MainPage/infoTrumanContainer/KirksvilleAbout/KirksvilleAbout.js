@@ -5,7 +5,23 @@ Page({
    * Page initial data
    */
   data: {
+    imgList : 
+    [
+      "https://sand.truman.edu/cis/WechatSource/Pictures/starbuck.png",
+      "https://sand.truman.edu/cis/WechatSource/Pictures/mein-bowl.png",
+      "https://sand.truman.edu/cis/WechatSource/Pictures/chick-fill-a.png",
+      "https://sand.truman.edu/cis/WechatSource/Pictures/Tres-Habaneros.png",
+      "https://sand.truman.edu/cis/WechatSource/Pictures/sliceoflife.jpeg",
+      "https://sand.truman.edu/cis/WechatSource/Pictures/EinsteinBrothersBagels2019.jpeg"
+    ]
+  },
 
+  click_img : function(event) {
+    let currentUrl = event.currentTarget.dataset.src
+    wx.previewImage({
+      current: currentUrl, // 当前显示图片的http链接
+      urls: this.data.imgList // 需要预览的图片http链接列表
+    })
   },
 
   /**
