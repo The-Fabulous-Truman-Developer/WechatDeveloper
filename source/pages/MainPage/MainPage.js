@@ -72,13 +72,6 @@ Page({
       url: "../MainPage/infoTrumanContainer/trumanAbout/trumanAbout",
     });
   },
-
-  KirksvilleAboutPageChange: function () {
-    wx.navigateTo({
-      url:
-        "../MainPage/infoTrumanContainer/KirksvilleAbout/KirksvilleAbout",
-    });
-  },
   kirkTransPageChange: function () {
     wx.navigateTo({
       url: "../MainPage/infoTrumanContainer/kirkTransport/kirkTransport",
