@@ -5,7 +5,22 @@ Page({
    * Page initial data
    */
   data: {
+    imgList : 
+    [
+      "https://sand.truman.edu/cis/WechatSource/Pictures/top_public_NO1.png",
+      "https://sand.truman.edu/cis/WechatSource/Pictures/universities_midwest_NO6.png",
+      "https://sand.truman.edu/cis/WechatSource/Pictures/best-value_NO1.png",
+      "https://sand.truman.edu/cis/WechatSource/Pictures/undergraduate_teaching_NO8.png"
+    ]
 
+  },
+
+  click_img : function(event) {
+    let currentUrl = event.currentTarget.dataset.src
+    wx.previewImage({
+      current: currentUrl, // 当前显示图片的http链接
+      urls: this.data.imgList // 需要预览的图片http链接列表
+    })
   },
 
   /**

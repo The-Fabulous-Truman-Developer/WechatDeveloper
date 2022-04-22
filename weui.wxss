@@ -590,6 +590,7 @@ button.weui-vcode-btn {
   font-weight: 700;
   margin-bottom: 0.9em;
   line-height: 1.4;
+  color: #5B01A0;
 }
 .weui-article__h2 {
   font-size: 17px;
