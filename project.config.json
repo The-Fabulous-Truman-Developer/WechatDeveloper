@@ -52,6 +52,8 @@
     "tabIndent": "insertSpaces",
     "tabSize": 2
   },
+  "simulatorType": "wechat",
+  "simulatorPluginLibVersion": {},
   "condition": {
     "miniprogram": {
       "list": [
