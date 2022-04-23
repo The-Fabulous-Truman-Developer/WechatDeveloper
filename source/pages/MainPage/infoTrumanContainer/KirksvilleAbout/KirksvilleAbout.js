@@ -1,80 +1,64 @@
-// pages/index/infoTrumanContainer/kirksvilleSurrounding/kirksvilleSurrounding.js
+// source/pages/MainPage/infoTrumanContainer/KirksvilleAbout/KirksvilleAbout.js
 Page({
 
   /**
-   * Page initial data
+   * 页面的初始数据
    */
   data: {
-    imgList : 
-    [
-      "https://sand.truman.edu/cis/WechatSource/Pictures/starbuck.png",
-      "https://sand.truman.edu/cis/WechatSource/Pictures/mein-bowl.png",
-      "https://sand.truman.edu/cis/WechatSource/Pictures/chick-fill-a.png",
-      "https://sand.truman.edu/cis/WechatSource/Pictures/Tres-Habaneros.png",
-      "https://sand.truman.edu/cis/WechatSource/Pictures/sliceoflife.jpeg",
-      "https://sand.truman.edu/cis/WechatSource/Pictures/EinsteinBrothersBagels2019.jpeg"
-    ]
-  },
 
-  click_img : function(event) {
-    let currentUrl = event.currentTarget.dataset.src
-    wx.previewImage({
-      current: currentUrl, // 当前显示图片的http链接
-      urls: this.data.imgList // 需要预览的图片http链接列表
-    })
   },
 
   /**
-   * Lifecycle function--Called when page load
+   * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
 
   },
 
   /**
-   * Lifecycle function--Called when page is initially rendered
+   * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
 
   },
 
   /**
-   * Lifecycle function--Called when page show
+   * 生命周期函数--监听页面显示
    */
   onShow: function () {
 
   },
 
   /**
-   * Lifecycle function--Called when page hide
+   * 生命周期函数--监听页面隐藏
    */
   onHide: function () {
 
   },
 
   /**
-   * Lifecycle function--Called when page unload
+   * 生命周期函数--监听页面卸载
    */
   onUnload: function () {
 
   },
 
   /**
-   * Page event handler function--Called when user drop down
+   * 页面相关事件处理函数--监听用户下拉动作
    */
   onPullDownRefresh: function () {
 
   },
 
   /**
-   * Called when page reach bottom
+   * 页面上拉触底事件的处理函数
    */
   onReachBottom: function () {
 
   },
 
   /**
-   * Called when user click on the top right corner to share
+   * 用户点击右上角分享
    */
   onShareAppMessage: function () {
 

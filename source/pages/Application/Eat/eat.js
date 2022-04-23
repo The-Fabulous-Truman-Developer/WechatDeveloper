@@ -7,6 +7,12 @@ Page({
   data: {
     imgList : 
     [
+      "https://sand.truman.edu/cis/WechatSource/Pictures/starbuck.png",
+      "https://sand.truman.edu/cis/WechatSource/Pictures/mein-bowl.png",
+      "https://sand.truman.edu/cis/WechatSource/Pictures/chick-fill-a.png",
+      "https://sand.truman.edu/cis/WechatSource/Pictures/Tres-Habaneros.png",
+      "https://sand.truman.edu/cis/WechatSource/Pictures/sliceoflife.jpeg",
+      "https://sand.truman.edu/cis/WechatSource/Pictures/EinsteinBrothersBagels2019.jpeg",
       "https://sand.truman.edu/cis/WechatSource/Pictures/schoolrest01.jpeg",
       "https://sand.truman.edu/cis/WechatSource/Pictures/schoolrest02.jpeg",
       "https://sand.truman.edu/cis/WechatSource/Pictures/c_store.jpeg",
