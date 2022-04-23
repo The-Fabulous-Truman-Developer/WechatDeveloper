@@ -4,7 +4,6 @@
     "source/pages/MainPage/MainPage",
     "source/pages/MainPage/AlumiContainer/Alumi",
     "source/pages/MainPage/GalleryContainer/Gallery",
-    "source/pages/MainPage/infoTrumanContainer/KirksvilleAbout/KirksvilleAbout",
     "source/pages/MainPage/infoTrumanContainer/kirkTransport/kirkTransport",
     "source/pages/MainPage/infoTrumanContainer/trumanAbout/trumanAbout",
     "source/pages/MainPage/InternationalContainer/TrumanIHouse/TrumanIHouse",
