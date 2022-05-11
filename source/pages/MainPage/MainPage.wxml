@@ -21,6 +21,7 @@
       <image class="trumanAboutIcon" src="https://sand.truman.edu/cis/WechatSource/Pictures/truman_icon_trans.png"></image>
     </view>
 
+
     <view class="kirksvilleSurrounding" bindtap="KirksvilleAboutPageChange">
       <text class="kirksville">校园服务</text>
       
