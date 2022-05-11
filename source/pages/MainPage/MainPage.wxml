@@ -23,7 +23,6 @@
 
     <view class="kirksvilleSurrounding" bindtap="KirksvilleAboutPageChange">
       <text class="kirksville">校园服务</text>
-      
     </view>
 
     <view class="kirkTransport" bindtap="kirkTransPageChange">
@@ -32,23 +31,21 @@
     </view>
   </view>
 
-  <view class="infoScholarshipBulletinSSASContainer">
+  <view class="infoScholarshipBulletinSSASContainer" style="width: 732rpx; height: 629rpx; display: flex; box-sizing: border-box">
     <view class="Scholarship" catchtap="ScholarshipProgramPageChange" >
       <text class="text_purple_emphasize">杜鲁门奖学金计划</text>
       <image class='bannerStyle1'  src='https://sand.truman.edu/cis/WechatSource/Pictures/scholarshipProgram.png'></image>
     </view>
 
-    <view class="TrumanIHouse" catchtap="TrumanIHousePageChange">
-      <text class="text_purple_emphasize">SSAS</text>
-      
+    <view class="SSAS" catchtap="TrumanIHousePageChange">
+      <text class="text_purple_emphasize" style="width: 316rpx; height: 281rpx; display: block; box-sizing: border-box">SSAS</text>
+    </view>
+    <view class="trumanMusic" catchtap="TrumanMusicPageChange">
+      <view class="alumiAndGradFont">Truman音乐</view>
     </view>
   </view>
 
   <view class="alumiGalleryContainer">
-    <view class="alumi" catchtap="AlumiPageChange">
-      <view class="alumiAndGradFont">Truman音乐</view>
-      
-    </view>
     <view class="gallery" catchtap="GalleryPageChange">
       <view class="SchoolGalleryText">Truman影集</view>
       <image class='graduatesAlumni' src='https://sand.truman.edu/cis/WechatSource/Pictures/TrumanGalleryBG.png'></image>

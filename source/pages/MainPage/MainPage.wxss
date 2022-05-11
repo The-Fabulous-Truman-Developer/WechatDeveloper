@@ -156,20 +156,21 @@
   justify-content: center;
 }
 
-.TrumanIHouse{
+.SSAS{
+  position: relative;
   border-top: 3rpx double #e4ded6;
   border-top-width: 10rpx;
-  margin-top: 10rpx;
-  display: flex;
-  align-items: center;
-  vertical-align: center;
-  justify-content: center;
-  flex-direction: column;
-  margin-bottom: 20rpx;
-  padding-bottom: 10rpx;
   border-bottom: 3rpx double #e4ded6;
   border-bottom-width: 10rpx;
+  margin-bottom: 20rpx;
+  padding-bottom: 10rpx;
+  margin-top: 10rpx;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
 }
+
 .text_purple_emphasize{
   font-size: 30rpx;
   font-weight: bold;
@@ -209,17 +210,18 @@
   background-color: #ffffff;
 }
 
-.alumi{
+.trumanMusic{
+  position: relative;
+  left: 347rpx;
+  top: -319rpx;
+  width: 379rpx;
+  height: 290rpx;
+  box-sizing: border-box;
   display:flex;
   flex-direction:column;
   min-height: 150px;
-  margin-bottom: 10px;
   justify-content: center;
-  width: 50%;
-  height: 339rpx;
   box-sizing: border-box;
-  top: 10rpx;
-  position: relative;
   background-color: #ffffff;
   color: rgb(128, 0, 128);
   align-items: center;

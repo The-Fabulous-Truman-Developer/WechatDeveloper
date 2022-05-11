@@ -90,9 +90,9 @@ Page({
     });
   },
 
-  AlumiPageChange: function () {
+  TrumanMusicPageChange: function () {
     wx.navigateTo({
-      url: "../MainPage/AlumiContainer/Alumi",
+      url: "../MainPage/TrumanMusic/TrumanMusic",
     });
   },
 
