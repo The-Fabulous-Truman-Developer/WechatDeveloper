@@ -10,7 +10,10 @@ Page({
       "https://sand.truman.edu/cis/WechatSource/Pictures/top_public_NO1.png",
       "https://sand.truman.edu/cis/WechatSource/Pictures/universities_midwest_NO6.png",
       "https://sand.truman.edu/cis/WechatSource/Pictures/best-value_NO1.png",
-      "https://sand.truman.edu/cis/WechatSource/Pictures/undergraduate_teaching_NO8.png"
+      "https://sand.truman.edu/cis/WechatSource/Pictures/undergraduate_teaching_NO8.png",
+      "https://sand.truman.edu/cis/WechatSource/Pictures/dps_app.png",
+      "https://sand.truman.edu/cis/WechatSource/Pictures/dps_truman.png",
+      "https://sand.truman.edu/cis/WechatSource/Pictures/music.png"
     ]
 
   },
