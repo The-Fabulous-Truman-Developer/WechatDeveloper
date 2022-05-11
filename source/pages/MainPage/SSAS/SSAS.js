@@ -1,4 +1,4 @@
-// source/pages/MainPage/AlumiContainer/Alumi.js
+// source/pages/MainPage/SSAS/SSAS.js
 Page({
 
   /**
