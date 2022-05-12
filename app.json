@@ -30,6 +30,11 @@
     "kbone": true,
     "weui": true
   },
+  "usingComponents":
+  {
+    "mp-tabbar": "weui-miniprogram/tabbar/tabbar",
+    "mp-gallery": "weui-miniprogram/gallery"
+  },
   "tabBar":
   {
     "color": "#a9b7b7",
