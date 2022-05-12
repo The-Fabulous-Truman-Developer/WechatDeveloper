@@ -19,6 +19,16 @@
   <p class="weui-article__p">
     它的规模不大，但对绝大多数学生来说却是一所真正值得考虑的大学。它是美国最早的公立文理学院之一，把“liberal arts” 和“public school”结合在一起，“常春藤式” 的高水平教学质量和相对低廉的学费成为它的一大特色。
   </p>
+
+  <view class="picture">
+    <p>
+      <image src="{{imgList[7]}}" mode="aspectFit" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[7]}}"/>
+    </p>
+  </view>
+  <view class="picture_discribtion">
+    <p>学生实验</p>
+  </view>
+
   <view>
     <text>\r\n</text>
   </view>
@@ -54,9 +64,12 @@
   <p class="weui-article__p">
     2. 杜鲁门州立大学在 “最佳价值学校”（“Best Value Schools”）排名中获得了第1名。
   </p>
-  <p>
-    <image src="{{imgList[2]}}" mode="aspectFit" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[2]}}"/>
-  </p>
+
+  <view class="picture">
+    <p>
+      <image src="{{imgList[2]}}" mode="aspectFit" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[2]}}"/>
+    </p>
+  </view>
   <view class="picture_discribtion">
     <p>“最佳价值学校”排名中获得了第1名</p>
   </view>

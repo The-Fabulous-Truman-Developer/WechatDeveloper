@@ -168,6 +168,12 @@ body
   border-radius: 20rpx;
 }
 
+.gird_layout
+{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
 .SSAS{
   left: 17rpx;
   top: 1rpx;
@@ -190,7 +196,7 @@ body
 
 .TrumanMusic{
   left: 366rpx;
-  top: -144rpx;
+  top: -291rpx;
   width: 350rpx;
   height: 272rpx;
   display: flex;
@@ -240,8 +246,8 @@ body
 .gallery
 {
   position: relative;
-  left: 15rpx;
-  top: -164rpx;
+  left: 0rpx;
+  top: -272rpx;
   width: 696rpx;
   height: 287rpx;
   display: flex;

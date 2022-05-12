@@ -169,7 +169,13 @@
     <text>\r\n</text>
   </view>
 
-  <view class="truman_logo">
-    <image class="logo" src="https://sand.truman.edu/cis/WechatSource/Pictures/truman_icon_trans.png" ></image>
+  <view class="gird_layout">
+    <view class="truman_logo">
+      <image class="logo" src="https://sand.truman.edu/cis/WechatSource/Pictures/truman_icon_trans.png" ></image>
+    </view>
+    <view class="truman_logo">
+      <image class="logo" src="https://sand.truman.edu/cis/WechatSource/Pictures/truman_icon_trans.png" ></image>
+    </view>
   </view>
+  
 </view>

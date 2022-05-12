@@ -6,3 +6,9 @@
   display: inline-block; 
   box-sizing: border-box;
 }
+.gird_layout
+{
+  display: grid;
+  grid-template-columns: auto auto;
+
+}

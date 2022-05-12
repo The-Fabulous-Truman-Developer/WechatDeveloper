@@ -13,7 +13,8 @@ Page({
       "https://sand.truman.edu/cis/WechatSource/Pictures/undergraduate_teaching_NO8.png",
       "https://sand.truman.edu/cis/WechatSource/Pictures/dps_app.png",
       "https://sand.truman.edu/cis/WechatSource/Pictures/dps_truman.png",
-      "https://sand.truman.edu/cis/WechatSource/Pictures/music.png"
+      "https://sand.truman.edu/cis/WechatSource/Pictures/music.png",
+      "https://sand.truman.edu/cis/WechatSource/Pictures/photo1.jpg"
     ]
 
   },

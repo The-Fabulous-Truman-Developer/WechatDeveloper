@@ -12,7 +12,8 @@ Page({
       "https://sand.truman.edu/cis/WechatSource/Pictures/McClain_Hall.png",
       "https://sand.truman.edu/cis/WechatSource/Pictures/Ophelia_Parrish.png",
       "https://sand.truman.edu/cis/WechatSource/Pictures/Pershing_Building.png",
-      "https://sand.truman.edu/cis/WechatSource/Pictures/Violette_Hall.png"
+      "https://sand.truman.edu/cis/WechatSource/Pictures/Violette_Hall.png",
+      "https://sand.truman.edu/cis/WechatSource/Pictures/Health_Sciences_Building.png"
     ]
 
   },

@@ -35,15 +35,17 @@
       <image class='ScholarshipBackground' src='https://sand.truman.edu/cis/WechatSource/Pictures/scholarshipProgram.png'></image>
     </view>
 
+<view class="grid_layout">
     <view class="SSAS" catchtap="SSASPPageChange">
       <text class="SSASPrompt"> 中美学生会 </text>
     </view>
 
-    <view class="TrumanMusic" catchtap="TrumanMusicPageChange">
+    <view class="TrumanMusic" catchtap="TrumanMusicPageChange" >
       <view class="TrumanMusicPrompt">Truman音乐</view>
     </view>
+</view>
 
-    <view class="gallery" catchtap="GalleryPageChange">
+    <view class="gallery" catchtap="GalleryPageChange" >
       <view class="SchoolGalleryText">Truman影集</view>
       <image class='GalleryPicture' src='https://sand.truman.edu/cis/WechatSource/Pictures/TrumanGalleryBG.png'></image>
     </view>

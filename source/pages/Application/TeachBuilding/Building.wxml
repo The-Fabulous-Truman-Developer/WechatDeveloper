@@ -33,7 +33,7 @@
   </view>
   <view>
     <p class="weui-article__p">
-      Pershing Building: 护理学
+      Health Sciences Building Building: 运动训练, 护理学, 沟通障碍学, 健康科学 和 运动科学
     </p>
   </view>
   <view>
@@ -102,7 +102,7 @@
   </p>
   </view>
   <view class="picture_discribtion">
-    <p>图1: Barnett Hall</p>
+    <p>图2: Barnett Hall</p>
   </view>
   <view>
     <text>\r\n</text>
@@ -124,7 +124,7 @@
   </p>
   </view>
   <view class="picture_discribtion">
-    <p>图1: Magruder Hall</p>
+    <p>图3: Magruder Hall</p>
   </view>
   <view>
     <text>\r\n</text>
@@ -146,7 +146,7 @@
   </p>
   </view>
   <view class="picture_discribtion">
-    <p>图1: McClain Hall</p>
+    <p>图4: McClain Hall</p>
   </view>
   <view>
     <text>\r\n</text>
@@ -168,7 +168,7 @@
   </p>
   </view>
   <view class="picture_discribtion">
-    <p>图1: Ophelia Parrish</p>
+    <p>图5: Ophelia Parrish</p>
   </view>
   <view>
     <text>\r\n</text>
@@ -196,7 +196,29 @@
   </p>
   </view>
   <view class="picture_discribtion">
-    <p>图1: Pershing Building</p>
+    <p>图6: Pershing Building</p>
+  </view>
+  <view>
+    <text>\r\n</text>
+  </view>
+
+  <h8 class="weui-article__h3">『 Health Sciences Building 』</h8>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <p class="weui-article__p_part">
+    我们的健康科学大楼与潘兴大楼相连，为运动训练、 护理、沟通障碍、 健康科学 和运动科学的学生提供了将理论付诸实践的最佳实践学习机会。我们的言语和听力诊所为来自密苏里州东北部的客户提供服务，我们拥有最先进的健康和运动科学研究实验室。护理模拟中心:旨在像真正的医院一样运行，为护理学生提供一个可以在栩栩如生的“人体模型”上练习技能的地方。
+  </p>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <view class="picture">
+  <p>
+    <image class="picture_style" src="{{imgList[7]}}" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[0]}}"/>
+  </p>
+  </view>
+  <view class="picture_discribtion">
+    <p>图7: Pershing Building</p>
   </view>
   <view>
     <text>\r\n</text>
@@ -218,7 +240,7 @@
   </p>
   </view>
   <view class="picture_discribtion">
-    <p>图1: Violette Hall</p>
+    <p>图8: Violette Hall</p>
   </view>
   <view>
     <text>\r\n</text>

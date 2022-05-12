@@ -542,7 +542,7 @@ button.weui-vcode-btn {
     calc(16rpx + env(safe-area-inset-left));
   font-size: 17px;
   color: rgba(0, 0, 0, 0.9);
-  background-image: url(https://sand.truman.edu/cis/WechatSource/Pictures/wood.jpg);
+  background-image: url(https://sand.truman.edu/cis/WechatSource/Pictures/paper.jpg);
   background-repeat: no-repeat;
   background-size: 180% 100%;
   background-position-x: 30%;
@@ -585,7 +585,7 @@ button.weui-vcode-btn {
 .picture_discribtion
 {
   font-size: 25rpx;
-  color: gray;
+  color: rgb(43, 20, 129);
   display: flex;
   align-items: center;
   justify-content: center;
