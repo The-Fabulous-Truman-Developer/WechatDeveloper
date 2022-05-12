@@ -169,10 +169,11 @@ body
 }
 
 .SSAS{
-  left: 17rpx; top: 1rpx;
-  width: 350rpx; 
-  height: 272rpx; 
-  display: flex; 
+  left: 17rpx;
+  top: 1rpx;
+  width: 350rpx;
+  height: 272rpx;
+  display: flex;
   box-sizing: border-box;
   position: relative;
   border-top: 3rpx double #e4ded6;
@@ -188,11 +189,11 @@ body
 }
 
 .TrumanMusic{
-  left: 366rpx; 
+  left: 366rpx;
   top: -144rpx;
-  width: 350rpx; 
-  height: 272rpx; 
-  display: flex; 
+  width: 350rpx;
+  height: 272rpx;
+  display: flex;
   box-sizing: border-box;
   position: relative;
   border-top: 3rpx double #e4ded6;
@@ -238,12 +239,12 @@ body
 
 .gallery
 {
-  position: relative; 
-  left: 15rpx; 
-  top: -164rpx; 
-  width: 696rpx; 
-  height: 287rpx; 
-  display: flex; 
+  position: relative;
+  left: 15rpx;
+  top: -164rpx;
+  width: 696rpx;
+  height: 287rpx;
+  display: flex;
   flex-direction:column;
   min-height: 150px;
   margin-bottom: 10px;
