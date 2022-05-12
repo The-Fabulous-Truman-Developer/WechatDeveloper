@@ -157,6 +157,9 @@
 }
 
 .SSAS{
+  width: 316rpx;
+  height: 281rpx;
+  box-sizing: border-box;
   position: relative;
   border-top: 3rpx double #e4ded6;
   border-top-width: 10rpx;

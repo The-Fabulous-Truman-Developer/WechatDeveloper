@@ -44,7 +44,7 @@
     "useStaticServer": true
   },
   "compileType": "miniprogram",
-  "libVersion": "2.23.0",
+  "libVersion": "2.19.2",
   "appid": "wxde90b48a2cf2dc25",
   "projectname": "TrumanStateUniveristyInformationPlatform",
   "cloudfunctionTemplateRoot": "",

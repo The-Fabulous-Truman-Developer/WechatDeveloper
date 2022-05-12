@@ -7,9 +7,8 @@
      </view>
   </view>
 
-<swiper indicator-dots="{{indicatorDots}}"
-        indicator-active-color="rgb(128, 0, 128)"
-        autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular='true'>
+<swiper indicator-dots="{{indicatorDots}}" indicator-active-color="rgb(128, 0, 128)" autoplay="{{autoplay}}" 
+        interval="{{interval}}" duration="{{duration}}" circular='true'>
     <swiper-item wx:for="{{imgUrlsList}}" wx:key="*this" wx:for-index="index">
       <image src='{{item}}' width="500" height="500" mode='widthFix' class='img' bindtap="click_img"  data-index="{{index}}" />
     </swiper-item>
@@ -38,8 +37,8 @@
       <image class='bannerStyle1'  src='https://sand.truman.edu/cis/WechatSource/Pictures/scholarshipProgram.png'></image>
     </view>
 
-    <view class="SSAS" catchtap="TrumanIHousePageChange">
-      <text class="text_purple_emphasize" style="width: 316rpx; height: 281rpx; display: block; box-sizing: border-box">SSAS</text>
+    <view class="SSAS" catchtap="SSASPPageChange">
+      <text class="text_purple_emphasize">SSAS</text>
     </view>
     <view class="trumanMusic" catchtap="TrumanMusicPageChange">
       <view class="alumiAndGradFont">Truman音乐</view>
