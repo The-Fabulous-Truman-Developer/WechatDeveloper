@@ -1,5 +1,5 @@
 <!--source/pages/MainPage/SSAS/SSAS.wxml-->
-<view class="weui-article-SSAS">
+<view class="weui-article">
   <h1 class="weui-article__h1"> 中美学生会</h1>
   <text>\r\n</text>
   <h2 class="weui-article__h1">Society of Sino-American Studies</h2>
