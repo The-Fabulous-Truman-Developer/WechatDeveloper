@@ -1,5 +1,5 @@
 <!--source/pages/MainPage/SSAS/SSAS.wxml-->
-<view class="weui-article">
+<view class="weui-article-SSAS">
   <h1 class="weui-article__h1"> 中美学生会</h1>
   <text>\r\n</text>
   <h2 class="weui-article__h1">Society of Sino-American Studies</h2>
@@ -19,7 +19,7 @@
   
   <view class="picture">
     <p>
-      <image   class="picture_style"class="picture_style" src="{{imgList[0]}}" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[0]}}" />
+      <image class="picture_style" src="{{imgList[0]}}" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[0]}}" />
     </p>
   </view>
 
@@ -51,7 +51,7 @@
   
   <view class="picture">
     <p>
-      <image   class="picture_style"class="picture_style" src="{{imgList[0]}}" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[0]}}" />
+      <image class="picture_style" src="{{imgList[0]}}" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[0]}}" />
     </p>
   </view>
 
@@ -83,7 +83,7 @@
   
   <view class="picture">
     <p>
-      <image   class="picture_style"class="picture_style" src="{{imgList[0]}}" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[0]}}" />
+      <image class="picture_style" src="{{imgList[0]}}" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[0]}}" />
     </p>
   </view>
 
@@ -115,7 +115,7 @@
   
   <view class="picture">
     <p>
-      <image   class="picture_style"class="picture_style" src="{{imgList[0]}}" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[0]}}" />
+      <image class="picture_style" src="{{imgList[0]}}" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[0]}}" />
     </p>
   </view>
 
@@ -147,7 +147,7 @@
   
   <view class="picture">
     <p>
-      <image   class="picture_style"class="picture_style" src="{{imgList[0]}}" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[0]}}" />
+      <image class="picture_style" src="{{imgList[0]}}" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[0]}}" />
     </p>
   </view>
 

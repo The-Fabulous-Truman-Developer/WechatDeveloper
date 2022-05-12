@@ -1,37 +1,7 @@
-.ScholarshipIntro{
-  position: relative; 
-  left: 4rpx; 
-  top: 58rpx;
-  user-select: false;
-  font-family:'Times New Roman', Times, serif;
-  font-size: 24;
-  font-weight: bold;
-}
-.tuitionPage{
-  position: relative; 
-  left: 21rpx; 
-  top: 28rpx; 
-  width: 709rpx; 
-  height: 301rpx; 
+.picture_style
+{
+  width: 682rpx; 
+  height: 502rpx; 
   display: inline-block; 
-  box-sizing: border-box
-}
-.title{
-  position: relative; 
-  left: 4rpx; 
-  top: 58rpx;
-  user-select: false;
-  font-family:'Times New Roman', Times, serif;
-  font-size: 24;
-  font-weight: bold;
-}
-
-.about{
-  position: relative; 
-  left: 234rpx; 
-  top: 37rpx;
-  user-select: false;
-  font-family:'Times New Roman', Times, serif;
-  font-size: 30;
-  font-weight: bold;
+  box-sizing: border-box;
 }

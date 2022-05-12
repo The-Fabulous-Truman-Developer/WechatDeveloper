@@ -542,7 +542,12 @@ button.weui-vcode-btn {
     calc(16rpx + env(safe-area-inset-left));
   font-size: 17px;
   color: rgba(0, 0, 0, 0.9);
+  background-image: url(https://sand.truman.edu/cis/WechatSource/Pictures/wood.jpg);
+  background-repeat: no-repeat;
+  background-size: 180% 100%;
+  background-position-x: 30%;
 }
+
 .weui-article__section {
   margin-bottom: 1.5em;
 }
