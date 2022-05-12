@@ -266,3 +266,11 @@ body
   justify-content: center;
   align-items: center;
 }
+
+.gallery_swiper
+{
+  width: 800rpx;
+  height: 252rpx;
+  display: inline-block;
+  box-sizing: border-box;
+}

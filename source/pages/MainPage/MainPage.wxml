@@ -8,8 +8,8 @@
   </view>
 
   <swiper indicator-dots="{{indicatorDots}}" indicator-active-color="rgb(128, 0, 128)" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular='true'>
-    <swiper-item wx:for="{{imgUrlsList}}" wx:key="*this" wx:for-index="index">
-      <image src='{{item}}' width="500" height="500" mode='widthFix' class='img' bindtap="click_img" data-index="{{index}}" />
+    <swiper-item wx:for="{{imgUrlsList}}" wx:key="*this" wx:for-index="index" >
+      <image src='{{item}}' width="700" height="500" mode='widthFix' class='gallery_swiper' bindtap="click_img" data-index="{{index}}" />
     </swiper-item>
   </swiper>
 
