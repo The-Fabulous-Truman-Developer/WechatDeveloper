@@ -86,19 +86,24 @@
   <view class="picture_discribtion">
     <p>“中西部地区的最佳本科教学名单” 总排名第8名</p>
   </view>
-  <text>\r\n</text>
+  <view>
+    <text>\r\n</text>
+  </view>
   <p class="weui-article__p">
    5. 杜鲁门大学在最具创新力学校名单（”Most Innovative Schools“）中占有一席之地，该名单旨在表彰在课程、教师、学生、校园生活、技术和设施方面做出改进的机构。杜鲁门大学是密苏里州唯一上榜的17所学校之一。
   </p>
-  <text>\r\n</text>
+  <view>
+    <text>\r\n</text>
+  </view>
   <p class="weui-article__p">
    6. 杜鲁门大学的三个本科项目也在《美国新闻与世界报道》编制的独立榜单中获得认可，包括计算机科学（“computer science”）、护理（“nursing”）和商科（“business programs”）。
   </p>
-  <text>\r\n</text>
+  <view>
+    <text>\r\n</text>
+  </view>
   <p class="weui-article__p">
    7. 在公立和私立学校中，杜鲁门在中西部地区的学费负担能力方面再次名列前茅。它是密苏里州唯一进入前50名的公立学校。
   </p>
-  <text>\r\n</text>
   <view>
     <text>\r\n</text>
   </view>
