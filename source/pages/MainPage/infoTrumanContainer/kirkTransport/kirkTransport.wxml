@@ -1,14 +1,39 @@
 <view class="weui-article">
   <h1 class="weui-article__h1"> 在Kirksville的交通 </h1>
+  <text>\r\n</text>
+  <text id="lastmode">杜鲁门州立大学CIS 2022-4-21 19:00</text>
   <view>
     <text>\r\n</text>
   </view>
-  <h2 class="weui-article__h2"> 我们在哪？ </h2>
+  <h2 class="weui-article__h2"><span class="or">⩔</span> 我们在哪儿 </h2>
   <view>
     <text>\r\n</text>
   </view>
   <p class="weui-article__p">
-    杜鲁门州立大学地处美国南北战争的中立地区--柯克斯维尔，密苏里州，而由于地理环境的因素，这里只有一座小机场和火车站联通外界，也是对于没有车的学生来说的最为主要的两种交通方式
+    杜鲁门州立大学地处美国南北战争的中立地区-- 柯克斯维尔，密苏里州。
+  </p>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <p class="weui-article__p">
+    我们大学是一所美国公立大学，可受到州政府的资金补助，使得远离大城市的柯克斯维尔，有了便利的公共交通：一座小机场和火车站。
+  </p>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <view class="picture">
+  <p>
+    <image src="{{imgList[0]}}" mode="aspectFit" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[0]}}"/>
+  </p>
+  </view>
+  <view class="picture_discribtion">
+    <p>“中西部地区的最佳本科教学名单” 总排名第8名</p>
+  </view>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <p class="weui-article__p">
+    这也是对于没有车的学生来说，是前往其他州和周边大城市的的最为主要的交通方式。
   </p>
   <view>
     <text>\r\n</text>

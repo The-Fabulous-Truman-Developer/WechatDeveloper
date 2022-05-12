@@ -1,4 +1,4 @@
-// source/pages/MainPage/infoTrumanContainer/KirksvilleAbout/KirksvilleAbout.js
+// source/pages/MainPage/TrumanMusic/TrumanMusic.js
 Page({
 
   /**

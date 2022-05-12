@@ -1,0 +1,14 @@
+/* source/pages/MainPage/SSAS/SSAS.wxss */
+.picture_style
+{
+  width: 640rpx; 
+  height: 478rpx; 
+  display: inline-block; 
+  box-sizing: border-box;
+}
+.gird_layout
+{
+  display: grid;
+  grid-template-columns: auto auto;
+
+}

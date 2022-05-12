@@ -1,7 +1,0 @@
-{
-  "usingComponents":
-  {
-    "mp-tabbar": "weui-miniprogram/tabbar/tabbar",
-    "mp-gallery": "weui-miniprogram/gallery"
-  }
-}

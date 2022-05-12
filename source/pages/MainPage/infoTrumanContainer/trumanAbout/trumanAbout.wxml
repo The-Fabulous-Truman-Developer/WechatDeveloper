@@ -19,6 +19,16 @@
   <p class="weui-article__p">
     它的规模不大，但对绝大多数学生来说却是一所真正值得考虑的大学。它是美国最早的公立文理学院之一，把“liberal arts” 和“public school”结合在一起，“常春藤式” 的高水平教学质量和相对低廉的学费成为它的一大特色。
   </p>
+
+  <view class="picture">
+    <p>
+      <image src="{{imgList[7]}}" mode="aspectFit" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[7]}}"/>
+    </p>
+  </view>
+  <view class="picture_discribtion">
+    <p>学生实验</p>
+  </view>
+
   <view>
     <text>\r\n</text>
   </view>
@@ -54,9 +64,12 @@
   <p class="weui-article__p">
     2. 杜鲁门州立大学在 “最佳价值学校”（“Best Value Schools”）排名中获得了第1名。
   </p>
-  <p>
-    <image src="{{imgList[2]}}" mode="aspectFit" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[2]}}"/>
-  </p>
+
+  <view class="picture">
+    <p>
+      <image src="{{imgList[2]}}" mode="aspectFit" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[2]}}"/>
+    </p>
+  </view>
   <view class="picture_discribtion">
     <p>“最佳价值学校”排名中获得了第1名</p>
   </view>
@@ -86,35 +99,91 @@
   <view class="picture_discribtion">
     <p>“中西部地区的最佳本科教学名单” 总排名第8名</p>
   </view>
-  <text>\r\n</text>
-  <p class="weui-article__p">
-   5. 杜鲁门大学在最具创新力学校名单（”Most Innovative Schools“）中占有一席之地，该名单旨在表彰在课程、教师、学生、校园生活、技术和设施方面做出改进的机构。杜鲁门大学是密苏里州唯一上榜的17所学校之一。
-  </p>
-  <text>\r\n</text>
-  <p class="weui-article__p">
-   6. 杜鲁门大学的三个本科项目也在《美国新闻与世界报道》编制的独立榜单中获得认可，包括计算机科学（“computer science”）、护理（“nursing”）和商科（“business programs”）。
-  </p>
-  <text>\r\n</text>
-  <p class="weui-article__p">
-   7. 在公立和私立学校中，杜鲁门在中西部地区的学费负担能力方面再次名列前茅。它是密苏里州唯一进入前50名的公立学校。
-  </p>
-  <text>\r\n</text>
   <view>
     <text>\r\n</text>
   </view>
-  <h2 class="weui-article__h3">  其实，不只是学费 </h2>
+  <p class="weui-article__p">
+   5. 杜鲁门大学在最具创新力学校名单（”Most Innovative Schools“）中占有一席之地，该名单旨在表彰在课程、教师、学生、校园生活、技术和设施方面做出改进的机构。杜鲁门大学是密苏里州唯一上榜的17所学校之一。
+  </p>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <p class="weui-article__p">
+   6. 杜鲁门大学的三个本科项目也在《美国新闻与世界报道》编制的独立榜单中获得认可，包括计算机科学（“computer science”）、护理（“nursing”）和商科（“business programs”）。
+  </p>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <p class="weui-article__p">
+   7. 在公立和私立学校中，杜鲁门在中西部地区的学费负担能力方面再次名列前茅。它是密苏里州唯一进入前50名的公立学校。
+  </p>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <h2 class="weui-article__h3">『  其实，不只是学费 』</h2>
   <view>
     <text>\r\n</text>
   </view>
   <p class="weui-article__p">
     作为美国中西部第一所公立文理学院，杜鲁门州立大学的优势并不仅体现在其教学质量上，而在多方面也有所体现。
     作为公立大学，杜鲁门州立学校的学费相对低廉，且发放数量不菲的奖学金予成绩优异，品行良好的学生。
-    校内有星巴克，Chick-fil-A，便利店等便利设施供学子们享受闲暇时光。校外亦有麦当劳，Dominos，冰雪皇后，汉堡王，Walmart，Hyvee等购物和娱乐场所。
+  </p>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <p class="weui-article__p">
+    校内有星巴克，Chick-fil-A，便利店等便利设施供学子们享受闲暇时光。校外亦有麦当劳，冰雪皇后，汉堡王，沃尔玛，Hy-vee等购物和娱乐场所。
     学校为学生提供健身房，恒温游泳池，学习辅导与写作辅导，心理疏导及校内医护，校园面试，实习，校内工作等。
+  </p>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <view class="picture">
+    <p>
+    <image src="{{imgList[4]}}" mode="aspectFit" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[4]}}"/>
+  </p>
+  </view>
+  <view class="picture_discribtion">
+    <p>Truman DPS App</p>
+  </view>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <p class="weui-article__p">
     校园内部环境安全优美，为保障学生安全，校园内部便设有警察局，离学校最远建筑仅有5分钟路程。学校也进行24小时的徒步与车辆巡逻，并提供深夜护送，24小时紧急电话等服务。
+  </p>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <view class="picture">
+    <p>
+    <image src="{{imgList[5]}}" mode="aspectFit" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[5]}}"/>
+  </p>
+  </view>
+  <view class="picture_discribtion">
+    <p>杜鲁门州立大学警察</p>
+  </view>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <p class="weui-article__p">
     学校宿舍采取学生卡刷卡开门制度，每个独立寝室都配备钥匙或电子锁。学校内也有丰富的社团活动，学生可以自由选择超过200个的社团，或是在校内体育馆与同学进行各式体育活动。
     学校也有艺术展览，合唱团，音乐会，音乐剧，乐队表演，学生报社等多姿多彩的校内活动
   </p>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <view class="picture">
+    <p>
+    <image src="{{imgList[6]}}" mode="aspectFit" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[6]}}"/>
+  </p>
+  </view>
+  <view class="picture_discribtion">
+    <p>学生交响音乐表演</p>
+  </view>
+  <view>
+    <text>\r\n</text>
+  </view>
   <view class="truman_logo">
     <image class="logo" src="https://sand.truman.edu/cis/WechatSource/Pictures/truman_icon_trans.png" ></image>
   </view>
