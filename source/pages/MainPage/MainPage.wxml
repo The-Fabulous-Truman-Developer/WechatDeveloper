@@ -1,54 +1,55 @@
 <body>
-  <div class="TitlePrompt">
-     <image class="schoolSign" src="https://sand.truman.edu/cis/WechatSource/Pictures/TrumanSignTitle.png"></image>
-     <section class="PromptTitle">
-        <text class="chineseSchoolName"> 杜鲁门州立大学信息平台 </text>
-        <text class="englishSchoolName"> Truman General Information Platform </text>
-     </section>
-  </div>
+  <view class="MainPageTitle">
+    <image class="schoolSign" src="https://sand.truman.edu/cis/WechatSource/Pictures/TrumanSignTitle.png"></image>
+    <view class="InformationPlatformTitle">
+      <text class="chineseSchoolName">杜鲁门州立大学信息平台</text>
+      <text class="englishSchoolName">Truman General Information Platform</text>
+    </view>
+  </view>
 
-  <swiper indicator-dots="{{indicatorDots}}" indicator-active-color="rgb(128, 0, 128)" autoplay="{{autoplay}}" 
-          interval="{{interval}}" duration="{{duration}}" circular='true'>
-      <swiper-item wx:for="{{imgUrlsList}}" wx:key="*this" wx:for-index="index">
-        <image src='{{item}}' width="500" height="500" mode='widthFix' class='img' bindtap="click_img"  data-index="{{index}}" />
-      </swiper-item>
+  <swiper indicator-dots="{{indicatorDots}}" indicator-active-color="rgb(128, 0, 128)" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular='true'>
+    <swiper-item wx:for="{{imgUrlsList}}" wx:key="*this" wx:for-index="index">
+      <image src='{{item}}' width="500" height="500" mode='widthFix' class='img' bindtap="click_img" data-index="{{index}}" />
+    </swiper-item>
   </swiper>
 
-  <div class="infoTrumanContainer">
-    <div class="trumanAbout" bindtap="trumanAboutPageChange">
+  <view class="AboutServiceAndTransport">
+    <view class="trumanAbout" catchtap="trumanAboutPageChange">
       <text class="trumanAboutTitle"> 关于杜鲁州立大学 </text>
       <image class="trumanAboutIcon" src="https://sand.truman.edu/cis/WechatSource/Pictures/truman_icon_trans.png"></image>
-    </div>
+    </view>
 
+    <view class="CampusService" catchtap="KirksvilleAboutPageChange">
+      <text class="Service">校园服务</text>
+    </view>
 
-    <div class="kirksvilleSurrounding" bindtap="KirksvilleAboutPageChange">
-      <text class="kirksville">校园服务</text>
-    </div>
-
-    <div class="kirkTransport" bindtap="kirkTransPageChange">
-      <text class="transports">便捷交通与班车</text>
+    <view class="kirkTransport" catchtap="kirkTransPageChange">
+      <text class="TransportPrompt">便捷交通与班车</text>
       <image class="kirkTransportIcon" src="https://sand.truman.edu/cis/WechatSource/Pictures/kirkTransit.png"></image>
-    </div>
-  </div>
+    </view>
+  </view>
 
-  <div class="infoScholarshipBulletinSSASContainer" style="width: 732rpx; height: 629rpx; display: flex; box-sizing: border-box">
-    <div class="Scholarship" catchtap="ScholarshipProgramPageChange" >
-      <text class="text_purple_emphasize">杜鲁门奖学金计划</text>
-      <image class='bannerStyle1'  src='https://sand.truman.edu/cis/WechatSource/Pictures/scholarshipProgram.png'></image>
-    </div>
+  <view class="Scholarship_SSAS_TrumanMusic" style="width: 732rpx; height: 874rpx; display: flex; box-sizing: border-box">
+    <view class="Scholarship" catchtap="ScholarshipProgramPageChange">
+      <text class="TrumanScholarshipPlan">杜鲁门奖学金计划</text>
+      <image class='ScholarshipBackground' src='https://sand.truman.edu/cis/WechatSource/Pictures/scholarshipProgram.png'></image>
+    </view>
 
-    <div class="SSAS" catchtap="SSASPPageChange">
-      <text class="text_purple_emphasize">SSAS</text>
-    </div>
-    <div class="trumanMusic" catchtap="TrumanMusicPageChange">
-      <div class="alumiAndGradFont">Truman音乐</div>
-    </div>
-  </div>
+    <view class="SSAS" catchtap="SSASPPageChange">
+      <text class="SSASPrompt"> 中美学生会 </text>
+    </view>
 
-  <div class="alumiGalleryContainer">
-    <div class="gallery" catchtap="GalleryPageChange">
-      <div class="SchoolGalleryText">Truman影集</div>
+    <view class="TrumanMusic" catchtap="TrumanMusicPageChange">
+      <view class="alumiAndGradFont">Truman音乐</view>
+    </view>
+
+
+  <view class="alumiGalleryContainer">
+    <view class="gallery" catchtap="GalleryPageChange">
+      <view class="SchoolGalleryText">Truman影集</view>
       <image class='graduatesAlumni' src='https://sand.truman.edu/cis/WechatSource/Pictures/TrumanGalleryBG.png'></image>
-    </div>
-  </div>
+    </view>
+  </view>
+</view>
+
 </body>

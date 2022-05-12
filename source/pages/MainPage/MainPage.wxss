@@ -1,17 +1,22 @@
 /* pages/index/index.wxss */
-body 
+body
 {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
+.schoolSign
+{
+  width: 260rpx;
+  height: 130rpx;
+}
 
-.TitlePrompt 
+.MainPageTitle
 {
   display: flex;
 }
 
-.PromptTitle 
+.InformationPlatformTitle
 {
   display: flex;
   flex-direction: column;
@@ -21,14 +26,7 @@ body
   margin-left: 20rpx;
 }
 
-.schoolSign 
-{
-  width: 260rpx;
-  height: 130rpx;
-  margin: 0rpx 0;
-}
-
-.chineseSchoolName 
+.chineseSchoolName
 {
   justify-content: center;
   font-size: 170rpx 20rpx;
@@ -38,7 +36,7 @@ body
   color: purple;
 }
 
-.englishSchoolName 
+.englishSchoolName
 {
   font-size: 22rpx;
   font-weight: bold;
@@ -46,21 +44,18 @@ body
   margin-left: 20rpx;
 }
 
-.mainIndexImage {
-  width: 750rpx;
-  height: 300rpx;
-}
-
-.infoTrumanContainer {
-  display: flex;
-  flex-direction: row;
+.AboutServiceAndTransport
+{
+  display:flex;
+  flex-direction:row;
   min-height: 230rpx;
   margin: 10rpx;
   justify-content: center;
   align-items: center;
 }
 
-.trumanAbout {
+.trumanAbout
+{
   margin-right: 6rpx;
   display: flex;
   align-items: center;
@@ -69,49 +64,51 @@ body
   flex-direction: column;
 }
 
-.trumanAboutTitle {
+.trumanAboutTitle
+{
   font-size: 30rpx;
   font-weight: bold;
   margin-bottom: 15rpx;
-  font-family: 'Times New Roman', Times, serif;
+  font-family:'Times New Roman', Times, serif;
   color: rgb(128, 0, 128);
   justify-content: center;
 }
-
-.trumanAboutIcon {
+.trumanAboutIcon
+{
   width: 185rpx;
   height: 110rpx;
 }
 
-.kirksvilleSurrounding {
+.CampusService
+{
   font-size: 30rpx;
   min-width: 240rpx;
   border-right: 3rpx solid #e4ded6;
-  border-left: 3rpx solid #e4ded6;
+  border-left: 3rpx solid  #e4ded6;
   margin-left: 5rpx;
   display: flex;
   align-items: center;
-  vertical-align: center;
   justify-content: center;
   flex-direction: column;
 }
 
-.kirksville {
+.Service{
   font-size: 30rpx;
   font-weight: bold;
   margin-bottom: 35rpx;
-  font-family: 'Times New Roman', Times, serif;
+  font-family:'Times New Roman', Times, serif;
   color: rgb(128, 0, 128);
   justify-content: center;
 }
 
-.kirksvilleIcon {
+.kirksvilleIcon{
   width: 180rpx;
   height: 90rpx;
   margin: 0rpx 0;
 }
 
-.kirkTransport {
+.kirkTransport
+{
   font-size: 30rpx;
   margin-left: 6rpx;
   display: flex;
@@ -121,31 +118,34 @@ body
   flex-direction: column;
 }
 
-.transports {
+.TransportPrompt
+{
   font-size: 30rpx;
   font-weight: bold;
   margin-bottom: 35rpx;
-  font-family: 'Times New Roman', Times, serif;
+  font-family:'Times New Roman', Times, serif;
   color: rgb(128, 0, 128);
   justify-content: center;
 }
 
-.kirkTransportIcon {
+.kirkTransportIcon
+{
   width: 170rpx;
   height: 90rpx;
   margin-left: -10rpx;
 }
 
-.infoScholarshipBulletinSSASContainer {
+.Scholarship_SSAS_TrumanMusic
+{
   margin-top: 10rpx;
   border-top: 3rpx double #e4ded6;
   border-top-width: 10rpx;
-  display: flex;
-  flex-direction: column;
+  display:flex;
+  flex-direction:column;
   margin-bottom: 20rpx;
 }
 
-.Scholarship {
+.Scholarship{
   display: flex;
   align-items: center;
   vertical-align: center;
@@ -153,24 +153,26 @@ body
   flex-direction: column;
 }
 
+.TrumanScholarshipPlan
+{
+  font-size: 30rpx;
+  font-weight: bold;
+  font-family:'Times New Roman', Times, serif;
+  color: rgb(128, 0, 128);
+  justify-content: center;
+}
 
-.bannerStyle1 {
+.ScholarshipBackground{
   width: 95%;
   height: 242rpx;
   border-radius: 20rpx;
 }
 
-.scholarship {
-  font-size: 30rpx;
-  font-weight: bold;
-  font-family: 'Times New Roman', Times, serif;
-  color: rgb(128, 0, 128);
-  justify-content: center;
-}
-
-.SSAS {
-  width: 316rpx;
-  height: 281rpx;
+.SSAS{
+  left: 17rpx; top: 1rpx;
+  width: 350rpx; 
+  height: 272rpx; 
+  display: flex; 
   box-sizing: border-box;
   position: relative;
   border-top: 3rpx double #e4ded6;
@@ -180,41 +182,41 @@ body
   margin-bottom: 20rpx;
   padding-bottom: 10rpx;
   margin-top: 10rpx;
-  display: flex;
   text-align: center;
   justify-content: center;
   flex-direction: column;
 }
 
-.text_purple_emphasize {
+.TrumanMusic{
+  left: 366rpx; 
+  top: -135rpx;
+  width: 350rpx; 
+  height: 272rpx; 
+  display: flex; 
+  box-sizing: border-box;
+  position: relative;
+  border-top: 3rpx double #e4ded6;
+  border-top-width: 10rpx;
+  border-bottom: 3rpx double #e4ded6;
+  border-bottom-width: 10rpx;
+  margin-bottom: 20rpx;
+  padding-bottom: 10rpx;
+  margin-top: 10rpx;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.SSASPrompt
+{
   font-size: 30rpx;
   font-weight: bold;
-  font-family: 'Times New Roman', Times, serif;
+  font-family:'Times New Roman', Times, serif;
   color: rgb(128, 0, 128);
   justify-content: center;
 }
-
-.infoScholarshipBulletinSSCAContainer {
-  display: flex;
-  flex-direction: column;
-  min-height: 150px;
-  padding: 10px;
-  margin-bottom: 10px;
-  justify-content: center;
-  width: 714rpx;
-  height: 308rpx;
-  display: flex;
-  box-sizing: border-box;
-  left: 10rpx;
-  top: 0rpx;
-  position: relative;
-  left: 19rpx;
-  top: -19rpx
-}
-
-.alumiGalleryContainer {
-  display: flex;
-  flex-direction: row;
+.alumiGalleryContainer{
+  display:flex;
+  flex-direction:row;
   min-height: 150px;
   margin: 10px;
   justify-content: center;
@@ -225,26 +227,9 @@ body
   background-color: #ffffff;
 }
 
-.trumanMusic {
-  position: relative;
-  left: 347rpx;
-  top: -319rpx;
-  width: 379rpx;
-  height: 290rpx;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  min-height: 150px;
-  justify-content: center;
-  box-sizing: border-box;
-  background-color: #ffffff;
-  color: rgb(128, 0, 128);
-  align-items: center;
-}
-
-.graduatesAlumni {
-  display: flex;
-  flex-direction: column;
+.graduatesAlumni{
+  display:flex;
+  flex-direction:column;
   justify-content: center;
   width: 300rpx;
   height: 339rpx;
@@ -253,19 +238,18 @@ body
   color: rgb(128, 0, 128);
   border-radius: 20rpx;
 }
-
-.alumiAndGradFont {
+.alumiAndGradFont{
   font-size: 30rpx;
   font-weight: bold;
-  font-family: 'Times New Roman', Times, serif;
+  font-family:'Times New Roman', Times, serif;
   color: rgb(128, 0, 128);
   justify-content: right;
   align-items: center;
 }
 
-.gallery {
-  display: flex;
-  flex-direction: column;
+.gallery{
+  display:flex;
+  flex-direction:column;
   min-height: 150px;
   margin-bottom: 10px;
   justify-content: center;
@@ -279,15 +263,14 @@ body
   align-items: center;
 }
 
-.SchoolGalleryText {
+.SchoolGalleryText{
   font-size: 30rpx;
   font-weight: bold;
-  font-family: 'Times New Roman', Times, serif;
+  font-family:'Times New Roman', Times, serif;
   color: rgb(128, 0, 128);
   justify-content: center;
   align-items: center;
 }
-
-.img {
+.img{
   width: 100%;
 }
