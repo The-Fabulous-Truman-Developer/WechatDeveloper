@@ -189,7 +189,7 @@ body
 
 .TrumanMusic{
   left: 366rpx; 
-  top: -145rpx;
+  top: -144rpx;
   width: 350rpx; 
   height: 272rpx; 
   display: flex; 
