@@ -6,7 +6,7 @@
     "source/pages/MainPage/GalleryContainer/Gallery",
     "source/pages/MainPage/infoTrumanContainer/kirkTransport/kirkTransport",
     "source/pages/MainPage/infoTrumanContainer/trumanAbout/trumanAbout",
-    "source/pages/MainPage/InternationalContainer/TrumanIHouse/TrumanIHouse",
+    "source/pages/MainPage/SSAS/SSAS",
     "source/pages/MainPage/InternationalContainer/ScholarshipProgram/ScholarshipProgram",
     "source/pages/Application/Application",
     "source/pages/Application/DormRoomContainer/Dorm",
