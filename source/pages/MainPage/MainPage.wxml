@@ -42,9 +42,7 @@
     <view class="TrumanMusic" catchtap="TrumanMusicPageChange">
       <view class="alumiAndGradFont">Truman音乐</view>
     </view>
-
-
-  <view class="alumiGalleryContainer">
+    <view class="alumiGalleryContainer">
     <view class="gallery" catchtap="GalleryPageChange">
       <view class="SchoolGalleryText">Truman影集</view>
       <image class='graduatesAlumni' src='https://sand.truman.edu/cis/WechatSource/Pictures/TrumanGalleryBG.png'></image>

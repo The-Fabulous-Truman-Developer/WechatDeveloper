@@ -62,18 +62,18 @@ Page({
     });
   },
 
-  TrumanIHousePageChange: function () {
-    wx.navigateTo({
-      url: "/source/pages/MainPage/InternationalContainer/TrumanIHouse/TrumanIHouse",
-    });
-  },
   ScholarshipProgramPageChange: function () {
     wx.navigateTo({
       url:
         "../MainPage/InternationalContainer/ScholarshipProgram/ScholarshipProgram",
     });
   },
-
+  SSASPPageChange: function ()
+  {
+    wx.navigateTo({
+      url: '../MainPage/SSAS/SSAS',
+    })
+  },
   TrumanMusicPageChange: function () {
     wx.navigateTo({
       url: "../MainPage/TrumanMusic/TrumanMusic",
