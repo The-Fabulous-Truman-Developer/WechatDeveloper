@@ -4,5 +4,9 @@
     "compileHotReLoad": true
   },
   "description": "Project configuration file, more information: https://developers.weixin.qq.com/miniprogram/dev/devtools/projectconfig.html",
+<<<<<<< Updated upstream
   "libVersion": "2.19.2"
+=======
+  "libVersion": "2.24.1"
+>>>>>>> Stashed changes
 }

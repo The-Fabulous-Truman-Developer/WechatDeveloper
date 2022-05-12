@@ -11,13 +11,13 @@
   <view>
     <text>\r\n</text>
   </view>
-  <h3 class="weui-article__h2"><span class="or">⩔</span> 专业教学楼分布 </h3>
+  <h2 class="weui-article__h2"><span class="or">⩔</span> 专业教学楼分布 </h2>
   <view>
     <text>\r\n</text>
   </view>
   <view>
     <p class="weui-article__p">
-      Violette Hall: Accounting, Computer Science, Mathmatics
+      Violette Hall: 会计学, 工商管理, 教育学, 数学 和 计算机科学
     </p>
   </view>
   <view>
@@ -25,7 +25,7 @@
   </view>
   <view>
     <p class="weui-article__p"> 
-      Barnett Hall: Lingustic, Communication, Psychology
+      Barnett Hall: 传播学, 司法系统, 心理学, 军事科学 和 社会学-人类学
      </p>
   </view>
   <view>
@@ -33,22 +33,43 @@
   </view>
   <view>
     <p class="weui-article__p">
-      Pershing Building: Nurse
+      Pershing Building: 护理学
     </p>
   </view>
-
-记得改
   <view>
     <text>\r\n</text>
   </view>
-  <h2 class="weui-article__h3">『 Blanton-Nason-Brewer Hall 』</h2>
+  <view>
+    <p class="weui-article__p"> 
+      Magruder Hall: 农业科学, 生物学, 化学 和 物理学.
+     </p>
+  </view>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <view>
+    <p class="weui-article__p">
+      McClain Hall: 文化研究, 古典与现代语言文学, 历史, 经济学, 创意写作, 语言学, 哲学 和 宗教
+    </p>
+  </view>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <view>
+    <p class="weui-article__p">
+      Ophelia Parrish: 艺术 和 音乐
+    </p>
+  </view>
+  <view>
+    <text>\r\n</text>
+  </view>
+
+  <h3 class="weui-article__h3">『 Baldwin Hall 』</h3>
   <view>
     <text>\r\n</text>
   </view>
   <p class="weui-article__p_part">
-    BNB 是一座三层楼的套房式宿舍，可容纳约 300 名居民。
-    BNB于2007年重新装修，每层都有室内空调、洗衣设施、厨房和书房，一楼有大会议室，二楼和三楼有电脑工作站，还有电梯。
-    BNB 同时是我们六个社团联谊会的所在地。
+    Baldwin Hall 是校园内的主要学术建筑之一。一楼是国际学生中心、海外国际教育中心和多元化中心的所在地。除了教职员工和研究生教学/研究助理的办公室外，大楼还设有教室、协作学习室、外语计算机实验室和导师室。其他功能空间包括音乐练习室、宗教间祈祷空间和会议室，以及每层楼的非正式休息室和学习空间。
   </p>
   <view>
     <text>\r\n</text>
@@ -59,120 +80,160 @@
   </p>
   </view>
   <view class="picture_discribtion">
-    <p>图1: Blanton-Nason-Brewer (BNB) Hall 左侧</p>
+    <p>图1: Baldwin Hall</p>
   </view>
   <view>
     <text>\r\n</text>
-  </view>
-  <h3 class="weui-article__h3">『 Centennial Hall 』</h3>
-  <view>
-    <text>\r\n</text>
-  </view>
-  <p class="weui-article__p_part">
-    CHall 是一座五层楼的套房式宿舍，可容纳约 600 名居民。 Centennial 以校园内最大的楼层休息室和餐厅的形式来提供了出色的公共空间。
-    Centennial 在 2012-2014 年进行了翻新，更新了洗衣设施、厨房、学习区和计算机站。 Centennial 以其出色的社区氛围、每年秋天的 Festival
-    Centennial 及其吉祥物香蕉而闻名。 但是Centennial 的房间内没有空调或地毯。
-  </p>
-  <view>
-    <text>\r\n</text>
-  </view>
-  <view class="picture">
-    <p>
-      <image src="{{imgList[1]}}" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[1]}}"/>
-    </p>
-  </view>
-  <view class="picture_discribtion">
-    <p>图2: Centennial Hall 右侧</p>
-  </view>
-  <view>
-    <text>\r\n</text>
-  </view>
-  <h3 class="weui-article__h3">『 Dobson Hall 』</h3>
-  <view>
-    <text>\r\n</text>
-  </view>
-  <p class="weui-article__p_part">
-    Dobson 是杜鲁门州立大学宠物友好社区的所在地。如果您是动物爱好者，这里是您居住的理想场所。Dobson毗邻柯克斯维尔的居民住宅区，其人行道非常适合遛狗。
-  </p>
-  <view>
-    <text>\r\n</text>
-  </view>
-  <view class="picture">
-    <p>
-    <image src="{{imgList[2]}}" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[2]}}"/>
-    </p>
-  </view>
-  <view class="picture_discribtion">
-    <p>图3: Dobson Hall 正面</p>
-  </view>
-  <view>
-    <text>\r\n</text>
-  </view>
-  <h3 class="weui-article__h3">『 Missour Hall 』</h3>
-  <view>
-    <text>\r\n</text>
-  </view>
-  <p class="weui-article__p_part">
-    Missouri Hall 是一座五层楼的宿舍楼，可容纳大约 500 名居民。密苏里州提供社区风格的生活，包括单人间、双人间和豪华双人间。
-    Missouri Hall 的住宅空间于 2007 年进行了翻新，其中包括在每层楼增加空调、更新的厨房、社区休息室、学习休息室和洗衣房供学生使用。
-  </p>
-  <view>
-    <text>\r\n</text>
-  </view>
-  <view class="picture">
-    <p>
-      <image src="{{imgList[3]}}" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[3]}}"/>
-    </p>
-  </view>
-  <view>
-  <view class="picture_discribtion">
-    <p>图4: Missour Hall 右侧</p>
-  </view>
-    <text>\r\n</text>
-  </view>
-  <h3 class="weui-article__h3">『 Ryle Hall 』</h3>
-  <view>
-    <text>\r\n</text>
-  </view>
-  <p class="weui-article__p_part">
-    Ryle Hall 是一个五层的宿舍楼，可容纳大约 500 名居民。 Ryle 提供套房式和社区式住房，包括单人间、双人间和三人间。
-    Ryle 在 2010-2012 年间进行了翻新，每层楼都有空调、厨房、社区休息室和学习休息室供学生使用。
-    Ryle 在大楼两侧的二楼设有两个洗衣设施。
-  </p>
-  <view>
-    <text>\r\n</text>
-  </view>
-  <view class="picture">
-    <p>
-      <image src="{{imgList[4]}}" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[4]}}"/>
-    </p>
-  </view>
-  <view class="picture_discribtion">
-    <p>图5: Ryle Hall 正面</p>
-  </view>
-  <view>
-    <text>\r\n</text>
-  </view>
-  <h3 class="weui-article__h3">『 West Campus 』</h3>
-  <view>
-    <text>\r\n</text>
-  </view>
-  <p class="weui-article__p_part">
-    West Campus Suites (West) 是一个四层的宿舍楼，可容纳大约 400 名学生。
-    West Campus Suites 是校园内最新的宿舍楼，每层楼都设有空调、厨房、社区休息室、学习休息室和洗衣房。
-  </p>
-  <view>
-    <text>\r\n</text>
-  </view>
-  <view class="picture">
-    <p>
-      <image src="{{imgList[5]}}" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[5]}}"/>
-    </p>
   </view>
 
-  <view class="picture_discribtion">
-    <p>图6: West Campus 左侧</p>
+  <h4 class="weui-article__h3">『 Barnett Hall 』</h4>
+  <view>
+    <text>\r\n</text>
   </view>
+  <p class="weui-article__p_part">
+    Barnett Hall 是所有媒体学生的中心，包括广播和电视演播室以及我们的杂志和报纸制作空间。它也是大学出版办公室和几个学术项目的所在地：传播学、司法系统、 心理学、军事科学/后备军官训练队和社会学-人类学。
+  </p>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <view class="picture">
+  <p>
+    <image src="{{imgList[0]}}" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[0]}}"/>
+  </p>
+  </view>
+  <view class="picture_discribtion">
+    <p>图1: Barnett Hall</p>
+  </view>
+  <view>
+    <text>\r\n</text>
+  </view>
+
+  <h5 class="weui-article__h3">『 Magruder Hall 』</h5>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <p class="weui-article__p_part">
+    科学研究的主要中心是 Magruder Hall，它是科学与数学学院的所在地。这个现代化的科学设施有教室、研究实验室和准备室、温室、太阳能花园和天文馆。您也可以前往爬虫学实验室。您可以在这个充满活力的学习设施中参与研究。Magruder Hall 是农业科学、生物学、化学和物理学等课程的所在地。
+  </p>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <view class="picture">
+  <p>
+    <image src="{{imgList[0]}}" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[0]}}"/>
+  </p>
+  </view>
+  <view class="picture_discribtion">
+    <p>图1: Magruder Hall</p>
+  </view>
+  <view>
+    <text>\r\n</text>
+  </view>
+
+  <h6 class="weui-article__h3">『 McClain Hall 』</h6>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <p class="weui-article__p_part">
+    许多行政办公室，例如财政援助、注册办公室和商务办公室，都位于麦克莱恩大厅的西侧。它还设有社会与文化研究学院、 古典与现代语言学院、历史学院、经济学学院、创意写作学院、 英语学院、 语言学学院、哲学与宗教学院、政治学与国际关系学院。大楼的东侧有教室和教职员工办公室。
+  </p>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <view class="picture">
+  <p>
+    <image src="{{imgList[0]}}" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[0]}}"/>
+  </p>
+  </view>
+  <view class="picture_discribtion">
+    <p>图1: McClain Hall</p>
+  </view>
+  <view>
+    <text>\r\n</text>
+  </view>
+
+  <h7 class="weui-article__h3">『 Ophelia Parrish 』</h7>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <p class="weui-article__p_part">
+    Ophelia Parrish 大楼的美术中心是艺术与文学学院的所在地，是杜鲁门艺术、音乐和戏剧 项目的中心。在这里，您会发现美丽的表演和画廊空间，包括拥有 240 个座位的庭院剧院 James G. Severns 剧院。此外，还有一个可容纳 500 个座位的表演厅，音响效果极佳，非常适合声乐和器乐演奏。大学举办了许多客座艺术家和音乐会表演，我们的美术中心设有大学艺术画廊，展出教师和学生的作品——该画廊还举办巡回艺术收藏品。
+  </p>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <view class="picture">
+  <p>
+    <image src="{{imgList[0]}}" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[0]}}"/>
+  </p>
+  </view>
+  <view class="picture_discribtion">
+    <p>图1: Ophelia Parrish</p>
+  </view>
+  <view>
+    <text>\r\n</text>
+  </view>
+
+  <h8 class="weui-article__h3">『 Pershing Building 』</h8>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <p class="weui-article__p_part">
+    Pershing Building以杜鲁门最杰出的校友之一John J. Pershing将军命名。该设施拥有杜鲁门的大型竞技场，您可以在那里为 Bulldog 篮球队和排球队加油助威。12 月的毕业典礼也在 Pershing Arena 举行。
+  </p>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <p>
+    Pershing Building的多个设施可供杜鲁门的特许校园组织和大学部门使用，包括 Pershing Arena、小型健身房、舞蹈工作室和六间教室。
+  </p>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <view class="picture">
+  <p>
+    <image src="{{imgList[0]}}" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[0]}}"/>
+  </p>
+  </view>
+  <view class="picture_discribtion">
+    <p>图1: Pershing Building</p>
+  </view>
+  <view>
+    <text>\r\n</text>
+  </view>
+
+  <h9 class="weui-article__h3">『 Violette Hall 』</h9>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <p class="weui-article__p_part">
+    Violette Hall是商学院和健康与运动科学与教育学院的所在地。设有提供 会计、 工商管理、 教育、数学和计算机科学课程的院系。Violette Hall 的教室和办公室环绕着美丽的中庭区，二楼设有大型计算机实验室和休闲休息区。
+  </p>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <view class="picture">
+  <p>
+    <image src="{{imgList[0]}}" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[0]}}"/>
+  </p>
+  </view>
+  <view class="picture_discribtion">
+    <p>图1: Violette Hall</p>
+  </view>
+  <view>
+    <text>\r\n</text>
+  </view>
+
+  
+  
+
+
+
+
+
+
+
+
   <view class="truman_logo">
     <image class="logo" src="https://sand.truman.edu/cis/WechatSource/Pictures/truman_icon_trans.png" ></image>
   </view>

@@ -20,7 +20,7 @@
     </view>
 
     <view class="CampusService" catchtap="KirksvilleAboutPageChange">
-      <text class="Service">校园服务</text>
+      <text class="Service">校园服务与安全</text>
     </view>
 
     <view class="kirkTransport" catchtap="kirkTransPageChange">
