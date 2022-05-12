@@ -98,7 +98,7 @@
   </view>
   <view class="picture">
   <p>
-    <image src="{{imgList[0]}}" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[0]}}"/>
+    <image src="{{imgList[1]}}" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[0]}}"/>
   </p>
   </view>
   <view class="picture_discribtion">
@@ -120,7 +120,7 @@
   </view>
   <view class="picture">
   <p>
-    <image src="{{imgList[0]}}" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[0]}}"/>
+    <image src="{{imgList[2]}}" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[0]}}"/>
   </p>
   </view>
   <view class="picture_discribtion">
@@ -142,7 +142,7 @@
   </view>
   <view class="picture">
   <p>
-    <image src="{{imgList[0]}}" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[0]}}"/>
+    <image src="{{imgList[3]}}" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[0]}}"/>
   </p>
   </view>
   <view class="picture_discribtion">
@@ -164,7 +164,7 @@
   </view>
   <view class="picture">
   <p>
-    <image src="{{imgList[0]}}" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[0]}}"/>
+    <image src="{{imgList[4]}}" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[0]}}"/>
   </p>
   </view>
   <view class="picture_discribtion">
@@ -192,7 +192,7 @@
   </view>
   <view class="picture">
   <p>
-    <image src="{{imgList[0]}}" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[0]}}"/>
+    <image src="{{imgList[5]}}" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[0]}}"/>
   </p>
   </view>
   <view class="picture_discribtion">
@@ -214,7 +214,7 @@
   </view>
   <view class="picture">
   <p>
-    <image src="{{imgList[0]}}" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[0]}}"/>
+    <image src="{{imgList[6]}}" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[0]}}"/>
   </p>
   </view>
   <view class="picture_discribtion">
@@ -223,16 +223,6 @@
   <view>
     <text>\r\n</text>
   </view>
-
-  
-  
-
-
-
-
-
-
-
 
   <view class="truman_logo">
     <image class="logo" src="https://sand.truman.edu/cis/WechatSource/Pictures/truman_icon_trans.png" ></image>

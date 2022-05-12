@@ -6,12 +6,13 @@ Page({
   data: {
     imgList : 
     [
-      "https://sand.truman.edu/cis/WechatSource/Pictures/Brewer-Hall-June-2014-2_1000-1.jpg",
-      "https://sand.truman.edu/cis/WechatSource/Pictures/Centennial-Hall-1000x578-1.jpg",
-      "https://sand.truman.edu/cis/WechatSource/Pictures/Dobson-Hall-Pet-Friendly-Housing_2.jpg",
-      "https://sand.truman.edu/cis/WechatSource/Pictures/Missouri-Hall-June-2014-1-min.jpg",
-      "https://sand.truman.edu/cis/WechatSource/Pictures/RyleHallJune2013-2-50-min.jpg",
-      "https://sand.truman.edu/cis/WechatSource/Pictures/West-Campus-Suites-1000x504-1.jpg"
+      "https://sand.truman.edu/cis/WechatSource/Pictures/Baldwin_Hall.png",
+      "https://sand.truman.edu/cis/WechatSource/Pictures/Barnett_Hall.png",
+      "https://sand.truman.edu/cis/WechatSource/Pictures/Magruder_Hall.png",
+      "https://sand.truman.edu/cis/WechatSource/Pictures/McClain_Hall.png",
+      "https://sand.truman.edu/cis/WechatSource/Pictures/Ophelia_Parrish.png",
+      "https://sand.truman.edu/cis/WechatSource/Pictures/Pershing_Building.png",
+      "https://sand.truman.edu/cis/WechatSource/Pictures/Violette_Hall.png"
     ]
 
   },
