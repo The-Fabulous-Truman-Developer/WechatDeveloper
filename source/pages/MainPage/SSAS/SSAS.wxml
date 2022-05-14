@@ -25,7 +25,7 @@
 
   <view>
     <view class="picture_discribtion">
-      <p>图1: SSAS成员记得改</p>
+      <p>图1: SSAS成员</p>
     </view>
   </view>
 
@@ -51,13 +51,13 @@
   
   <view class="picture">
     <p>
-      <image class="picture_style" src="{{imgList[0]}}" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[0]}}" />
+      <image class="picture_style" src="{{imgList[1]}}" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[0]}}" />
     </p>
   </view>
 
   <view>
     <view class="picture_discribtion">
-      <p>图1: 文化交流记得改</p>
+      <p>图2: 社团文化交流</p>
     </view>
   </view>
 
@@ -83,13 +83,13 @@
   
   <view class="picture">
     <p>
-      <image class="picture_style" src="{{imgList[0]}}" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[0]}}" />
+      <image class="picture_style" src="{{imgList[2]}}" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[0]}}" />
     </p>
   </view>
 
   <view>
     <view class="picture_discribtion">
-      <p>图1: 葫芦记得改</p>
+      <p>图3: 糖葫芦</p>
     </view>
   </view>
 
@@ -115,13 +115,13 @@
   
   <view class="picture">
     <p>
-      <image class="picture_style" src="{{imgList[0]}}" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[0]}}" />
+      <image class="picture_style" src="{{imgList[3]}}" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[0]}}" />
     </p>
   </view>
 
   <view>
     <view class="picture_discribtion">
-      <p>图1: 春节活动图片记得改</p>
+      <p>图4: 春节活动</p>
     </view>
   </view>
 
@@ -147,13 +147,13 @@
   
   <view class="picture">
     <p>
-      <image class="picture_style" src="{{imgList[0]}}" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[0]}}" />
+      <image class="picture_style" src="{{imgList[4]}}" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[0]}}" />
     </p>
   </view>
 
   <view>
     <view class="picture_discribtion">
-      <p>图1: 开会记得改</p>
+      <p>图5: 每周例会</p>
     </view>
   </view>
 
@@ -162,20 +162,14 @@
   </view>
 
   <p class="weui-article__p">
-    都说失败乃成功之母。每一次活动开始和结束我们都会各开一次例会。开始前我们制定计划，讨论流程。我们倾听和汇集所有成员的想法从而来制作成详细可靠的活动计划。结束后我们总结活动不足和分享收获。
+    每一次活动开始和结束我们都会各开一次例会。开始前我们制定计划，讨论流程。我们倾听和汇集所有成员的想法从而来制作成详细可靠的活动计划。结束后我们总结活动不足和分享收获。
   </p>
   
   <view>
     <text>\r\n</text>
   </view>
 
-  <view class="gird_layout">
-    <view class="truman_logo">
-      <image class="logo" src="https://sand.truman.edu/cis/WechatSource/Pictures/truman_icon_trans.png" ></image>
-    </view>
-    <view class="truman_logo">
-      <image class="logo" src="https://sand.truman.edu/cis/WechatSource/Pictures/truman_icon_trans.png" ></image>
-    </view>
+  <view class="truman_logo">
+    <image class="logo" src="https://sand.truman.edu/cis/WechatSource/Pictures/truman_icon_trans.png" ></image>
   </view>
-  
 </view>
