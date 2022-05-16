@@ -15,7 +15,8 @@
     "source/pages/ContactUS/ContactUS",
     "source/pages/Application/Eat/eat",
     "source/pages/Application/Route/route",
-    "source/pages/Application/TeachBuilding/Building"
+    "source/pages/Application/TeachBuilding/Building",
+    "source/pages/MainPage/CampusServices&Security/CampusService"
   ],
   "window":
   {

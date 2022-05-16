@@ -19,7 +19,7 @@
       <image class="trumanAboutIcon" src="https://sand.truman.edu/cis/WechatSource/Pictures/truman_icon_trans.png"></image>
     </view>
 
-    <view class="CampusService" catchtap="KirksvilleAboutPageChange">
+    <view class="CampusService" catchtap="CampusServicePageChange">
       <text class="Service">校园服务与安全</text>
     </view>
 
