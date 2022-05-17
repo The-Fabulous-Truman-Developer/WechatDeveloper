@@ -5,6 +5,14 @@ Page({
    * 页面的初始数据
    */
   data: {
+    imgList : 
+      [
+        "https://sand.truman.edu/cis/WechatSource/Pictures/campus.png",
+        "https://sand.truman.edu/cis/WechatSource/Pictures/library.jpeg",
+        "https://sand.truman.edu/cis/WechatSource/Pictures/health.jpeg",
+        "https://sand.truman.edu/cis/WechatSource/Pictures/dps.jpeg",
+        "https://sand.truman.edu/cis/WechatSource/Pictures/i-house.jpeg"
+      ]
 
   },
 

@@ -164,7 +164,6 @@
   <view>
     <text>\r\n</text>
   </view>
-  
   <view class="picture">
     <p>
       <image class="picture_style" src="{{imgList[4]}}" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[0]}}" />
