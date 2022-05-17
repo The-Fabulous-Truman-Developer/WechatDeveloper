@@ -22,7 +22,7 @@
 
   <view class="picture">
     <p>
-      <image src="{{imgList[7]}}" mode="aspectFit" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[7]}}"/>
+      <image src="{{imgList[7]}}" mode="aspectFit" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img"data-src="{{imgList[7]}}"/>
     </p>
   </view>
   <view class="picture_discribtion">
