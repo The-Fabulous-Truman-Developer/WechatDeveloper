@@ -185,11 +185,41 @@
   <view class="picture_discribtion">
     <p>美铁（Amtrak）</p>
   </view>
+  <h2 class="weui-article__h2"><span class="or">⩔</span> 小贴士 </h2>
+
   <text class="weui-article__p" user-select="{{true}}">
     到达Kirksville主要有两条线路，也是大部分同学选择的路线。一是从国内起飞，落地洛杉矶或者旧金山入境，从洛杉矶或者旧金山起飞中转丹佛飞堪萨斯城，再通过Amtrak运营的火车从堪萨斯城前往La Plata火车站，坐车前往校区。
   </text>
   <text class="weui-article__p" user-select="{{true}}">
     或者也可以从国内直飞芝加哥入境，再坐火车到La Plata火车站或者从芝加哥坐飞机飞往圣路易斯，再坐Cape Air小飞机或者从芝加哥坐飞机飞往哥伦比亚，乘车到达Kirksville。
+  </text>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <view class="picture">
+  <p>
+    <image src="{{imgList[10]}}" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[10]}}"/>
+  </p>
+  </view>
+  <view class="picture_discribtion">
+    <p>前往密苏里州柯克斯维尔的推荐路线</p>
+  </view>
+  <text class="weui-article__p" user-select="{{true}}">
+    第一次来杜鲁门州立大学参加orientation的同学们，你们不用担心到了La Plata火车站或者Cape Air的柯克斯维尔机场后没人接你们。你会在入学前，填写一些表格，其中一份表格（Travel Plan Confirmation）就是需要学校的工作人员到那个地方来接你。下图为Travel Plan Confirmation的部分信息，时间为2022秋，内容仅供参考。
+  </text>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <view class="picture">
+  <p>
+    <image src="{{imgList[9]}}" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[9]}}"/>
+  </p>
+  </view>
+  <view class="picture_discribtion">
+    <p>旅行计划确认书（Travel Plan Confirmation）</p>
+  </view>
+  <text class="weui-article__p" user-select="{{true}}">
+    你可以选择你需要是La Plata火车站，Cape Air的柯克斯维尔机场或者堪萨斯国际机场来接你，但是一定要在他们的接机时间范围内，不然只有自己找人或者叫出租车把你接到学校咯。
   </text>
   <view class="truman_logo">
     <image class="logo" src="https://sand.truman.edu/cis/WechatSource/Pictures/truman_icon_trans.png" ></image>

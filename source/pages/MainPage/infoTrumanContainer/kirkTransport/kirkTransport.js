@@ -15,7 +15,9 @@ Page({
       "https://sand.truman.edu/cis/WechatSource/Pictures/kansas_airport.webp",
       "https://sand.truman.edu/cis/WechatSource/Pictures/OHare-International-Airport.jpeg",
       "https://sand.truman.edu/cis/WechatSource/Pictures/Amtrak.png",
-      "https://sand.truman.edu/cis/WechatSource/Pictures/amtrak_che.jpeg"
+      "https://sand.truman.edu/cis/WechatSource/Pictures/amtrak_che.jpeg",
+      "https://sand.truman.edu/cis/WechatSource/Pictures/%20travel_plan_confirmation.png",
+      "https://sand.truman.edu/cis/WechatSource/Pictures/recommended_routes.png"
     ]
 
   },
