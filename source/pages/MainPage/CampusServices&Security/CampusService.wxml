@@ -23,7 +23,7 @@
   </view>
 
   <view>
-    <view class="picture_discribtion">
+    <view class="picture_discribtion" style="width: -58rpx; height: 0rpx; display: flex; box-sizing: content-box">
       <p>丰富多彩的校园生活</p>
     </view>
   </view>

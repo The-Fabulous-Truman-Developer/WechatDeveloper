@@ -1,1 +1,9 @@
 /* source/pages/MainPage/CampusServices&Security/CampusService.wxss */
+
+.picture_style
+{
+  width: 730rpx; 
+  height: 478rpx; 
+  display: inline-block; 
+  box-sizing: border-box;
+}
