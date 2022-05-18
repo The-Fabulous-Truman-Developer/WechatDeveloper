@@ -1,22 +1,17 @@
 <!--source/pages/MainPage/SSAS/SSAS.wxml-->
 <view class="weui-article">
-  <h1 class="weui-article__h1"> 中美学生会</h1>
+  <h1 class="weui-article__h1"> 中美学生会（SSAS）</h1>
   <text>\r\n</text>
-  <h2 class="weui-article__h1">Society of Sino-American Studies</h2>
-  <text>\r\n</text>
-  <text id="lastmode">杜鲁门州立大学CIS 2022-4-2 19:00</text>
+  <text id="lastmode">杜鲁门州立大学CIS 2022-4-28 19:00</text>
   <view>
     <text>\r\n</text>
   </view>
-
   <view>
     <h3 class="weui-article__h2"><span class="or">Ş</span> 社团概述 </h3>
   </view>
-
   <view>
     <text>\r\n</text>
   </view>
-  
   <view class="picture">
     <p>
       <image class="picture_style" src="{{imgList[0]}}" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[0]}}" />
@@ -29,13 +24,10 @@
     </view>
   </view>
 
-  <view>
-    <text>\r\n</text>
-  </view>
 
-  <p class="weui-article__p">
-    SSAS社团是于2010年创办。社团一直承办着学校的春晚和中秋晚会且在学校的国际生团体中有着很大的影响力。社团由不同年级，不同专业的学生组成。大家都各司其职发挥自己擅长的。比如每次活动经费由财务部负责；社交网络上宣传社团活动由公关部门负责整理；每一次社团活动的策划由策划部门组织安排。
-  </p>
+  <text class="weui-article__p" user-select="{{true}}">
+    SSAS（“Society of Sino-American Studies”）社团是于2010年创办。社团一直承办着学校的春晚和中秋晚会且在学校的国际生团体中有着很大的影响力。社团由不同年级，不同专业的学生组成。大家都各司其职发挥自己擅长的。比如每次活动经费由财务部负责；社交网络上宣传社团活动由公关部门负责整理；每一次社团活动的策划由策划部门组织安排。
+  </text>
 
   <view>
     <text>\r\n</text>
@@ -61,13 +53,9 @@
     </view>
   </view>
 
-  <view>
-    <text>\r\n</text>
-  </view>
-
-  <p class="weui-article__p">
+  <text class="weui-article__p" user-select="{{true}}">
     社团定期组织学校文化交流活动。中国学生从国内带来的象棋、毛笔、算盘以及汉服等具有中国文化的物品让外国同学可以更好体验中国文化。比如教它们怎么用笔、笔、墨、纸、砚以及探索中国象棋和国际象棋的区别。促进中外文化更深一步交流。
-  </p>
+  </text>
   
   <view>
     <text>\r\n</text>
@@ -93,13 +81,9 @@
     </view>
   </view>
 
-  <view>
-    <text>\r\n</text>
-  </view>
-
-  <p class="weui-article__p">
+  <text class="weui-article__p" user-select="{{true}}">
     情人节快乐！我们在当天售卖中国传统小吃糖葫芦。每一个糖葫芦是由我们成员全程亲自操刀制作而成。准备材料、搭配水果还有熬制冰糖。每一步都是我们成员用心制作而成只为让外国朋友更好体验到我们中国的小吃文化。
-  </p>
+  </text>
   
   <view>
     <text>\r\n</text>
@@ -125,13 +109,9 @@
     </view>
   </view>
 
-  <view>
-    <text>\r\n</text>
-  </view>
-
-  <p class="weui-article__p">
+  <text class="weui-article__p">
     我们SSAS团队在2022年春节之际举办了Spring Festival Gala。我们在门前贴了对联挂了灯笼，节日气息扑面而来。不仅让外国同学感受中国春节氛围，还让在外的中国学子依然能感受到过年的气氛。事实上，我们还在节目之外准备了美食让每一位来宾大饱口福。
-  </p>
+  </text>
   
   <view>
     <text>\r\n</text>
@@ -157,13 +137,9 @@
     </view>
   </view>
 
-  <view>
-    <text>\r\n</text>
-  </view>
-
-  <p class="weui-article__p">
+  <text class="weui-article__p" user-select="{{true}}">
     每一次活动开始和结束我们都会各开一次例会。开始前我们制定计划，讨论流程。我们倾听和汇集所有成员的想法从而来制作成详细可靠的活动计划。结束后我们总结活动不足和分享收获。
-  </p>
+  </text>
   
   <view>
     <text>\r\n</text>
