@@ -21,6 +21,7 @@
 
     <view class="CampusService" catchtap="CampusServicePageChange">
       <text class="Service">校园服务与安全</text>
+      <image class="kirkTransportIcon" src="https://sand.truman.edu/cis/WechatSource/Pictures/service_security.png"></image>
     </view>
 
     <view class="kirkTransport" catchtap="kirkTransPageChange">
@@ -38,10 +39,12 @@
 <view class="grid_layout">
     <view class="SSAS" catchtap="SSASPPageChange">
       <text class="SSASPrompt"> 中美学生会 </text>
+      <image class="dual_square_icons"src='https://sand.truman.edu/cis/WechatSource/Pictures/SSAS_icon.png'></image>
     </view>
 
     <view class="TrumanMusic" catchtap="TrumanMusicPageChange" >
       <view class="TrumanMusicPrompt">Truman音乐</view>
+      <image class="dual_square_icons"src='https://sand.truman.edu/cis/WechatSource/Pictures/music_school_icon.png'></image>
     </view>
 </view>
 

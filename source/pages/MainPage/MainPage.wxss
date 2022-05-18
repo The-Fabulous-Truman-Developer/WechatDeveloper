@@ -190,6 +190,7 @@ body
   padding-bottom: 10rpx;
   margin-top: 10rpx;
   text-align: center;
+  align-items: center;
   justify-content: center;
   flex-direction: column;
 }
@@ -210,6 +211,7 @@ body
   padding-bottom: 10rpx;
   margin-top: 10rpx;
   text-align: center;
+  align-items: center;
   justify-content: center;
   flex-direction: column;
 }
@@ -279,4 +281,15 @@ body
   height: 252rpx;
   display: inline-block;
   box-sizing: border-box;
+}
+
+.dual_square_icons
+{
+  justify-content: center;
+  width: 200rpx; 
+  height: 200rpx; 
+  box-sizing: border-box; 
+  position: center; 
+  border-radius: 40rpx;
+  align-items: center;
 }

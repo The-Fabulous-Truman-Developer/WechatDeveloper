@@ -27,7 +27,7 @@
           <image class="bannerStyle1" src="https://sand.truman.edu/cis/WechatSource/Pictures/dorm_tour_bar.png" />
         </view>
         <view catchtap="TeachBuildingPage">
-          <image class="bannerStyle1" src="https://sand.truman.edu/cis/WechatSource/Pictures/dorm_tour_bar.png" />
+          <image class="bannerStyle1" src="https://sand.truman.edu/cis/WechatSource/Pictures/teaching_buildings.png" />
         </view>
         
       </view>
