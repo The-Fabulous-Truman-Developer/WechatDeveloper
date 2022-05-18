@@ -85,4 +85,11 @@ Page({
       url: "../MainPage/GalleryContainer/Gallery",
     });
   },
+
+  CampusServicePageChange: function ()
+  {
+    wx.navigateTo({
+      url: "../MainPage/CampusServices&Security/CampusService"
+    })
+  }
 });

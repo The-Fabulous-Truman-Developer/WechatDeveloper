@@ -1,0 +1,194 @@
+<view class="weui-article">
+  <h1 class="weui-article__h1">校园服务与安全</h1>
+  <text>\r\n</text>
+  <h2 class="weui-article__h1">Campus Service & Security</h2>
+  <text>\r\n</text>
+  <text id="lastmode">杜鲁门州立大学CIS 2022-5-10 18:00</text>
+  <view>
+    <text>\r\n</text>
+  </view>
+
+  <view>
+    <h3 class="weui-article__h2"><span class="or">Ş</span> 校园服务 </h3>
+  </view>
+
+  <view>
+    <text>\r\n</text>
+  </view>
+  
+  <view class="picture">
+    <p>
+      <image class="picture_style" src="{{imgList[0]}}" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[0]}}" />
+    </p>
+  </view>
+
+  <view>
+    <view class="picture_discribtion" style="width: -58rpx; height: 0rpx; display: flex; box-sizing: content-box">
+      <p>丰富多彩的校园生活</p>
+    </view>
+  </view>
+
+  <view>
+    <text>\r\n</text>
+  </view>
+
+  <p class="weui-article__p">
+    杜鲁门学生对课外活动的热情与对学术工作的认真一样。这就是使我们的校园成为如此令人兴奋的地方的原因。
+    前一分钟，您可能会参加我们 250 多个学生组织中的一个，而下一分钟，您可能会为我们的 NCAA 二级田径队之一欢呼。
+    我们大约 20% 的学生选择参加兄弟会和姐妹会生活，在那里您可以结交终生的朋友、在当地社区做志愿者并参加希腊周。
+    还有其他参与方式：剧院、社区服务、户外休闲、校内活动、学生媒体等等。或者更好的是，追求你的想法并开始你自己的事情。
+    同时，我们也提供完善的学习资源，医疗和安全保障。主要为以下几个方面
+  </p>
+
+  <view>
+    <text>\r\n</text>
+  </view>
+
+  <view>
+    <h3 class="weui-article__h2"><span class="or">Ş</span> 学习资源 </h3>
+  </view>
+
+  <view>
+    <text>\r\n</text>
+  </view>
+  
+  <view class="picture">
+    <p>
+      <image class="picture_style" src="{{imgList[1]}}" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[0]}}" />
+    </p>
+  </view>
+
+  <view>
+    <view class="picture_discribtion">
+      <p>	Pickler Memorial Library </p>
+    </view>
+  </view>
+
+  <view>
+    <text>\r\n</text>
+  </view>
+
+  <p class="weui-article__p">
+    Pickler纪念图书馆是该校区的第二个图书馆。
+    第一个，现在被称为“旧图书馆”，通过一条短走廊连接到“旧鲍德温大厅”的东侧。
+    1924 年发生火灾，只保存了大约 750 本书。那年 5 月，1870 年第一届毕业班的成员、前任教员塞缪尔·M·皮克勒（Samuel M. Pickler）提出重建图书馆
+    6 月 1 日，董事会公开宣布了这份礼物，并补充说，新建筑将被命名为皮克勒纪念图书馆，以纪念其慷慨的恩人。
+  </p>
+  <view>
+    <text>\r\n</text>
+  </view>
+
+  <view>
+    <h3 class="weui-article__h2"><span class="or">↪</span> 医疗保障 </h3>
+  </view>
+
+  <view>
+    <text>\r\n</text>
+  </view>
+  
+  <view class="picture">
+    <p>
+      <image class="picture_style" src="{{imgList[2]}}" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[0]}}" />
+    </p>
+  </view>
+
+  <view>
+    <view class="picture_discribtion">
+      <p>Truman Health Center</p>
+    </view>
+  </view>
+
+  <view>
+    <text>\r\n</text>
+  </view>
+
+  <p class="weui-article__p">
+    杜鲁门州立大学的学生健康中心是通过与汉尼拔地区的一项服务完整家庭医学合作运营的，该服务是一个非营利性卫生系统。
+    他们的使命是为杜鲁门州立大学的所有学生提供负担得起的、可获得的医疗保健服务。
+  </p>
+
+  <p class="weui-article__p">
+  在这里主要提供的服务有如下：
+    预防和初级保健，例如免疫接种、女性健康检查、过敏免疫治疗、物理、药物管理或心理健康
+    急性护理，例如感冒、流感、喉咙痛或受伤
+    使用附近的校外CFM 门诊服务，包括放射科、全面实验室和专家 - 耳鼻喉科、减肥科
+  </p>
+  
+  <view>
+    <text>\r\n</text>
+  </view>
+
+  <view>
+    <h3 class="weui-article__h2"><span class="or">↪</span> 警察安保 </h3>
+  </view>
+
+  <view>
+    <text>\r\n</text>
+  </view>
+  
+  <view class="picture">
+    <p>
+      <image class="picture_style" src="{{imgList[3]}}" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[0]}}" />
+    </p>
+  </view>
+
+  <view>
+    <view class="picture_discribtion">
+      <p>Truman Department of Public Safety</p>
+    </view>
+  </view>
+
+  <view>
+    <text>\r\n</text>
+  </view>
+
+  <p class="weui-article__p">
+    校园社区所有成员的安全对杜鲁门州立大学至关重要，公共安全部一年 365 天、每天 24 小时为校园服务，为大学社区提供紧急和非紧急援助。
+    包括夜间护送回宿舍和校园内随处可见的警务呼叫应急电话。Truman会尽最大可能保证学生的安全
+    杜鲁门州立大学公共安全警察部门为杜鲁门州立大学社区提供执法服务。我们是一个提供全方位服务的警察部门，每天 24 小时/每周 7 天/每年 365 天提供服务。
+    所有官员均获得密苏里州许可，并且毕业于 P.O.S.T.经认证的执法学院，并拥有完全的逮捕权。所有官员都必须参加与执法和社区关系相关领域的持续培训。
+    校园执法是一个不断挑战的职业。它通常处于社区警务的“前沿”。
+    这是一个允许尝试和“微调”创新和新想法的领域，以更好地了解执法部门和社区如何共同努力实现他们的目标和使命。
+    执法部门越来越多地认识到，如果不参与所服务的社区，它就无法完成所要求的所有事情。
+    这是一个不断变化的过程，我们需要所有可用的资源来完成工作，以确保我们所有人的安全。
+  </p>
+  
+  <view>
+    <text>\r\n</text>
+  </view>
+
+  <view>
+    <h3 class="weui-article__h2"><span class="or">Ş</span> I-House </h3>
+  </view>
+
+  <view>
+    <text>\r\n</text>
+  </view>
+  <view class="picture">
+    <p>
+      <image class="picture_style" src="{{imgList[4]}}" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[0]}}" />
+    </p>
+  </view>
+
+  <view>
+    <view class="picture_discribtion">
+      <p>Truman I-House</p>
+    </view>
+  </view>
+
+  <view>
+    <text>\r\n</text>
+  </view>
+
+  <p class="weui-article__p">
+   欢迎来到Truman International House!  这里有一群人试图在个人层面上认识你们每个人并成为朋友。
+   我们希望互相帮助，建立一个强大而友好的国际生社区。每个学期我们都会举办各种各样不同的有趣活动，让你感受到来自全世界的文化交流！
+  </p>
+  <view>
+    <text>\r\n</text>
+  </view>
+
+  <view class="truman_logo">
+    <image class="logo" src="https://sand.truman.edu/cis/WechatSource/Pictures/truman_icon_trans.png" ></image>
+  </view>
+</view>

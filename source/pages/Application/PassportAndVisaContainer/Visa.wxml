@@ -144,7 +144,4 @@
   <view class="truman_logo">
     <image class="logo" src="https://sand.truman.edu/cis/WechatSource/Pictures/truman_icon_trans.png" ></image>
   </view>
-  <view class="truman_logo">
-    <image class="cis_logo" src="https://sand.truman.edu/cis/WechatSource/Pictures/cis_logo.JPG" ></image>
-  </view>
 </view>

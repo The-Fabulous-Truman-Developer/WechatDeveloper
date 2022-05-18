@@ -7,8 +7,11 @@ Page({
   data: {
     imgList : 
     [
-      "https://sand.truman.edu/cis/WechatSource/Pictures/culture.jpg"
-      
+      "https://sand.truman.edu/cis/WechatSource/Pictures/members.JPG",
+      "https://sand.truman.edu/cis/WechatSource/Pictures/culture.jpg",
+      "https://sand.truman.edu/cis/WechatSource/Pictures/haw.JPG",
+      "https://sand.truman.edu/cis/WechatSource/Pictures/get_tick.JPG",
+      "https://sand.truman.edu/cis/WechatSource/Pictures/meeting.JPG"
     ]
 
   },
