@@ -9,13 +9,13 @@
   </view>
 
   <view>
-    <h3 class="weui-article__h2"><span class="or">Ş</span> 校园服务 </h3>
+    <h3 class="weui-article__h2"><span class="or">⧫</span> 校园服务 </h3>
   </view>
 
   <view>
     <text>\r\n</text>
   </view>
-  
+
   <view class="picture">
     <p>
       <image class="picture_style" src="{{imgList[0]}}" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[0]}}" />
@@ -45,13 +45,13 @@
   </view>
 
   <view>
-    <h3 class="weui-article__h2"><span class="or">Ş</span> 学习资源 </h3>
+    <h3 class="weui-article__h2"><span class="or">⧫</span> 学习资源 </h3>
   </view>
 
   <view>
     <text>\r\n</text>
   </view>
-  
+
   <view class="picture">
     <p>
       <image class="picture_style" src="{{imgList[1]}}" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[0]}}" />
@@ -60,7 +60,7 @@
 
   <view>
     <view class="picture_discribtion">
-      <p>	Pickler Memorial Library </p>
+      <p> Pickler Memorial Library </p>
     </view>
   </view>
 
@@ -79,13 +79,13 @@
   </view>
 
   <view>
-    <h3 class="weui-article__h2"><span class="or">↪</span> 医疗保障 </h3>
+    <h3 class="weui-article__h2"><span class="or">⧫</span> 医疗保障 </h3>
   </view>
 
   <view>
     <text>\r\n</text>
   </view>
-  
+
   <view class="picture">
     <p>
       <image class="picture_style" src="{{imgList[2]}}" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[0]}}" />
@@ -108,24 +108,24 @@
   </p>
 
   <p class="weui-article__p">
-  在这里主要提供的服务有如下：
+    在这里主要提供的服务有如下：
     预防和初级保健，例如免疫接种、女性健康检查、过敏免疫治疗、物理、药物管理或心理健康
     急性护理，例如感冒、流感、喉咙痛或受伤
     使用附近的校外CFM 门诊服务，包括放射科、全面实验室和专家 - 耳鼻喉科、减肥科
   </p>
-  
+
   <view>
     <text>\r\n</text>
   </view>
 
   <view>
-    <h3 class="weui-article__h2"><span class="or">↪</span> 警察安保 </h3>
+    <h3 class="weui-article__h2"><span class="or">⧫</span> 警察安保 </h3>
   </view>
 
   <view>
     <text>\r\n</text>
   </view>
-  
+
   <view class="picture">
     <p>
       <image class="picture_style" src="{{imgList[3]}}" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[0]}}" />
@@ -145,20 +145,33 @@
   <p class="weui-article__p">
     校园社区所有成员的安全对杜鲁门州立大学至关重要，公共安全部一年 365 天、每天 24 小时为校园服务，为大学社区提供紧急和非紧急援助。
     包括夜间护送回宿舍和校园内随处可见的警务呼叫应急电话。Truman会尽最大可能保证学生的安全
+  </p>
+
+  <view>
+    <text>\r\n</text>
+  </view>
+
+  <p class="weui-article__p">
     杜鲁门州立大学公共安全警察部门为杜鲁门州立大学社区提供执法服务。我们是一个提供全方位服务的警察部门，每天 24 小时/每周 7 天/每年 365 天提供服务。
-    所有官员均获得密苏里州许可，并且毕业于 P.O.S.T.经认证的执法学院，并拥有完全的逮捕权。所有官员都必须参加与执法和社区关系相关领域的持续培训。
+    所有官员均获得密苏里州许可，并且毕业于 P.O.S.T.经认证的执法学院，并拥有完全的逮捕权。
+  </p>
+
+  <view>
+    <text>\r\n</text>
+  </view>
+
+  <p class="weui-article__p">
+    所有官员都必须参加与执法和社区关系相关领域的持续培训。
     校园执法是一个不断挑战的职业。它通常处于社区警务的“前沿”。
     这是一个允许尝试和“微调”创新和新想法的领域，以更好地了解执法部门和社区如何共同努力实现他们的目标和使命。
-    执法部门越来越多地认识到，如果不参与所服务的社区，它就无法完成所要求的所有事情。
-    这是一个不断变化的过程，我们需要所有可用的资源来完成工作，以确保我们所有人的安全。
   </p>
-  
+
   <view>
     <text>\r\n</text>
   </view>
 
   <view>
-    <h3 class="weui-article__h2"><span class="or">Ş</span> I-House </h3>
+    <h3 class="weui-article__h2"><span class="or">⧫</span> I-House </h3>
   </view>
 
   <view>
@@ -181,14 +194,14 @@
   </view>
 
   <p class="weui-article__p">
-   欢迎来到Truman International House!  这里有一群人试图在个人层面上认识你们每个人并成为朋友。
-   我们希望互相帮助，建立一个强大而友好的国际生社区。每个学期我们都会举办各种各样不同的有趣活动，让你感受到来自全世界的文化交流！
+    欢迎来到Truman International House! 这里有一群人试图在个人层面上认识你们每个人并成为朋友。
+    我们希望互相帮助，建立一个强大而友好的国际生社区。每个学期我们都会举办各种各样不同的有趣活动，让你感受到来自全世界的文化交流！
   </p>
   <view>
     <text>\r\n</text>
   </view>
 
   <view class="truman_logo">
-    <image class="logo" src="https://sand.truman.edu/cis/WechatSource/Pictures/truman_icon_trans.png" ></image>
+    <image class="logo" src="https://sand.truman.edu/cis/WechatSource/Pictures/truman_icon_trans.png"></image>
   </view>
 </view>
