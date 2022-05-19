@@ -50,7 +50,7 @@
 
     <view class="gallery" catchtap="GalleryPageChange" style="width: 732rpx; height: 874rpx; display: flex; box-sizing: border-box">
       <view class="SchoolGalleryText">Truman影集</view>
-      <image class='GalleryPicture' src='https://sand.truman.edu/cis/WechatSource/Pictures/TrumanGalleryBG_2.png'></image>
+      <image class='GalleryPicture' src='https://sand.truman.edu/cis/WechatSource/Pictures/TrumanGalleryBG_3.png'></image>
     </view>
 </view>
 
