@@ -28,10 +28,6 @@
     </view>
   </view>
 
-  <view>
-    <text>\r\n</text>
-  </view>
-
   <text class="weui-article__p" user-select="{{true}}">
     杜鲁门学生对课外活动的热情与对学术工作的认真一样。这就是使我们的校园成为如此令人兴奋的地方的原因。
   </text>
@@ -72,10 +68,6 @@
     </view>
   </view>
 
-  <view>
-    <text>\r\n</text>
-  </view>
-
   <text class="weui-article__p" user-select="{{true}}">
     Pickler纪念图书馆是该校区的第二个图书馆。第一个，现在被称为“旧图书馆”，通过一条短走廊连接到“旧鲍德温大厅”的东侧。1924 年发生火灾，只保存了大约 750 本书。
   </text>
@@ -107,10 +99,6 @@
     <view class="picture_discribtion">
       <p>Truman Health Center</p>
     </view>
-  </view>
-
-  <view>
-    <text>\r\n</text>
   </view>
 
   <text class="weui-article__p" user-select="{{true}}">
@@ -149,10 +137,6 @@
     <view class="picture_discribtion">
       <p>Truman Department of Public Safety</p>
     </view>
-  </view>
-
-  <view>
-    <text>\r\n</text>
   </view>
 
   <text class="weui-article__p" user-select="{{true}}">
