@@ -6,8 +6,7 @@
     <text>\r\n</text>
   </view>
   <text class="weui-article__p" user-select="{{true}}">
-    作为游子，最不可避免的就是饿肚子的问题。作为初来杜鲁门的新生，你或许害怕于
-    人生地不熟，天天只敢吃学校食堂。不要担心！本文将拯救你于水火之中。
+    作为游子，最不可避免的就是饿肚子的问题。作为初来杜鲁门的新生，你或许害怕于人生地不熟，天天只敢吃学校食堂。不要担心！本文将拯救你于水火之中。
   </text>
   <view>
     <text>\r\n</text>
@@ -23,8 +22,7 @@
   <h2 class="weui-article__h2"> <span class="or">⩔</span>学校食堂</h2>
  
   <text class="weui-article__p" user-select="{{true}}">
-    首先，我们从学校内讲起。学校内有三个食堂，分别位于Ryle Hall， Missouri Hall 和 Centenial Hall，
-    分别位于学校的南边，北边和西边。
+    首先，我们从学校内讲起。学校内有三个食堂，分别位于Ryle Hall， Missouri Hall 和 Centenial Hall，分别位于学校的南边，北边和西边。
   </text>
 
   <text class="weui-article__p" user-select="{{true}}">

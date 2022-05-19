@@ -50,7 +50,7 @@
   <view>
     <text>\r\n</text>
   </view>
-  <h2 class="weui-article__h2"> 我们的联系方式 </h2>
+  <h2 class="weui-article__h2"><span class="or">⩔</span> 我们的联系方式 </h2>
   <text>\r\n</text>
   <text class="weui-article__p" user-select="{{true}}">
   您可以通过邮件：<text> intladmit@truman.edu </text> 
