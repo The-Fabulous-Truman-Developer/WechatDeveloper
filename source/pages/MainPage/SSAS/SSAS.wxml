@@ -62,7 +62,7 @@
   </view>
 
   <view>
-    <h3 class="weui-article__h2"><span class="or">↪</span> 情人节葫芦 </h3>
+    <h3 class="weui-article__h2"><span class="or">⩔</span> 情人节葫芦 </h3>
   </view>
 
   <view>
@@ -90,7 +90,7 @@
   </view>
 
   <view>
-    <h3 class="weui-article__h2"><span class="or">↪</span> 春节活动 </h3>
+    <h3 class="weui-article__h2"><span class="or">⩔</span> 春节活动 </h3>
   </view>
 
   <view>
@@ -109,7 +109,7 @@
     </view>
   </view>
 
-  <text class="weui-article__p">
+  <text class="weui-article__p" user-select="{{true}}">
     我们SSAS团队在2022年春节之际举办了Spring Festival Gala。我们在门前贴了对联挂了灯笼，节日气息扑面而来。不仅让外国同学感受中国春节氛围，还让在外的中国学子依然能感受到过年的气氛。事实上，我们还在节目之外准备了美食让每一位来宾大饱口福。
   </text>
   

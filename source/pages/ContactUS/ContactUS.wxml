@@ -5,38 +5,31 @@
   </view>
   <h2 class="weui-article__h2"><span class="or">⩔</span> 我们是谁</h2>
   <text>\r\n</text>
-  <p class="weui-article__p"> 
+  <text class="weui-article__p" user-select="{{true}}"> 
     杜鲁门州立大学国际招生中心（CIS）
-  </p>
-  <text>\r\n</text>
-  <p class="weui-article__p"> 
     Center for International Students
-  </p>
+  </text>
   <view>
     <text>\r\n</text>
   </view>
   <h2 class="weui-article__h2"><span class="or">⩔</span> 为什么有这个平台</h2>
-  <text>\r\n</text>
-  <p class="weui-article__p"> 
+
+  <text class="weui-article__p" user-select="{{true}}"> 
     方便国内的同学和家长们能更充分了解我们杜鲁门州立大学的招生须知和校内文化，也让新生能够更快适应新的生活环境。
-  </p>
-  <view>
-    <text>\r\n</text>
-  </view>
-  <p class="weui-article__p"> 
+  </text>
+
+  <text class="weui-article__p" user-select="{{true}}"> 
     杜鲁门州立大学信息平台收录了我们学校官网的部分信息，并以中文的方式展现出来。这样能让国内的学生和家长们能够通过官方途径准确快速了解我们杜鲁门州立大学的招生情况和基本信息。
-  </p>
-  <view>
-    <text>\r\n</text>
-  </view>
-  <p class="weui-article__p"> 
+  </text>
+
+  <text class="weui-article__p" user-select="{{true}}"> 
     如果你希望获得更多更详细的内容，可以直接前往我们学校的官网，“truman.edu”。有时候会加载缓慢，请您耐心等待即可。谢谢！
-  </p>
+  </text>
   <view>
     <text>\r\n</text>
   </view>
   <h2 class="weui-article__h2"><span class="or">⩔</span> 我们的邮寄地址</h2>
-  <text selectable="{{ true }}">
+  <text user-select="{{true}}">
     Center for International Students
     Truman State University
     Baldwin Hall 104
@@ -48,34 +41,22 @@
     <text>\r\n</text>
   </view>
   <h2 class="weui-article__h2"><span class="or">⩔</span> 我们的工作时间</h2>
-  <text>\r\n</text>
-  <p class="weui-article__p"> 
-    周一到周五，
-  </p>
-  <text>\r\n</text>
-  <p class="weui-article__p"> 
+    <text>\r\n</text>
+  <text class="weui-article__p" user-select="{{true}}"> 
+    每周的周一到周五，
     美国中部时间（CST）：早上8点到下午5点
-  </p>
-  <text>\r\n</text>
-  <p class="weui-article__p"> 
     即为中国时间：晚上9点到次日早上6点
-  </p>
+  </text>
   <view>
     <text>\r\n</text>
   </view>
   <h2 class="weui-article__h2"> 我们的联系方式 </h2>
   <text>\r\n</text>
-  <p class="weui-article__p">
-  您可以通过邮件：<text selectable="{{ true }}"> intladmit@truman.edu </text> 
-  </p>
-  <text>\r\n</text>
-  <p class="weui-article__p">
-  或者可以通过电话：<text selectable="{{ true }}"> +1（660）785-7570 </text>
-  </p>
-  <text>\r\n</text>
-  <p class="weui-article__p">
-    联系到我们。
-  </p>
+  <text class="weui-article__p" user-select="{{true}}">
+  您可以通过邮件：<text> intladmit@truman.edu </text> 
+  或者可以通过电话：<text> +1（660）785-7570 </text>
+  联系到我们。
+  </text>
   <view>
     <text>\r\n</text>
   </view>

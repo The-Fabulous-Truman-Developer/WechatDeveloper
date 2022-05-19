@@ -6,8 +6,7 @@
     <text>\n</text>
   </view>
   <text class="weui-article__p" user-select="{{true}}">
-    杜鲁门州立大学有专门为申请本科学习的国际同学们设立了奖学金计划。
-    只要完成你的本科入学申请，我们将自动为您考虑奖学金，而无需你采取额外的步骤。
+    杜鲁门州立大学有专门为申请本科学习的国际同学们设立了奖学金计划。只要完成你的本科入学申请，我们将自动为您考虑奖学金，而无需你采取额外的步骤。
   </text>
   <view>
     <text>\n</text>
@@ -17,6 +16,8 @@
   </h2>
   <text class="weui-article__p" user-select="{{true}}">
     Center for International Students 办公室会根据您的语言成绩和学业成绩提供可叠加和续期的奖学金。
+  </text>
+  <text class="weui-article__p" user-select="{{true}}">
     对于2021-2022学年，本科国际学生的学费花销如下：
   </text>
   <view class="picture">
