@@ -5,23 +5,20 @@
   <view>
     <text>\n</text>
   </view>
-  <p class="weui-article__p">
+  <text class="weui-article__p" user-select="{{true}}">
     杜鲁门州立大学有专门为申请本科学习的国际同学们设立了奖学金计划。
     只要完成你的本科入学申请，我们将自动为您考虑奖学金，而无需你采取额外的步骤。
-  </p>
+  </text>
   <view>
     <text>\n</text>
   </view>
   <h2 class="weui-article__h2">
     <span class="or">⩔</span>  本科奖学金 
   </h2>
-  <view>
-    <text>\n</text>
-  </view>
-  <p class="weui-article__p">
+  <text class="weui-article__p" user-select="{{true}}">
     Center for International Students 办公室会根据您的语言成绩和学业成绩提供可叠加和续期的奖学金。
     对于2021-2022学年，本科国际学生的学费花销如下：
-  </p>
+  </text>
   <view class="picture">
   <p>
     <image src="{{imgList[0]}}" mode="aspectFit" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[0]}}"/>
@@ -30,18 +27,12 @@
   <view class="picture_discribtion">
     <p>国际学生的学费</p>
   </view>
-  <view>
-    <text>\n</text>
-  </view>
-  <p class="weui-article__p">
+  <text class="weui-article__p" user-select="{{true}}">
     我们超过 90% 的本科国际学生都将会获得奖学金，最高可达学费的 50% 或更多。
-  </p>
-  <view>
-    <text>\n</text>
-  </view>
-  <p class="weui-article__p">
+  </text>
+  <text class="weui-article__p" user-select="{{true}}">
     在杜鲁门州立大学的学生们可以申请到的学金有以下类别：
-  </p>
+  </text>
   <view>
     <text>\n</text>
   </view>
@@ -66,31 +57,18 @@
   <view>
     <text>\n</text>
   </view>
-  <p class="weui-article__p">
-    “校长荣誉奖学金”是杜鲁门州立大学为国际学生提供重要的奖学金计划，
-    来表彰杰出的学业成绩和课外活动。
-  </p>
-  <view>
-    <text>\n</text>
-  </view>
-  <p class="weui-article__p">
+  <text class="weui-article__p" user-select="{{true}}">
+    “校长荣誉奖学金”是杜鲁门州立大学为国际学生提供重要的奖学金计划，来表彰杰出的学业成绩和课外活动。
+  </text>
+  <text class="weui-article__p" user-select="{{true}}">
     奖学金最高可达学费的 50% 或更多，也是绝大多数国际留学生们能申请到的符合要求的奖学金选项。
-  </p>
-  <view>
-    <text>\n</text>
-  </view>
-  <p class="weui-article__p">
-    国际学生在申请本科的时候，就会自动考虑获得此奖学金。所以大家在申请的时候，
-    就无需再单独申请了。
-  </p>
-  <view>
-    <text>\n</text>
-  </view>
-  <p class="weui-article__p">
-    通过保持 3.25 的杜鲁门平均绩点，奖学金最多可续签 8 个学期（4 年）。
-    在入学第一个学年以后，学生需要维持每周4小时的校内工作时间，
-    以获得全额奖学金续签。
-  </p>
+  </text>
+  <text class="weui-article__p" user-select="{{true}}">
+    国际学生在申请本科的时候，就会自动考虑获得此奖学金。所以大家在申请的时候，就无需再单独申请了。
+  </text>
+  <text class="weui-article__p" user-select="{{true}}">
+    通过保持 3.25 的杜鲁门平均绩点，奖学金最多可续签 8 个学期（4 年）。在入学第一个学年以后，学生需要维持每周4小时的校内工作时间，以获得全额奖学金续签。
+  </text>
   <view>
     <text>\n</text>
   </view>

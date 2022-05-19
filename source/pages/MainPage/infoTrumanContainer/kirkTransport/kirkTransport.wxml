@@ -179,7 +179,7 @@
   </view>
   <view class="picture">
   <p>
-    <image src="{{imgList[8]}}" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[8]}}"/>
+    <image src="{{imgList[7]}}" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[7]}}"/>
   </p>
   </view>
   <view class="picture_discribtion">
@@ -198,7 +198,7 @@
   </view>
   <view class="picture">
   <p>
-    <image src="{{imgList[10]}}" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[10]}}"/>
+    <image src="{{imgList[9]}}" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[9]}}"/>
   </p>
   </view>
   <view class="picture_discribtion">
@@ -212,14 +212,14 @@
   </view>
   <view class="picture">
   <p>
-    <image src="{{imgList[9]}}" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[9]}}"/>
+    <image src="{{imgList[8]}}" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[8]}}"/>
   </p>
   </view>
   <view class="picture_discribtion">
-    <p>旅行计划确认书（Travel Plan Confirmation）</p>
+    <p>旅行计划确认书（Travel Plan Confirmation）[部分]</p>
   </view>
   <text class="weui-article__p" user-select="{{true}}">
-    你可以选择你需要是La Plata火车站，Cape Air的柯克斯维尔机场或者堪萨斯国际机场来接你，但是一定要在他们的接机时间范围内，不然只有自己找人或者叫出租车把你接到学校咯。
+    你可以选择你需要是La Plata火车站，柯克斯维尔机场或者堪萨斯国际机场来接你，但是一定要在他们的接机时间范围内，不然只有自己找人或者叫出租车把你接到学校咯。
   </text>
   <view class="truman_logo">
     <image class="logo" src="https://sand.truman.edu/cis/WechatSource/Pictures/truman_icon_trans.png" ></image>
