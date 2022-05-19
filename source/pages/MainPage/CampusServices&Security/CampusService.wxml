@@ -34,7 +34,9 @@
 
   <text class="weui-article__p" user-select="{{true}}">
     杜鲁门学生对课外活动的热情与对学术工作的认真一样。这就是使我们的校园成为如此令人兴奋的地方的原因。
-    前一分钟，您可能会参加我们 250 多个学生组织中的一个，而下一分钟，您可能会为我们的 NCAA 二级田径队之一欢呼。
+  </text>
+  <text class="weui-article__p" user-select="{{true}}">
+   前一分钟，您可能会参加我们 250 多个学生组织中的一个，而下一分钟，您可能会为我们的 NCAA 二级田径队之一欢呼。
   </text>
   <text class="weui-article__p" user-select="{{true}}">
     我们大约 20% 的学生选择参加兄弟会和姐妹会生活，在那里您可以结交终生的朋友、在当地社区做志愿者并参加希腊周。

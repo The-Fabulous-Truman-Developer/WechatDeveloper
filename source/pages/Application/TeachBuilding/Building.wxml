@@ -2,9 +2,7 @@
   <h1 class="weui-article__h1"> 教学楼介绍</h1>
   <text>\r\n</text>
   <text id="lastmode">杜鲁门州立大学CIS 2022-4-2 19:00</text>
-  <view>
-    <text>\r\n</text>
-  </view>
+ 
   <text class="weui-article__p" user-select="{{true}}">
   杜鲁门州立大学有7栋主要教学楼。每栋教学楼负责不同类型的专业。
   </text>
@@ -190,7 +188,7 @@
   </p>
   </view>
   <view class="picture_discribtion">
-    <p>图7: Pershing Building</p>
+    <p>图7: Health Sciences Building</p>
   </view>
   <view>
     <text>\r\n</text>
