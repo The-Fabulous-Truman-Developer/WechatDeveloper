@@ -1,11 +1,5 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-debug.log
-=======
 .DS_Store
-.DS_Store
->>>>>>> Develop
-=======
-.DS_Store
->>>>>>> Develop
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+project.private.config.json

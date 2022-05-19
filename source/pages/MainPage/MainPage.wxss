@@ -1,13 +1,23 @@
 /* pages/index/index.wxss */
-.indexContainer{
+body
+{
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.titelContainer{
+.schoolSign
+{
+  width: 260rpx;
+  height: 130rpx;
+}
+
+.MainPageTitle
+{
   display: flex;
 }
-.englishChineseContainer{
+
+.InformationPlatformTitle
+{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -16,13 +26,8 @@
   margin-left: 20rpx;
 }
 
-.schoolSign{
-  width: 260rpx;
-  height: 130rpx;
-  margin: 0rpx 0;
-}
-
-.chineseSchoolName{
+.chineseSchoolName
+{
   justify-content: center;
   font-size: 170rpx 20rpx;
   font-weight: bold;
@@ -31,18 +36,16 @@
   color: purple;
 }
 
-.englishSchoolName{
+.englishSchoolName
+{
   font-size: 22rpx;
   font-weight: bold;
   color: purple;
   margin-left: 20rpx;
 }
 
-.mainIndexImage{
-  width: 750rpx;
-  height: 300rpx;
-}
-.infoTrumanContainer{
+.AboutServiceAndTransport
+{
   display:flex;
   flex-direction:row;
   min-height: 230rpx;
@@ -51,7 +54,8 @@
   align-items: center;
 }
 
-.trumanAbout{
+.trumanAbout
+{
   margin-right: 6rpx;
   display: flex;
   align-items: center;
@@ -60,7 +64,8 @@
   flex-direction: column;
 }
 
-.trumanAboutTitle{
+.trumanAboutTitle
+{
   font-size: 30rpx;
   font-weight: bold;
   margin-bottom: 15rpx;
@@ -68,12 +73,14 @@
   color: rgb(128, 0, 128);
   justify-content: center;
 }
-.trumanAboutIcon{
+.trumanAboutIcon
+{
   width: 185rpx;
   height: 110rpx;
 }
 
-.kirksvilleSurrounding{
+.CampusService
+{
   font-size: 30rpx;
   min-width: 240rpx;
   border-right: 3rpx solid #e4ded6;
@@ -81,12 +88,11 @@
   margin-left: 5rpx;
   display: flex;
   align-items: center;
-  vertical-align: center;
   justify-content: center;
   flex-direction: column;
 }
 
-.kirksville{
+.Service{
   font-size: 30rpx;
   font-weight: bold;
   margin-bottom: 35rpx;
@@ -101,7 +107,8 @@
   margin: 0rpx 0;
 }
 
-.kirkTransport{
+.kirkTransport
+{
   font-size: 30rpx;
   margin-left: 6rpx;
   display: flex;
@@ -111,7 +118,8 @@
   flex-direction: column;
 }
 
-.transports{
+.TransportPrompt
+{
   font-size: 30rpx;
   font-weight: bold;
   margin-bottom: 35rpx;
@@ -120,12 +128,15 @@
   justify-content: center;
 }
 
-.kirkTransportIcon{
+.kirkTransportIcon
+{
   width: 170rpx;
   height: 90rpx;
   margin-left: -10rpx;
 }
-.infoScholarshipBulletinSSASContainer{
+
+.Scholarship_SSAS_TrumanMusic
+{
   margin-top: 10rpx;
   border-top: 3rpx double #e4ded6;
   border-top-width: 10rpx;
@@ -133,6 +144,7 @@
   flex-direction:column;
   margin-bottom: 20rpx;
 }
+
 .Scholarship{
   display: flex;
   align-items: center;
@@ -141,90 +153,76 @@
   flex-direction: column;
 }
 
+.TrumanScholarshipPlan
+{
+  font-size: 30rpx;
+  font-weight: bold;
+  font-family:'Times New Roman', Times, serif;
+  color: rgb(128, 0, 128);
+  justify-content: center;
+}
 
-.bannerStyle1{
+.ScholarshipBackground{
   width: 95%;
   height: 242rpx;
- border-radius: 20rpx;
+  border-radius: 20rpx;
 }
 
-.scholarship{
-  font-size: 30rpx;
-  font-weight: bold;
-  font-family:'Times New Roman', Times, serif;
-  color: rgb(128, 0, 128);
-  justify-content: center;
+.gird_layout
+{
+  display: grid;
+  grid-template-columns: auto auto;
 }
 
-.TrumanIHouse{
+.SSAS{
+  left: 17rpx;
+  top: 1rpx;
+  width: 350rpx;
+  height: 272rpx;
+  display: flex;
+  box-sizing: border-box;
+  position: relative;
   border-top: 3rpx double #e4ded6;
   border-top-width: 10rpx;
-  margin-top: 10rpx;
-  display: flex;
-  align-items: center;
-  vertical-align: center;
-  justify-content: center;
-  flex-direction: column;
-  margin-bottom: 20rpx;
-  padding-bottom: 10rpx;
   border-bottom: 3rpx double #e4ded6;
   border-bottom-width: 10rpx;
+  margin-bottom: 20rpx;
+  padding-bottom: 10rpx;
+  margin-top: 10rpx;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
 }
-.text_purple_emphasize{
+
+.TrumanMusic{
+  left: 366rpx;
+  top: -291rpx;
+  width: 350rpx;
+  height: 272rpx;
+  display: flex;
+  box-sizing: border-box;
+  position: relative;
+  border-top: 3rpx double #e4ded6;
+  border-top-width: 10rpx;
+  border-bottom: 3rpx double #e4ded6;
+  border-bottom-width: 10rpx;
+  margin-bottom: 20rpx;
+  padding-bottom: 10rpx;
+  margin-top: 10rpx;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.SSASPrompt
+{
   font-size: 30rpx;
   font-weight: bold;
   font-family:'Times New Roman', Times, serif;
   color: rgb(128, 0, 128);
   justify-content: center;
 }
-
-.infoScholarshipBulletinSSCAContainer{
-  display:flex;
-  flex-direction:column;
-  min-height: 150px;
-  padding: 10px;
-  margin-bottom: 10px;
-  justify-content: center;
-  width: 714rpx;
-  height: 308rpx;
-  display: flex;
-  box-sizing: border-box;
-  left: 10rpx;
-  top: 0rpx;
-  position: relative;
-  left: 19rpx;
-  top: -19rpx
-}
-
-.alumiGalleryContainer{
-  display:flex;
-  flex-direction:row;
-  min-height: 150px;
-  margin: 10px;
-  justify-content: center;
-  position: relative;
-  top: 40rpx;
-  left: 0rpx;
-  top: -55rpx;
-  background-color: #ffffff;
-}
-
-.alumi{
-  display:flex;
-  flex-direction:column;
-  min-height: 150px;
-  margin-bottom: 10px;
-  justify-content: center;
-  width: 50%;
-  height: 339rpx;
-  box-sizing: border-box;
-  top: 10rpx;
-  position: relative;
-  background-color: #ffffff;
-  color: rgb(128, 0, 128);
-  align-items: center;
-}
-.graduatesAlumni{
+.GalleryPicture
+{
   display:flex;
   flex-direction:column;
   justify-content: center;
@@ -235,7 +233,8 @@
   color: rgb(128, 0, 128);
   border-radius: 20rpx;
 }
-.alumiAndGradFont{
+.TrumanMusicPrompt
+{
   font-size: 30rpx;
   font-weight: bold;
   font-family:'Times New Roman', Times, serif;
@@ -244,23 +243,28 @@
   align-items: center;
 }
 
-.gallery{
-  display:flex;
+.gallery
+{
+  position: relative;
+  left: 0rpx;
+  top: -272rpx;
+  width: 696rpx;
+  height: 287rpx;
+  display: flex;
   flex-direction:column;
   min-height: 150px;
   margin-bottom: 10px;
   justify-content: center;
   width: 50%;
-  height: 339rpx;
   box-sizing: border-box;
-  top: 10rpx;
   position: relative;
   background-color: #ffffff;
   color: rgb(128, 0, 128);
   align-items: center;
 }
 
-.SchoolGalleryText{
+.SchoolGalleryText
+{
   font-size: 30rpx;
   font-weight: bold;
   font-family:'Times New Roman', Times, serif;
@@ -268,6 +272,11 @@
   justify-content: center;
   align-items: center;
 }
-.img{
-  width: 100%;
+
+.gallery_swiper
+{
+  width: 800rpx;
+  height: 252rpx;
+  display: inline-block;
+  box-sizing: border-box;
 }

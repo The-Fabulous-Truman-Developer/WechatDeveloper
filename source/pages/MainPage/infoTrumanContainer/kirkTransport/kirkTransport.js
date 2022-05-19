@@ -5,7 +5,28 @@ Page({
    * Page initial data
    */
   data: {
+    imgList : 
+    [
+      "https://sand.truman.edu/cis/WechatSource/Pictures/jiaotong.png",
+      "https://sand.truman.edu/cis/WechatSource/Pictures/CapeAir.png",
+      "https://sand.truman.edu/cis/WechatSource/Pictures/cape_air_ji.jpeg",
+      "https://sand.truman.edu/cis/WechatSource/Pictures/columbia-regional-airport.jpeg",
+      "https://sand.truman.edu/cis/WechatSource/Pictures/st_louis_airport.jpg",
+      "https://sand.truman.edu/cis/WechatSource/Pictures/kansas_airport.webp",
+      "https://sand.truman.edu/cis/WechatSource/Pictures/OHare-International-Airport.jpeg",
+      "https://sand.truman.edu/cis/WechatSource/Pictures/amtrak_che.jpeg",
+      "https://sand.truman.edu/cis/WechatSource/Pictures/%20travel_plan_confirmation.png",
+      "https://sand.truman.edu/cis/WechatSource/Pictures/recommended_routes.png"
+    ]
 
+  },
+
+  click_img : function(event) {
+    let currentUrl = event.currentTarget.dataset.src
+    wx.previewImage({
+      current: currentUrl, // 当前显示图片的http链接
+      urls: this.data.imgList // 需要预览的图片http链接列表
+    })
   },
 
   /**

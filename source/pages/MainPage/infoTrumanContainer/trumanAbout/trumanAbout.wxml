@@ -6,42 +6,41 @@
     <text>\r\n</text>
   </view>
   <h2 class="weui-article__h2"><span class="or">⩔</span> 关于杜鲁门州立大学 </h2>
-  <view>
-    <text>\r\n</text>
-  </view>
-  <p class="weui-article__p">
+
+  <text class="weui-article__p" user-select="{{true}}">
     杜鲁门大学（Truman State University）成立于1867年，是密苏里州公立大学之一。
     它因美国著名总统杜鲁门而得名。
-  </p>
-  <view>
-    <text>\r\n</text>
-  </view>
-  <p class="weui-article__p">
+  </text>
+  <text class="weui-article__p" user-select="{{true}}">
     它的规模不大，但对绝大多数学生来说却是一所真正值得考虑的大学。它是美国最早的公立文理学院之一，把“liberal arts” 和“public school”结合在一起，“常春藤式” 的高水平教学质量和相对低廉的学费成为它的一大特色。
-  </p>
+  </text>
   <view>
     <text>\r\n</text>
   </view>
-  <p class="weui-article__p">
+  <view class="picture">
+    <p>
+      <image src="{{imgList[7]}}" mode="aspectFit" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img"data-src="{{imgList[7]}}"/>
+    </p>
+  </view>
+  <view class="picture_discribtion">
+    <p>学生实验</p>
+  </view>
+
+  <text class="weui-article__p" user-select="{{true}}">
     它是美国中北部最好的公立大学。杜鲁门大学平均学生与教授的比例为16：1，
     国际学生约300人，来自全球50个国家，每年两学期，每学期15周。
-  </p>
-  <view>
-    <text>\r\n</text>
-  </view>
-  <p class="weui-article__p">
+  </text>
+  <text class="weui-article__p" user-select="{{true}}">
     学校的主要专业：计算机科学，生物和生物医学科学、自然科学（数学、物理、化学、天文、地理）、商科（会计、国际贸易、管理、市场营销）、农业、农业经营及相关科学、新闻、教育学、运动训练、语言学（英语、西班牙语、意大利语等）、社会科学（历史、哲学、心理学）、视觉和表演艺术、音乐表演。
-  </p>
+  </text>
   <view>
     <text>\r\n</text>
   </view>
   <h2 class="weui-article__h2"><span class="or">⩔</span> 关于排名 </h2>
-  <view>
-    <text>\r\n</text>
-  </view>
-  <p class="weui-article__p">
+
+  <text class="weui-article__p" user-select="{{true}}">
     1. 根据2021年U.S.News的排名，杜鲁门州立大学连续25年在美国中西部地区公立大学第1名。除了是中西部地区的第一所公立大学外，杜鲁门大学还是密苏里州唯一进入前70名的公立学校。
-  </p>
+  </text>
   <view class="picture">
   <p>
     <image src="{{imgList[0]}}" mode="aspectFit" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[0]}}"/>
@@ -50,20 +49,20 @@
   <view class="picture_discribtion">
     <p>中西部地区公立大学第1名</p>
   </view>
-  <text>\r\n</text>
-  <p class="weui-article__p">
+  <text class="weui-article__p" user-select="{{true}}">
     2. 杜鲁门州立大学在 “最佳价值学校”（“Best Value Schools”）排名中获得了第1名。
-  </p>
-  <p>
-    <image src="{{imgList[2]}}" mode="aspectFit" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[2]}}"/>
-  </p>
+  </text>
+  <view class="picture">
+    <p>
+      <image src="{{imgList[2]}}" mode="aspectFit" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[2]}}"/>
+    </p>
+  </view>
   <view class="picture_discribtion">
     <p>“最佳价值学校”排名中获得了第1名</p>
   </view>
-  <text>\r\n</text>
-  <p class="weui-article__p">
+  <text class="weui-article__p" user-select="{{true}}">
     3. 在2022年最佳大学排名中，杜鲁门在中西部地区的公立和私立机构中排名第6，比去年提高了一位。
-  </p>
+  </text>
   <view class="picture">
   <p>
     <image src="{{imgList[1]}}" mode="aspectFit" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[1]}}"/>
@@ -72,12 +71,10 @@
   <view class="picture_discribtion">
     <p>“中西部地区的公立和私立机构”排名第6</p>
   </view>
-  <text>\r\n</text>
-  <p class="weui-article__p">
-   4. 在2021年的补充排名中，杜鲁门大学再次被评为最佳本科教学名单（“Best Undergraduate Teaching”），
-   在中西部地区的公立大学中排名第一，总排名第八。
-      在列出的24所学校中，杜鲁门大学是密苏里州唯一一所学校，也是四所公立学校中排名最高的。
-  </p>
+  <text class="weui-article__p" user-select="{{true}}">
+   4. 在2021年的补充排名中，杜鲁门大学再次被评为最佳本科教学名单 
+   （“Best Undergraduate Teaching”），在中西部地区的公立大学中排名第一，总排名第八。在列出的24所学校中，杜鲁门大学是密苏里州唯一一所学校，也是四所公立学校中排名最高的。
+  </text>
   <view class="picture">
   <p>
     <image src="{{imgList[3]}}" mode="aspectFit" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[3]}}"/>
@@ -86,35 +83,87 @@
   <view class="picture_discribtion">
     <p>“中西部地区的最佳本科教学名单” 总排名第8名</p>
   </view>
-  <text>\r\n</text>
-  <p class="weui-article__p">
+  <text class="weui-article__p" user-select="{{true}}">
    5. 杜鲁门大学在最具创新力学校名单（”Most Innovative Schools“）中占有一席之地，该名单旨在表彰在课程、教师、学生、校园生活、技术和设施方面做出改进的机构。杜鲁门大学是密苏里州唯一上榜的17所学校之一。
-  </p>
-  <text>\r\n</text>
-  <p class="weui-article__p">
-   6. 杜鲁门大学的三个本科项目也在《美国新闻与世界报道》编制的独立榜单中获得认可，包括计算机科学（“computer science”）、护理（“nursing”）和商科（“business programs”）。
-  </p>
-  <text>\r\n</text>
-  <p class="weui-article__p">
+  </text>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <text class="weui-article__p" user-select="{{true}}">
+   6. 杜鲁门大学的三个本科项目也在《美国新闻与世界报道》编制的独立榜单中获得认可，包括计算机科学（“Computer science”）、
+   护理（“Nursing”）和商科（“Business Programs”）。
+  </text>
+  <text class="weui-article__p" user-select="{{true}}">
    7. 在公立和私立学校中，杜鲁门在中西部地区的学费负担能力方面再次名列前茅。它是密苏里州唯一进入前50名的公立学校。
-  </p>
-  <text>\r\n</text>
+  </text>
   <view>
     <text>\r\n</text>
   </view>
-  <h2 class="weui-article__h3">  其实，不只是学费 </h2>
-  <view>
-    <text>\r\n</text>
-  </view>
-  <p class="weui-article__p">
+  <h2 class="weui-article__h3">『 其实，不只是学费 』</h2>
+
+  <text class="weui-article__p" user-select="{{true}}">
     作为美国中西部第一所公立文理学院，杜鲁门州立大学的优势并不仅体现在其教学质量上，而在多方面也有所体现。
-    作为公立大学，杜鲁门州立学校的学费相对低廉，且发放数量不菲的奖学金予成绩优异，品行良好的学生。
-    校内有星巴克，Chick-fil-A，便利店等便利设施供学子们享受闲暇时光。校外亦有麦当劳，Dominos，冰雪皇后，汉堡王，Walmart，Hyvee等购物和娱乐场所。
+  </text>
+  <text class="weui-article__p" user-select="{{true}}">
+    杜鲁门州立学校作为公立大学，学生的学费相对低廉，且发放数量不菲的奖学金予成绩优异，品行良好的学生。
+  </text>
+  <text class="weui-article__p" user-select="{{true}}">
+    校内有星巴克，Chick-fil-A，便利店等便利设施供学子们享受闲暇时光。校外亦有麦当劳，冰雪皇后，汉堡王，沃尔玛，Hy-vee等购物和娱乐场所。
+  </text>
+  <text class="weui-article__p" user-select="{{true}}">
     学校为学生提供健身房，恒温游泳池，学习辅导与写作辅导，心理疏导及校内医护，校园面试，实习，校内工作等。
-    校园内部环境安全优美，为保障学生安全，校园内部便设有警察局，离学校最远建筑仅有5分钟路程。学校也进行24小时的徒步与车辆巡逻，并提供深夜护送，24小时紧急电话等服务。
-    学校宿舍采取学生卡刷卡开门制度，每个独立寝室都配备钥匙或电子锁。学校内也有丰富的社团活动，学生可以自由选择超过200个的社团，或是在校内体育馆与同学进行各式体育活动。
-    学校也有艺术展览，合唱团，音乐会，音乐剧，乐队表演，学生报社等多姿多彩的校内活动
+  </text>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <view class="picture">
+    <p>
+    <image src="{{imgList[4]}}" mode="aspectFit" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[4]}}"/>
   </p>
+  </view>
+  <view class="picture_discribtion">
+    <p>Truman DPS App</p>
+  </view>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <text class="weui-article__p" user-select="{{true}}">
+    校园内部环境安全优美，为保障学生安全，校园内部便设有警察局，离学校最远建筑仅有5分钟路程。学校也进行24小时的徒步与车辆巡逻，并提供深夜护送，24小时紧急电话等服务。
+  </text>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <view class="picture">
+    <p>
+    <image src="{{imgList[5]}}" mode="aspectFit" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[5]}}"/>
+  </p>
+  </view>
+  <view class="picture_discribtion">
+    <p>杜鲁门州立大学警察</p>
+  </view>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <text class="weui-article__p" user-select="{{true}}">
+    学校宿舍采取学生卡刷卡开门制度，每个独立寝室都配备钥匙或电子锁。学校内也有丰富的社团活动，学生可以自由选择超过200个的社团，或是在校内体育馆与同学进行各式体育活动。
+  </text>
+  <text class="weui-article__p" user-select="{{true}}">
+    学校也有艺术展览，合唱团，音乐会，音乐剧，乐队表演，学生报社等多姿多彩的校内活动.
+  </text>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <view class="picture">
+    <p>
+    <image src="{{imgList[6]}}" mode="aspectFit" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[6]}}"/>
+  </p>
+  </view>
+  <view class="picture_discribtion">
+    <p>学生交响音乐表演</p>
+  </view>
+  <view>
+    <text>\r\n</text>
+  </view>
   <view class="truman_logo">
     <image class="logo" src="https://sand.truman.edu/cis/WechatSource/Pictures/truman_icon_trans.png" ></image>
   </view>

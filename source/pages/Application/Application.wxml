@@ -19,12 +19,17 @@
       <view class="{{item.isActive?'isActive':''}}" wx:for="{{ tabs }}" wx:key="id" data-index="{{index}}" bind:tap="changeTab">{{ item.name }}</view>
     </view>
     
+    
     <!-- block one content -->
     <block wx:if="{{tabs[0].isActive}}">
       <view class="switch_tabs_style">
         <view catchtap="DormRoomPageChange">
           <image class="bannerStyle1" src="https://sand.truman.edu/cis/WechatSource/Pictures/dorm_tour_bar.png" />
         </view>
+        <view catchtap="TeachBuildingPage">
+          <image class="bannerStyle1" src="https://sand.truman.edu/cis/WechatSource/Pictures/dorm_tour_bar.png" />
+        </view>
+        
       </view>
     </block>
 

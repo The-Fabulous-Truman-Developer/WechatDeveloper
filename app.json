@@ -2,11 +2,11 @@
   "pages":
   [
     "source/pages/MainPage/MainPage",
-    "source/pages/MainPage/AlumiContainer/Alumi",
+    "source/pages/MainPage/TrumanMusic/TrumanMusic",
     "source/pages/MainPage/GalleryContainer/Gallery",
     "source/pages/MainPage/infoTrumanContainer/kirkTransport/kirkTransport",
     "source/pages/MainPage/infoTrumanContainer/trumanAbout/trumanAbout",
-    "source/pages/MainPage/InternationalContainer/TrumanIHouse/TrumanIHouse",
+    "source/pages/MainPage/SSAS/SSAS",
     "source/pages/MainPage/InternationalContainer/ScholarshipProgram/ScholarshipProgram",
     "source/pages/Application/Application",
     "source/pages/Application/DormRoomContainer/Dorm",
@@ -14,7 +14,9 @@
     "source/pages/Application/TO-DOListContainer/TO-DOList",
     "source/pages/ContactUS/ContactUS",
     "source/pages/Application/Eat/eat",
-    "source/pages/Application/Route/route"
+    "source/pages/Application/Route/route",
+    "source/pages/Application/TeachBuilding/Building",
+    "source/pages/MainPage/CampusServices&Security/CampusService"
   ],
   "window":
   {
@@ -28,6 +30,11 @@
   {
     "kbone": true,
     "weui": true
+  },
+  "usingComponents":
+  {
+    "mp-tabbar": "weui-miniprogram/tabbar/tabbar",
+    "mp-gallery": "weui-miniprogram/gallery/gallery"
   },
   "tabBar":
   {

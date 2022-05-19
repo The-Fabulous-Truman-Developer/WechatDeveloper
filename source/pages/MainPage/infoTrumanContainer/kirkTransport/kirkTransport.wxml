@@ -1,38 +1,227 @@
 <view class="weui-article">
-  <h1 class="weui-article__h1"> 在Kirksville的交通 </h1>
+  <h1 class="weui-article__h1"> Kirksville的交通 </h1>
+  <text>\r\n</text>
+  <text id="lastmode">杜鲁门州立大学CIS 2022-4-21 19:00</text>
   <view>
     <text>\r\n</text>
   </view>
-  <h2 class="weui-article__h2"> 我们在哪？ </h2>
+  <h2 class="weui-article__h2"><span class="or">⩔</span> 我们在哪儿 </h2>
+  <text class="weui-article__p" user-select="{{true}}">
+    杜鲁门州立大学地处美国南北战争的中立地区-- 柯克斯维尔，密苏里州。
+  </text>
+  <text>\r\n</text>
+  <text class="weui-article__p" user-select="{{true}}">
+    我们大学是一所美国的公立大学，所以可以得到州政府的资金补助和交通支持，使得远离大城市的柯克斯维尔，有了便利的公共交通：一座小机场和火车站。
+  </text>
   <view>
     <text>\r\n</text>
   </view>
-  <p class="weui-article__p">
-    杜鲁门州立大学地处美国南北战争的中立地区--柯克斯维尔，密苏里州，而由于地理环境的因素，这里只有一座小机场和火车站联通外界，也是对于没有车的学生来说的最为主要的两种交通方式
-  </p>
-  <view>
-    <text>\r\n</text>
-  </view>
-  <h2 class="weui-article__h3"> 机场？ </h2>
-  <view>
-    <text>\r\n</text>
-  </view>
-  <p class="weui-article__p">
-    距离Kirksville最近的大型机场是位于堪萨斯的堪萨斯城国际机场，抵达后经堪萨斯乘坐火车到达La Plata，再乘车前往学校。需要注意的是，由于Kirksville的分布式规划和美国极高的车辆持有率，Kirksville是没有Uber的，需要提前联系认识的人开车来接或者出租车服务。第二条路线是经由圣路易斯，在兰伯特-圣路易斯国际机场乘坐Cape Air到达Kirksville的小型飞机场。当然，你也可以在Downtown的Cape Air预定从Kirksville到St Louis的飞机票，价格和时间成本十分低廉，仅20刀左右，且只需要1小时5分钟即可抵达兰伯特-圣路易斯国际机场。芝加哥也是一个可行的选择，跟堪萨斯一样，落地之后乘坐火车到La Plata，随后乘车即可前往校区。
-  </p>
+  <view class="picture">
   <p>
-    <image src="https://sand.truman.edu/cis/WechatSource/Pictures/CapeAir.png" alt="Truman" mode="aspectFit" lazy-load="true" show-menu-by-longpress="true"/>
+    <image src="{{imgList[0]}}" mode="aspectFit" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[0]}}"/>
   </p>
+  </view>
+  <view class="picture_discribtion">
+    <p>柯克斯维尔的机场和火车站</p>
+  </view>
+  <text class="weui-article__p" user-select="{{true}}">
+    这也是对于没有车的学生来说，是前往其他州和周边大城市的的最为主要的交通方式。
+  </text>
   <view>
     <text>\r\n</text>
   </view>
-  <h2 class="weui-article__h3"> 火车？ </h2>
+  <h2 class="weui-article__h2"> <span class="or">⩔</span> 机场 </h2>
   <view>
     <text>\r\n</text>
   </view>
-  <p class="weui-article__p">
-    距离Kirksville最近的火车站是在25公里以外的La Plata，从La Plata出发有两个方向，向北可到芝加哥，向南可到堪萨斯城，从这两个城市出发可以到达全美的任何地方。
-    到达Kirksville有两条线路，从国内起飞，落地洛杉矶或者旧金山入境，从洛杉矶或者旧金山起飞中转丹佛飞堪萨斯城，再通过Amtrak运营的火车从堪萨斯城前往La Plata火车站。或者也可以从国内直飞芝加哥入境，再坐火车到La Plata火车站或者从芝加哥飞圣路易斯，再坐Cape Air小飞机到达Kirksville。
-    <image src="https://sand.truman.edu/cis/WechatSource/Pictures/Amtrak.png" alt="Truman" mode="aspectFit" lazy-load="true" show-menu-by-longpress="true"/>
+  <h2 class="weui-article__h3">『 柯克斯维尔机场（IRK） 』</h2>
+  <text>\r\n</text>
+  <text class="weui-article__p" user-select="{{true}}">
+    柯克斯维尔机场（IRK）位于 Kirksville 的南面，La Plata 与 Kirksville 的中间。这个机场主要由 Cape Air 飞机公司承包， 有且仅有一条往返的航线是从圣路易斯（St. Louis）到柯克斯维尔（Kirksville）。同学们可以从他们的官网（“capeair.com”）预订他们的机票。
+  </text>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <view class="picture">
+  <p>
+    <image src="{{imgList[1]}}" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[1]}}"/>
   </p>
+  </view>
+  <view class="picture_discribtion">
+    <p>Cape Air</p>
+  </view>
+  <text class="weui-article__p" user-select="{{true}}">
+    因为地理和客流量等各种因素， Cape Air在柯克斯维尔机场只提供小型的民用客机，这种飞机最多可容纳12人左右。从柯克斯维尔到圣路易斯的总行程时长大约需要 1 个小时多15分钟左右。没有坐过小飞机的同学们，这是一次很不错的体验。
+  </text>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <view class="picture">
+  <p>
+    <image src="{{imgList[2]}}" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[2]}}"/>
+  </p>
+  </view>
+  <view class="picture_discribtion">
+    <p>Cape Air 的飞机</p>
+  </view>
+  <text class="weui-article__p" user-select="{{true}}">
+    同学不仅仅可以选择离学校比较近的柯克斯维尔机场，还可以选择降落到柯克斯维尔的周边的机场：哥伦比亚机场（COU），圣路易斯机场（STL），堪萨斯机场（MIC）和芝加哥奥黑尔国际机场（ORD），再通过汽车或者火车到达柯克斯维尔。
+  </text>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <h2 class="weui-article__h3">『 哥伦比亚机场（COU） 』</h2>
+    <text>\r\n</text>
+  <text class="weui-article__p" user-select="{{true}}">
+    哥伦比亚机场（“ Columbia Regional Airport ”）位于哥伦比亚城的南面。从杜鲁门州立大学开车到哥伦比亚机场需要大约1个半小时，这也是唯一到机场的交通方式。所以需要从学校到机场或者从机场到学校的同学们要提前找到司机把你送到机场去。
+  </text>
+  <text class="weui-article__p" user-select="{{true}}">
+    你可以找有车的学长，还有本地的出租车司机。如果找柯克斯维尔的司机，你需要给学校的CIS发邮件询问出租车司机电话号码。因为司机的电话不固定，所以小编也不方便告诉大家。
+  </text>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <view class="picture">
+  <p>
+    <image src="{{imgList[3]}}" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[3]}}"/>
+  </p>
+  </view>
+  <view class="picture_discribtion">
+    <p>哥伦比亚机场（COU）</p>
+  </view>
+  <text class="weui-article__p" user-select="{{true}}">
+    根据哥伦比亚机场官网（“flycou.com”）的航线描述，他们主要提供两条航线，从哥伦比亚往返达拉斯/沃思堡（DFW）国际机场和芝加哥奥黑尔国际机场（ORD）。
+  </text>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <h2 class="weui-article__h3">『 圣路易斯机场（STL） 』</h2>
+    <text>\r\n</text>
+  <text class="weui-article__p" user-select="{{true}}">
+    圣路易斯机场全称“兰伯特-圣路易国际机场（“St. Louis Lambert International Airport”）”\n坐落于圣路易斯主城的西北部，靠近布里奇顿（“Bridgeton”）。
+  </text>
+  <text class="weui-article__p" user-select="{{true}}">
+  从柯克斯维尔开车到圣路易斯机场需要3个小时15分钟左右，并且也只能驱车前往。所以，有需要从圣路易斯机场登机的同学们，就需要给自己预留充足的时间来领取登机牌。
+  </text>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <view class="picture">
+  <p>
+    <image src="{{imgList[4]}}" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[4]}}"/>
+  </p>
+  </view>
+  <view class="picture_discribtion">
+    <p>兰伯特-圣路易国际机场（STL）</p>
+  </view>
+  <text class="weui-article__p" user-select="{{true}}">
+    同学们可以通过兰伯特-圣路易国际机场的官网（“flystl.com”）进行机票预购。圣路易国际机场是一座大型机场，所以你可以预定到前往更多不同地方的机票。
+  </text>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <h2 class="weui-article__h3">『 堪萨斯机场（MIC） 』</h2>
+    <text>\r\n</text>
+  <text class="weui-article__p" user-select="{{true}}">
+    堪萨斯机场全名：堪萨斯城国际机场（“Kansas City International Airport”），位于堪萨斯的大型国际机场。前往机场或从机场回到学校有两种路径，一是开车，二是乘坐火车。 开车前往机场和回到学校大约需要3个小时；火车则大约需要2个半小时。无论是那种方式都要给自己登记预留好从足的时间，同学们可以从机场的官网（“flykic.com”）查询各个航班的具体信息。
+  </text>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <view class="picture">
+  <p>
+    <image src="{{imgList[5]}}" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[5]}}"/>
+  </p>
+  </view>
+  <view class="picture_discribtion">
+    <p>堪萨斯城国际机场（MIC）</p>
+  </view>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <h2 class="weui-article__h3">『 芝加哥奥黑尔国际机场（ORD） 』</h2>
+    <text>\r\n</text>
+  <text class="weui-article__p" user-select="{{true}}">
+    芝加哥奥黑尔国际机场（ORD）（“O'Hare International Airport”），是芝加哥市的主要机场，也是美国几座大型机场之一，位于市中心西北方向。芝加哥奥黑尔国际机场也有自己的机场官网（“flychicago.com”），可以查询到机场的所有航线。
+  </text>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <view class="picture">
+  <p>
+    <image src="{{imgList[6]}}" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[6]}}"/>
+  </p>
+  </view>
+  <view class="picture_discribtion">
+    <p>芝加哥奥黑尔国际机场（ORD）</p>
+  </view>
+  <text>\r\n</text>
+  <text class="weui-article__p" user-select="{{true}}">
+    前往芝加哥奥黑尔国际机场有很多方式，驾车，火车，飞机。如果，有从芝加哥奥黑尔国际机场晚上出发前往其他城市的同学们，切记不要买当天的火车前往芝加哥，以防在火车上遇到不可控因素。如：恶劣天气，没有燃料，地震，等导致火车晚点到达目的地。
+  </text>
+  <text class="weui-article__p" user-select="{{true}}">
+   所以，建议想乘坐火车前往芝加哥的同学们，要购买前一天的火车，在芝加哥的市中心住一晚，乘坐第二天的飞机前往其他城市。
+  </text>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <h2 class="weui-article__h2"><span class="or">⩔</span> 火车 </h2>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <h2 class="weui-article__h3">『 美铁（Amtrak）』</h2>
+  <text>\r\n</text>
+  <text class="weui-article__p" user-select="{{true}}">
+    距离Kirksville最近的火车站是在25公里以外的La Plata，从La Plata出发有两个方向，向北可到芝加哥（约6个半小时车程），向南可到堪萨斯城（约2个半小时车程），从这两个城市出发可以到达全美的任何地方。同学们可以下载美铁的官方app（“Amtrak”）进行火车票订购。
+  </text>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <view class="picture">
+  <p>
+    <image src="{{imgList[7]}}" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[7]}}"/>
+  </p>
+  </view>
+  <view class="picture_discribtion">
+    <p>美铁（Amtrak）</p>
+  </view>
+  <h2 class="weui-article__h2"><span class="or">⩔</span> 小贴士 </h2>
+
+  <text class="weui-article__p" user-select="{{true}}">
+    到达Kirksville主要有两条线路，也是大部分同学选择的路线。一是从国内起飞，落地洛杉矶或者旧金山入境，从洛杉矶或者旧金山起飞中转丹佛飞堪萨斯城，再通过Amtrak运营的火车从堪萨斯城前往La Plata火车站，坐车前往校区。
+  </text>
+  <text class="weui-article__p" user-select="{{true}}">
+    或者也可以从国内直飞芝加哥入境，再坐火车到La Plata火车站或者从芝加哥坐飞机飞往圣路易斯，再坐Cape Air小飞机或者从芝加哥坐飞机飞往哥伦比亚，乘车到达Kirksville。
+  </text>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <view class="picture">
+  <p>
+    <image src="{{imgList[9]}}" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[9]}}"/>
+  </p>
+  </view>
+  <view class="picture_discribtion">
+    <p>前往密苏里州柯克斯维尔的推荐路线</p>
+  </view>
+  <text class="weui-article__p" user-select="{{true}}">
+    第一次来杜鲁门州立大学参加orientation的同学们，你们不用担心到了La Plata火车站或者Cape Air的柯克斯维尔机场后没人接你们。你会在入学前，填写一些表格，其中一份表格（Travel Plan Confirmation）就是需要学校的工作人员到那个地方来接你。下图为Travel Plan Confirmation的部分信息，时间为2022秋，内容仅供参考。
+  </text>
+  <view>
+    <text>\r\n</text>
+  </view>
+  <view class="picture">
+  <p>
+    <image src="{{imgList[8]}}" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[8]}}"/>
+  </p>
+  </view>
+  <view class="picture_discribtion">
+    <p>旅行计划确认书（Travel Plan Confirmation）[部分]</p>
+  </view>
+  <text class="weui-article__p" user-select="{{true}}">
+    你可以选择你需要是La Plata火车站，柯克斯维尔机场或者堪萨斯国际机场来接你，但是一定要在他们的接机时间范围内，不然只有自己找人或者叫出租车把你接到学校咯。
+  </text>
+  <view class="truman_logo">
+    <image class="logo" src="https://sand.truman.edu/cis/WechatSource/Pictures/truman_icon_trans.png" ></image>
+  </view>
 </view>

@@ -11,9 +11,15 @@ Page({
       })
     },
 
-    DormRoomPageChange: function(){
+    DormRoomPageChange: function() {
       wx.navigateTo({
         url: '../Application/DormRoomContainer/Dorm',
+      })
+    },
+
+    TeachBuildingPage: function() {
+      wx.navigateTo({
+        url: '../Application/TeachBuilding/Building',
       })
     },
 

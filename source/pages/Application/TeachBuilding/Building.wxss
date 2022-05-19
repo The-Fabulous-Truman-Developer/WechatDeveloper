@@ -1,0 +1,7 @@
+.picture_style
+{
+  width: 682rpx; 
+  height: 502rpx; 
+  display: inline-block; 
+  box-sizing: border-box;
+}
