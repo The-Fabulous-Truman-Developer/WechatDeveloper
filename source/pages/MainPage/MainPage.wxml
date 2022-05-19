@@ -16,12 +16,12 @@
   <view class="AboutServiceAndTransport">
     <view class="trumanAbout" catchtap="trumanAboutPageChange">
       <text class="trumanAboutTitle"> 关于杜鲁州立大学 </text>
-      <image class="trumanAboutIcon" src="https://sand.truman.edu/cis/WechatSource/Pictures/truman_icon_trans.png"></image>
+      <image class="trumanAboutIcon" src="https://sand.truman.edu/cis/WechatSource/Pictures/truman_icon_trans_2.png"></image>
     </view>
 
     <view class="CampusService" catchtap="CampusServicePageChange">
       <text class="Service">校园服务与安全</text>
-      <image class="kirkTransportIcon" src="https://sand.truman.edu/cis/WechatSource/Pictures/service_security.png"></image>
+      <image class="truman_services_security" src="https://sand.truman.edu/cis/WechatSource/Pictures/service_security.png"></image>
     </view>
 
     <view class="kirkTransport" catchtap="kirkTransPageChange">
@@ -48,9 +48,9 @@
     </view>
 </view>
 
-    <view class="gallery" catchtap="GalleryPageChange" >
+    <view class="gallery" catchtap="GalleryPageChange" style="width: 732rpx; height: 874rpx; display: flex; box-sizing: border-box">
       <view class="SchoolGalleryText">Truman影集</view>
-      <image class='GalleryPicture' src='https://sand.truman.edu/cis/WechatSource/Pictures/TrumanGalleryBG.png'></image>
+      <image class='GalleryPicture' src='https://sand.truman.edu/cis/WechatSource/Pictures/TrumanGalleryBG_2.png'></image>
     </view>
 </view>
 

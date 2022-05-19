@@ -135,6 +135,13 @@ body
   margin-left: -10rpx;
 }
 
+.truman_services_security
+{
+  width: 170rpx;
+  height: 90rpx;
+  margin-left: -10rpx;
+}
+
 .Scholarship_SSAS_TrumanMusic
 {
   margin-top: 10rpx;
@@ -207,7 +214,7 @@ body
   border-top-width: 10rpx;
   border-bottom: 3rpx double #e4ded6;
   border-bottom-width: 10rpx;
-  margin-bottom: 20rpx;
+  /* margin-bottom: 10rpx; */
   padding-bottom: 10rpx;
   margin-top: 10rpx;
   text-align: center;
@@ -225,14 +232,8 @@ body
 }
 .GalleryPicture
 {
-  display:flex;
-  flex-direction:column;
-  justify-content: center;
-  width: 300rpx;
-  height: 339rpx;
-  box-sizing: border-box;
-  position: relative;
-  color: rgb(128, 0, 128);
+  width: 95%;
+  height: 242rpx;
   border-radius: 20rpx;
 }
 .TrumanMusicPrompt
@@ -250,7 +251,7 @@ body
   position: relative;
   left: 0rpx;
   top: -272rpx;
-  width: 696rpx;
+  width: 732rpx;
   height: 287rpx;
   display: flex;
   flex-direction:column;
