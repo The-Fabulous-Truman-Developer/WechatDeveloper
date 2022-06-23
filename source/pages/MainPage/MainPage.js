@@ -56,6 +56,7 @@ Page({
       url: "../MainPage/infoTrumanContainer/trumanAbout/trumanAbout",
     });
   },
+  
   kirkTransPageChange: function () {
     wx.navigateTo({
       url: "../MainPage/infoTrumanContainer/kirkTransport/kirkTransport",
