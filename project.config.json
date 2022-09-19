@@ -40,10 +40,11 @@
     "showES6CompileOption": false,
     "useCompilerPlugins": false,
     "ignoreUploadUnusedFiles": true,
-    "useStaticServer": true
+    "useStaticServer": true,
+    "bigPackageSizeSupport": true
   },
   "compileType": "miniprogram",
-  "libVersion": "2.26.0",
+  "libVersion": "2.25.4",
   "appid": "wxde90b48a2cf2dc25",
   "projectname": "TrumanStateUniveristyInformationPlatform",
   "cloudfunctionTemplateRoot": "",
