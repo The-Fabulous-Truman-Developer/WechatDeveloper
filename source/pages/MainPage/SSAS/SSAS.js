@@ -7,6 +7,9 @@ Page({
   data: {
     imgList : 
     [
+      "https://sand.truman.edu/cis/WechatSource/Pictures/shengxiao.jpeg",
+      "https://sand.truman.edu/cis/WechatSource/Pictures/lingshi.jpeg",
+      "https://sand.truman.edu/cis/WechatSource/Pictures/tangyuan.jpeg",
       "https://sand.truman.edu/cis/WechatSource/Pictures/members.JPG",
       "https://sand.truman.edu/cis/WechatSource/Pictures/culture.jpg",
       "https://sand.truman.edu/cis/WechatSource/Pictures/haw.JPG",

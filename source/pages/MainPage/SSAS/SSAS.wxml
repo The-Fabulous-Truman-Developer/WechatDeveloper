@@ -1,18 +1,29 @@
 <!--source/pages/MainPage/SSAS/SSAS.wxml-->
 <view class="weui-article">
-  <h1 class="weui-article__h1"> 中美学生会（SSAS）</h1>
+  <h1 class="weui-article__h1"> 中美文化交流</h1>
   <text>\r\n</text>
-  <text id="lastmode">杜鲁门州立大学CIS 2022-4-28 19:00</text>
+  <text id="lastmode">杜鲁门州立大学CIS 2022-12-10 20:00</text>
   <view>
     <text>\r\n</text>
   </view>
-  <view>
-    <h3 class="weui-article__h2"><span class="or">Ş</span> 社团概述 </h3>
-  </view>
+
+  <text class="weui-article__p" user-select="{{true}}">
+    随着祖国综合国力的提升，中国文化的国际影响力日益增强，我们杜鲁门州立大学也为此做出了贡献，向世界各地的人民传播我们的文化。为此，学校为中文系独立开设了一个网页，为想学习中文，想了解中国文化的外国友人们提供了了解资讯的频道（“chinese.truman.edu”）。
+  </text>
+
   <view>
     <text>\r\n</text>
   </view>
-  <view class="picture">
+
+  <view>
+    <h3 class="weui-article__h2"><span class="or">⩔</span> 中文角（Chinese Table）</h3>
+  </view>
+
+<view>
+    <text>\r\n</text>
+  </view>
+
+<view class="picture">
     <p>
       <image class="picture_style" src="{{imgList[0]}}" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[0]}}" />
     </p>
@@ -20,13 +31,80 @@
 
   <view>
     <view class="picture_discribtion">
-      <p>图1: SSAS成员</p>
+      <p>介绍十二生肖</p>
     </view>
   </view>
 
+  <text class="weui-article__p" user-select="{{true}}">
+    中文角（Chinese Table）是一个为双语者或学习中文的外国友人而所提供的课程活动。一周举行两次，每周都会有讨论不一样活动主题，包括了一些中国文化中深层方面的话题，如：汉字渊源、传统节庆、十二生肖、二十四节气等；以及中国人生活层面的介绍，如：传统小吃、受欢迎的饮料与零食、便利商店、夜市、旅游景点等。其旨于让学习中文的外国友人在学习语言之外，也能感受到一些滋养这语言的丰厚生命力！
+  </text>
+
+<view>
+    <text>\r\n</text>
+  </view>
+
+<view class="picture">
+    <p>
+      <image class="picture_style" src="{{imgList[1]}}" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[1]}}" />
+    </p>
+  </view>
+
+  <view>
+    <view class="picture_discribtion">
+      <p>分享小零食</p>
+    </view>
+    
+    <view>
+    <text>\r\n</text>
+  </view>
+
+  </view>
+  <text class="weui-article__p" user-select="{{true}}">
+    当然，Chinese Table也是刚来美国的中国留学生们结交外国友人和练习口语的好地方。
+  </text>
+
+  <view>
+    <text>\r\n</text>
+  </view>
+
+<view class="picture">
+    <p>
+      <image class="picture_style" src="{{imgList[2]}}" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[2]}}" />
+    </p>
+  </view>
+
+  <view>
+    <view class="picture_discribtion">
+      <p>一起做汤圆</p>
+    </view>
+  </view>
+
+<view>
+    <text>\r\n</text>
+  </view>
+
+  <view>
+    <h3 class="weui-article__h2"><span class="or">Ş</span> 中美学生会（SSAS）概述 </h3>
+  </view>
+
+  <view>
+    <text>\r\n</text>
+  </view>
+
+  <view class="picture">
+    <p>
+      <image class="picture_style" src="{{imgList[3]}}" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[3]}}" />
+    </p>
+  </view>
+
+  <view>
+    <view class="picture_discribtion">
+      <p>SSAS成员</p>
+    </view>
+  </view>
 
   <text class="weui-article__p" user-select="{{true}}">
-    SSAS（“Society of Sino-American Studies”）社团是于2010年创办。社团一直承办着学校的春晚和中秋晚会且在学校的国际生团体中有着很大的影响力。社团由不同年级，不同专业的学生组成。大家都各司其职发挥自己擅长的。比如每次活动经费由财务部负责；社交网络上宣传社团活动由公关部门负责整理；每一次社团活动的策划由策划部门组织安排。
+    SSAS（“Society of Sino-American Studies”）社团是于2010年由中文系温志军教授以及在校中国学生一起创办，有时候会有喜欢中国文化的外国友人加入社团。中美学生会一直承办着学校的春晚和中秋晚会且在学校的国际生团体中有着很大的影响力。社团由不同年级，不同专业的学生组成。大家都各司其职发挥自己擅长的。比如每次活动经费由财务部负责；社交网络上宣传社团活动由公关部门负责整理；每一次社团活动的策划由策划部门组织安排。
   </text>
 
   <view>
@@ -43,13 +121,13 @@
   
   <view class="picture">
     <p>
-      <image class="picture_style" src="{{imgList[1]}}" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[0]}}" />
+      <image class="picture_style" src="{{imgList[4]}}" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[4]}}" />
     </p>
   </view>
 
   <view>
     <view class="picture_discribtion">
-      <p>图2: 社团文化交流</p>
+      <p>社团文化交流</p>
     </view>
   </view>
 
@@ -62,7 +140,7 @@
   </view>
 
   <view>
-    <h3 class="weui-article__h2"><span class="or">⩔</span> 情人节葫芦 </h3>
+    <h3 class="weui-article__h2"><span class="or">Ş</span> 情人节葫芦 </h3>
   </view>
 
   <view>
@@ -71,13 +149,13 @@
   
   <view class="picture">
     <p>
-      <image class="picture_style" src="{{imgList[2]}}" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[0]}}" />
+      <image class="picture_style" src="{{imgList[5]}}" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[5]}}" />
     </p>
   </view>
 
   <view>
     <view class="picture_discribtion">
-      <p>图3: 糖葫芦</p>
+      <p>糖葫芦</p>
     </view>
   </view>
 
@@ -90,7 +168,7 @@
   </view>
 
   <view>
-    <h3 class="weui-article__h2"><span class="or">⩔</span> 春节活动 </h3>
+    <h3 class="weui-article__h2"><span class="or">Ş</span> 春节活动 </h3>
   </view>
 
   <view>
@@ -99,13 +177,13 @@
   
   <view class="picture">
     <p>
-      <image class="picture_style" src="{{imgList[3]}}" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[0]}}" />
+      <image class="picture_style" src="{{imgList[6]}}" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[6]}}" />
     </p>
   </view>
 
   <view>
     <view class="picture_discribtion">
-      <p>图4: 春节活动</p>
+      <p>春节活动</p>
     </view>
   </view>
 
@@ -127,13 +205,13 @@
   
   <view class="picture">
     <p>
-      <image class="picture_style" src="{{imgList[4]}}" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[0]}}" />
+      <image class="picture_style" src="{{imgList[7]}}" mode="widthFix" lazy-load="true" show-menu-by-longpress="true" bindtap="click_img" data-src="{{imgList[7]}}" />
     </p>
   </view>
 
   <view>
     <view class="picture_discribtion">
-      <p>图5: 每周例会</p>
+      <p>每周例会</p>
     </view>
   </view>
 

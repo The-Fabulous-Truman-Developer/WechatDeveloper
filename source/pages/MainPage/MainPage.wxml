@@ -38,7 +38,7 @@
 
 <view class="grid_layout">
     <view class="SSAS" catchtap="SSASPPageChange">
-      <text class="SSASPrompt"> 中美学生会 </text>
+      <text class="SSASPrompt"> 中美文化交流 </text>
       <image class="dual_square_icons"src='https://sand.truman.edu/cis/WechatSource/Pictures/SSAS_icon.png'></image>
     </view>
 
